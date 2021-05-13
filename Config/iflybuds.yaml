@@ -15,3 +15,4 @@ appPackage: tws.iflytek.headset
 appActivity: tws.iflytek.ui.SplashActivity
 ip: localhost
 port: 4723
+newCommandTimeout: 2000
