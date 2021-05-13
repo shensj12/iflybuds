@@ -1,0 +1,17 @@
+platformName: Android
+#HUAWEI P30配置
+#版本
+platformVersion: 10
+#设备地址
+deviceName: Q5S0219430016996
+#apk名称
+appname: iFLYBUDS_osspconfuse_v1.2.1881.apk
+#是否清除session信息
+noReset: True
+unicodeKeyboard: True
+resetKeyboard: True
+#包名、activity （查看命令aapt dump badging xxx.apk）
+appPackage: tws.iflytek.headset
+appActivity: tws.iflytek.ui.SplashActivity
+ip: localhost
+port: 4723
