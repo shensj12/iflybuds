@@ -5,7 +5,7 @@ platformVersion: 10
 #设备地址
 deviceName: Q5S0219430016996
 #apk名称
-appname: iFLYBUDS_osspconfuse_v1.2.1881.apk
+appname: iFLYBUDS_osspconfuse_v1.2.1884.apk
 #是否清除session信息
 noReset: True
 unicodeKeyboard: True

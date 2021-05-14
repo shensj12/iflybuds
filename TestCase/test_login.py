@@ -14,7 +14,7 @@ class TestLogin(StartEnd):
         # 断言查看是否成功获取验证码
         self.assertFalse(l.check_verificationStatus())
 
-    def test_login_success(self):
+    def test_verificationcode_login(self):
         logging.info('==== test_login_success ====')
         l=LoginView(self.driver)
         # csv文件中的第一行

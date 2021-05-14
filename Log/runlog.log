@@ -1363,3 +1363,88 @@
 2021-05-13 18:23:35,546 loginView.py[line:93] INFO ==== logout_action ==== 
 2021-05-13 18:23:37,125 loginView.py[line:97] INFO ==== logout success! ====
 2021-05-13 18:23:37,125 myunit.py[line:14] INFO ====tearDown====
+2021-05-14 09:54:05,986 run.py[line:20] INFO start run test case...
+2021-05-14 09:54:05,988 myunit.py[line:10] INFO ====setUp====
+2021-05-14 09:54:06,001 desired_caps.py[line:36] INFO start app...
+2021-05-14 09:54:08,112 myunit.py[line:10] INFO ====setUp====
+2021-05-14 09:54:08,114 desired_caps.py[line:36] INFO start app...
+2021-05-14 09:54:10,152 myunit.py[line:10] INFO ====setUp====
+2021-05-14 09:54:10,154 desired_caps.py[line:36] INFO start app...
+2021-05-14 09:54:12,188 myunit.py[line:10] INFO ====setUp====
+2021-05-14 09:54:12,190 desired_caps.py[line:36] INFO start app...
+2021-05-14 09:54:28,009 run.py[line:20] INFO start run test case...
+2021-05-14 09:54:28,010 myunit.py[line:10] INFO ====setUp====
+2021-05-14 09:54:28,012 desired_caps.py[line:36] INFO start app...
+2021-05-14 09:54:30,052 myunit.py[line:10] INFO ====setUp====
+2021-05-14 09:54:30,053 desired_caps.py[line:36] INFO start app...
+2021-05-14 09:54:32,092 myunit.py[line:10] INFO ====setUp====
+2021-05-14 09:54:32,093 desired_caps.py[line:36] INFO start app...
+2021-05-14 09:54:34,134 myunit.py[line:10] INFO ====setUp====
+2021-05-14 09:54:34,136 desired_caps.py[line:36] INFO start app...
+2021-05-14 09:55:29,005 run.py[line:20] INFO start run test case...
+2021-05-14 09:55:29,006 myunit.py[line:10] INFO ====setUp====
+2021-05-14 09:55:29,008 desired_caps.py[line:36] INFO start app...
+2021-05-14 09:55:41,315 test_login.py[line:37] INFO ==== test_authsdk_login ====
+2021-05-14 09:55:41,315 loginView.py[line:112] INFO ==== authsdk_login ====
+2021-05-14 09:55:49,694 loginView.py[line:116] ERROR start authsdk_login!
+2021-05-14 09:55:50,743 loginView.py[line:80] INFO ===== check_loginStatus =====
+2021-05-14 09:55:57,020 loginView.py[line:88] INFO login success!
+2021-05-14 09:55:57,020 loginView.py[line:93] INFO ==== logout_action ==== 
+2021-05-14 09:55:59,122 loginView.py[line:97] INFO ==== logout success! ====
+2021-05-14 09:55:59,122 myunit.py[line:14] INFO ====tearDown====
+2021-05-14 09:56:04,339 myunit.py[line:10] INFO ====setUp====
+2021-05-14 09:56:04,340 desired_caps.py[line:36] INFO start app...
+2021-05-14 09:56:17,084 test_login.py[line:9] INFO ==== test_login_no_verificationcode ====
+2021-05-14 09:56:17,084 common_fun.py[line:122] INFO =====get_csv_data=====
+2021-05-14 09:56:17,085 loginView.py[line:18] INFO ===== login_action =====
+2021-05-14 09:56:17,085 loginView.py[line:19] INFO ===== check_change_phonenum =====
+2021-05-14 09:56:17,085 common_fun.py[line:59] INFO check_check_change_phonenum
+2021-05-14 09:56:19,779 loginView.py[line:21] INFO Empty notification bar
+2021-05-14 09:56:19,779 common_fun.py[line:92] INFO swipDown
+2021-05-14 09:56:21,515 common_fun.py[line:98] INFO swipDown success
+2021-05-14 09:56:21,516 common_fun.py[line:39] INFO check_deleteBtn
+2021-05-14 09:56:21,993 loginView.py[line:25] INFO phonenumber is:123456
+2021-05-14 09:56:23,891 loginView.py[line:28] INFO click vergetBtn
+2021-05-14 09:56:25,102 loginView.py[line:33] INFO check verificationStatus
+2021-05-14 09:56:28,160 loginView.py[line:42] ERROR get verificationcode Fail!
+2021-05-14 09:56:28,161 common_fun.py[line:117] INFO get get verificationcode Fail screenshot
+2021-05-14 09:56:28,601 myunit.py[line:14] INFO ====tearDown====
+2021-05-14 09:56:33,819 myunit.py[line:10] INFO ====setUp====
+2021-05-14 09:56:33,821 desired_caps.py[line:36] INFO start app...
+2021-05-14 09:56:46,593 test_login.py[line:18] INFO ==== test_login_success ====
+2021-05-14 09:56:46,593 common_fun.py[line:122] INFO =====get_csv_data=====
+2021-05-14 09:56:46,594 loginView.py[line:18] INFO ===== login_action =====
+2021-05-14 09:56:46,594 loginView.py[line:19] INFO ===== check_change_phonenum =====
+2021-05-14 09:56:46,594 common_fun.py[line:59] INFO check_check_change_phonenum
+2021-05-14 09:56:49,164 loginView.py[line:21] INFO Empty notification bar
+2021-05-14 09:56:49,164 common_fun.py[line:92] INFO swipDown
+2021-05-14 09:56:51,010 common_fun.py[line:98] INFO swipDown success
+2021-05-14 09:56:51,010 common_fun.py[line:39] INFO check_deleteBtn
+2021-05-14 09:56:59,699 common_fun.py[line:43] INFO no deleteBtn
+2021-05-14 09:56:59,699 common_fun.py[line:84] INFO swipUp
+2021-05-14 09:57:01,005 loginView.py[line:25] INFO phonenumber is:13867111151
+2021-05-14 09:57:01,671 loginView.py[line:28] INFO click vergetBtn
+2021-05-14 09:57:02,327 loginView.py[line:33] INFO check verificationStatus
+2021-05-14 09:57:13,569 loginView.py[line:38] INFO get verificationcode  success!
+2021-05-14 09:57:13,569 loginView.py[line:48] INFO get verification code
+2021-05-14 09:57:13,569 common_fun.py[line:92] INFO swipDown
+2021-05-14 09:57:14,992 common_fun.py[line:98] INFO swipDown success
+2021-05-14 09:57:15,526 loginView.py[line:52] INFO messagecontent：【科大讯飞】您的验证码为：984309，该验证码5分钟内有效，请勿泄漏于他人。
+2021-05-14 09:57:15,526 loginView.py[line:55] INFO verificationcode is984309
+2021-05-14 09:57:15,526 common_fun.py[line:84] INFO swipUp
+2021-05-14 09:57:22,695 loginView.py[line:77] INFO ====login finished!====
+2021-05-14 09:57:22,695 loginView.py[line:80] INFO ===== check_loginStatus =====
+2021-05-14 09:57:23,641 loginView.py[line:88] INFO login success!
+2021-05-14 09:57:23,641 loginView.py[line:93] INFO ==== logout_action ==== 
+2021-05-14 09:57:25,993 loginView.py[line:97] INFO ==== logout success! ====
+2021-05-14 09:57:25,993 myunit.py[line:14] INFO ====tearDown====
+2021-05-14 09:57:31,217 myunit.py[line:10] INFO ====setUp====
+2021-05-14 09:57:31,218 desired_caps.py[line:36] INFO start app...
+2021-05-14 09:57:44,055 test_login.py[line:29] INFO ==== test_wechat_login ====
+2021-05-14 09:57:44,055 loginView.py[line:100] INFO ==== Wechat_login ====
+2021-05-14 09:57:52,561 loginView.py[line:104] ERROR start Wechatlogin!
+2021-05-14 09:57:52,690 loginView.py[line:80] INFO ===== check_loginStatus =====
+2021-05-14 09:58:00,647 loginView.py[line:88] INFO login success!
+2021-05-14 09:58:00,647 loginView.py[line:93] INFO ==== logout_action ==== 
+2021-05-14 09:58:02,228 loginView.py[line:97] INFO ==== logout success! ====
+2021-05-14 09:58:02,229 myunit.py[line:14] INFO ====tearDown====
