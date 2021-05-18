@@ -85,7 +85,7 @@ class Common(BaseView):
         l = self.get_size()
         y1=1
         x1 = int(l[0] * 0.93)
-        y2 = int(l[1] * 0.5)
+        y2 = int(l[1] * 0.3)
         self.swipe(x1,y2,x1,y1,1000)
     # 通知栏向下滑动
     def swipeDown(self):

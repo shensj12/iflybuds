@@ -15,7 +15,7 @@ logging=logging.getLogger()
 def appium_desired():
     # 读取iflybuds.yaml中的数据
     with open('../Config/iflybuds.yaml','r',encoding='utf-8') as file:
-        data=yaml.load(file)
+        data=yaml.load(file,Loader=yaml.FullLoader)
 
     desired_caps={}
     desired_caps['platformName']=data['platformName']

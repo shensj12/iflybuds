@@ -55,6 +55,8 @@ class LoginView(Common):
         logging.info('verificationcode is'+ verificationcode)
         # 将通知栏划上去
         self.swipeUp()
+        # 通知过多可能需要划两次才可划上去
+        self.swipeUp()
         # 输入验证码
         self.driver.find_element_by_xpath(
             "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.RelativeLayout[1]/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.LinearLayout/android.widget.EditText[1]").send_keys(

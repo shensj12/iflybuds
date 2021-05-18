@@ -6,11 +6,13 @@ from time import sleep
 
 class StartEnd(unittest.TestCase):
     # 用例执行前执行操作
-    def setUp(self):
+    @classmethod
+    def setUpClass(cls):
         logging.info('====setUp====')
-        self.driver=appium_desired()
+        cls.driver=appium_desired()
     # 用例执行完成后的操作
-    def tearDown(self):
+    @classmethod
+    def tearDownClass(cls):
         logging.info('====tearDown====')
         sleep(5)
-        self.driver.close_app()
+        cls.driver.close_app()
