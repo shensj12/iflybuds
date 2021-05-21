@@ -55,6 +55,7 @@ class MainPageView(Common):
     def change_Left_config(self):
         logging.info('==== change Left_config ====')
         self.driver.find_element(*self.Left_config).click()
+        sleep(1)
         self.driver.find_element(*self.Sel_nextsong).click()
         self.driver.find_element(*self.Sel_start_record).click()
     # 检查左侧耳机动作是否被成功切换
@@ -66,6 +67,7 @@ class MainPageView(Common):
         except NoSuchElementException:
             logging.error('choose  Fail!')
             self.getScreenShot('choose  Fail!')
+            self.driver.find_element(*self.Btn_back).click()
             return False
         else:
             logging.info('choose  success!')
@@ -76,6 +78,7 @@ class MainPageView(Common):
     def change_Right_config(self):
         logging.info('==== change Right_config ====')
         self.driver.find_element(*self.Right_config).click()
+        sleep(1)
         self.driver.find_element(*self.Sel_presong).click()
         self.driver.find_element(*self.Sel_hang_up).click()
     # 检查右侧耳机动作是否被成功切换
@@ -87,6 +90,7 @@ class MainPageView(Common):
         except NoSuchElementException:
             logging.error('choose  Fail!')
             self.getScreenShot('choose  Fail!')
+            self.driver.find_element(*self.Btn_back).click()
             return False
         else:
             logging.info('choose  success!')
