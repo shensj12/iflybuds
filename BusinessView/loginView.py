@@ -13,7 +13,7 @@ class LoginView(Common):
     btn_loginout=(By.ID,'tws.iflytek.headset:id/login_out')
     btn_authsdk_login=(By.ID,'tws.iflytek.headset:id/authsdk_login_view')
 
-
+    # 输入手机号码后获取验证码
     def login_action(self,phone_num):
         logging.info('===== login_action =====')
         logging.info('===== check_change_phonenum =====')
@@ -43,7 +43,7 @@ class LoginView(Common):
             self.getScreenShot('get verificationcode Fail')
             return False
 
-
+    # 获取验证码并输入
     def get_verificationcode(self):
         logging.info('get verification code')
         self.swipeDown()

@@ -7,32 +7,25 @@ import time,os
 import csv
 
 class Common(BaseView):
-    # 访问权限按钮中“始终允许”
-    btn_allow=(By.ID,"com.android.permissioncontroller:id/permission_allow_button")
-    # 引导中的“下一步”按钮
-    btn_next=(By.ID,"tws.iflytek.headset:id/next")
+    # 微信登录按钮
+    wechat_btn = (By.ID,'tws.iflytek.headset:id/login_type_wx')
     # 通知栏中的清空按钮
     btn_delete=(By.ID,"com.android.systemui:id/delete")
     # 切换手机号按钮
     change_phonenum=(By.ID,'tws.iflytek.headset:id/login_type_switch_num')
 
-    def check_allowBtn(self):
-        logging.info("check_allowBtn")
+    # 检查是否登录，如果没登录则进行微信登录
+    def check_login(self):
+        logging.info("check_login")
+        time.sleep(3)
         try:
-            btn_allow=self.driver.find_element(*self.btn_allow)
+            wechatBtn = self.find_element(*self.wechat_btn)
         except NoSuchElementException:
-            logging.info("no allowBtn")
+            logging.info("needn't login")
         else:
-            btn_allow.click()
+            wechatBtn.click()
+            logging.info("login success")
 
-    def check_nextBtn(self):
-        logging.info("check_nextBtn ")
-        try:
-            btn_next = self.driver.find_element(*self.btn_next)
-        except NoSuchElementException:
-            logging.info("no nextBtn")
-        else:
-            btn_next.click()
 
     # 检查通知栏是否存在清空按钮
     def check_deleteBtn(self):
@@ -44,16 +37,6 @@ class Common(BaseView):
             self.swipeUp()
         else:
             deletelBtn.click()
-    # 检查是否存在返回按钮
-    def check_backBtn(self):
-        print("check_backBtn")
-        try:
-            backBtn = self.find_element_by_id('tws.iflytek.headset:id/back')
-        except NoSuchElementException:
-            print("no backBtn")
-        else:
-            backBtn.click()
-
     # 检查是否存在切换手机号按钮
     def check_change_phonenum(self):
         logging.info("check_check_change_phonenum")
