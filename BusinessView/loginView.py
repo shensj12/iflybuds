@@ -122,5 +122,3 @@ class LoginView(Common):
             logging.info('already logged')
             return True
 
-
-
