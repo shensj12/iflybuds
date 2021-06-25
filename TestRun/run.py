@@ -10,7 +10,7 @@ test_dir='../TestCase'
 report_dir='../Report'
 
 #批量调用用例
-discover=unittest.defaultTestLoader.discover(test_dir,pattern='test_*.py')
+discover=unittest.defaultTestLoader.discover(test_dir,pattern='test_login.py')
 
 now=time.strftime('%Y-%m-%d %H_%M_%S')
 report_name=report_dir+'/'+now+' test_report.html'

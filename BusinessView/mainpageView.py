@@ -3,6 +3,8 @@ from Common.common_fun import Common,NoSuchElementException
 from Common.desired_caps import  appium_desired
 from selenium.webdriver.common.by import By
 from time import sleep
+from appium import webdriver
+
 
 class MainPageView(Common):
     Left_config = (By.ID,'tws.iflytek.headset:id/left_config')
@@ -41,7 +43,7 @@ class MainPageView(Common):
     Btn_change_language = (By.ID,'tws.iflytek.headset:id/language_layout')
     # 外语
     Btn_language_other = (By.ID,'tws.iflytek.headset:id/language_grid_tab_other')
-    Btn_english = (By.XPATH,'/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.LinearLayout/android.widget.GridView/android.widget.LinearLayout[1]')
+    Btn_english = ('new UiSelector().textContains("英语")')
 
     Sel_Microphonerecord = (By.XPATH,'/hierarchy/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout[3]/android.widget.LinearLayout')
     #中文
@@ -57,6 +59,7 @@ class MainPageView(Common):
         self.driver.find_element(*self.Left_config).click()
         sleep(1)
         self.driver.find_element(*self.Sel_nextsong).click()
+        sleep(1)
         self.driver.find_element(*self.Sel_start_record).click()
     # 检查左侧耳机动作是否被成功切换
     def check_left_chooseBtn(self):
@@ -80,6 +83,7 @@ class MainPageView(Common):
         self.driver.find_element(*self.Right_config).click()
         sleep(1)
         self.driver.find_element(*self.Sel_presong).click()
+        sleep(1)
         self.driver.find_element(*self.Sel_hang_up).click()
     # 检查右侧耳机动作是否被成功切换
     def check_right_chooseBtn(self):
@@ -114,6 +118,8 @@ class MainPageView(Common):
         else:
             logging.info('audiorecord  success!')
             return True
+
+
 
 
 

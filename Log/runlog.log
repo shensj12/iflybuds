@@ -3036,3 +3036,294 @@
 2021-05-21 13:47:10,149 mainpageView.py[line:107] INFO check recording page
 2021-05-21 13:47:10,953 mainpageView.py[line:115] INFO audiorecord  success!
 2021-05-21 13:47:10,953 myunit.py[line:16] INFO ====tearDown====
+2021-05-21 13:50:37,125 run.py[line:20] INFO start run test case...
+2021-05-21 13:50:37,125 myunit.py[line:11] INFO ====setUp====
+2021-05-21 13:50:37,127 desired_caps.py[line:36] INFO start app...
+2021-05-21 13:50:50,261 test_mainpage.py[line:11] INFO ==== test_leftconfig ====
+2021-05-21 13:50:50,261 test_mainpage.py[line:12] INFO ==== check login ====
+2021-05-21 13:50:50,261 common_fun.py[line:19] INFO check_login
+2021-05-21 13:50:53,389 common_fun.py[line:27] INFO login success
+2021-05-21 13:50:53,389 test_mainpage.py[line:14] INFO ==== test_leftconfig ====
+2021-05-21 13:50:53,390 mainpageView.py[line:56] INFO ==== change Left_config ====
+2021-05-21 13:51:02,752 mainpageView.py[line:63] INFO ==== check_left_chooseBtn ====
+2021-05-21 13:51:11,345 mainpageView.py[line:68] ERROR choose  Fail!
+2021-05-21 13:51:11,345 common_fun.py[line:100] INFO get choose  Fail! screenshot
+2021-05-21 13:51:11,782 test_mainpage.py[line:21] INFO ==== test_rightconfig ====
+2021-05-21 13:51:11,782 mainpageView.py[line:79] INFO ==== change Right_config ====
+2021-05-21 13:51:15,096 mainpageView.py[line:86] INFO ==== check_right_chooseBtn ====
+2021-05-21 13:51:23,282 mainpageView.py[line:91] ERROR choose  Fail!
+2021-05-21 13:51:23,282 common_fun.py[line:100] INFO get choose  Fail! screenshot
+2021-05-21 13:51:23,740 test_mainpage.py[line:28] INFO ==== test_recordingpage ====
+2021-05-21 13:51:23,740 mainpageView.py[line:101] INFO ==== start audiorecord ====
+2021-05-21 13:51:25,981 mainpageView.py[line:107] INFO check recording page
+2021-05-21 13:51:27,794 mainpageView.py[line:115] INFO audiorecord  success!
+2021-05-21 13:51:27,795 myunit.py[line:16] INFO ====tearDown====
+2021-05-21 13:51:52,880 run.py[line:20] INFO start run test case...
+2021-05-21 13:51:52,880 myunit.py[line:11] INFO ====setUp====
+2021-05-21 13:51:52,882 desired_caps.py[line:36] INFO start app...
+2021-05-21 13:52:04,920 test_login.py[line:9] INFO ==== test_login_no_verificationcode ====
+2021-05-21 13:52:04,920 common_fun.py[line:105] INFO =====get_csv_data=====
+2021-05-21 13:52:04,920 loginView.py[line:18] INFO ===== login_action =====
+2021-05-21 13:52:04,920 loginView.py[line:19] INFO ===== check_change_phonenum =====
+2021-05-21 13:52:04,920 common_fun.py[line:42] INFO check_check_change_phonenum
+2021-05-21 13:52:13,170 common_fun.py[line:46] INFO no change_phonenum
+2021-05-21 13:52:13,170 loginView.py[line:21] INFO Empty notification bar
+2021-05-21 13:52:13,170 common_fun.py[line:75] INFO swipDown
+2021-05-21 13:52:14,506 common_fun.py[line:81] INFO swipDown success
+2021-05-21 13:52:14,506 common_fun.py[line:32] INFO check_deleteBtn
+2021-05-21 13:52:14,781 loginView.py[line:25] INFO phonenumber is:123456
+2021-05-21 13:52:23,036 test_login.py[line:18] INFO ==== test_login_success ====
+2021-05-21 13:52:23,036 common_fun.py[line:105] INFO =====get_csv_data=====
+2021-05-21 13:52:23,037 loginView.py[line:18] INFO ===== login_action =====
+2021-05-21 13:52:23,037 loginView.py[line:19] INFO ===== check_change_phonenum =====
+2021-05-21 13:52:23,037 common_fun.py[line:42] INFO check_check_change_phonenum
+2021-05-21 13:52:36,113 run.py[line:20] INFO start run test case...
+2021-05-21 13:52:36,113 myunit.py[line:11] INFO ====setUp====
+2021-05-21 13:52:36,115 desired_caps.py[line:36] INFO start app...
+2021-05-21 13:52:48,304 test_mainpage.py[line:11] INFO ==== test_leftconfig ====
+2021-05-21 13:52:48,304 test_mainpage.py[line:12] INFO ==== check login ====
+2021-05-21 13:52:48,305 common_fun.py[line:19] INFO check_login
+2021-05-21 13:52:59,432 common_fun.py[line:24] INFO needn't login
+2021-05-21 13:52:59,432 test_mainpage.py[line:14] INFO ==== test_leftconfig ====
+2021-05-21 13:52:59,432 mainpageView.py[line:56] INFO ==== change Left_config ====
+2021-05-21 13:53:02,258 mainpageView.py[line:64] INFO ==== check_left_chooseBtn ====
+2021-05-21 13:53:03,076 mainpageView.py[line:74] INFO choose  success!
+2021-05-21 13:53:03,165 test_mainpage.py[line:21] INFO ==== test_rightconfig ====
+2021-05-21 13:53:03,165 mainpageView.py[line:80] INFO ==== change Right_config ====
+2021-05-21 13:53:06,968 mainpageView.py[line:88] INFO ==== check_right_chooseBtn ====
+2021-05-21 13:53:07,698 mainpageView.py[line:98] INFO choose  success!
+2021-05-21 13:53:07,794 test_mainpage.py[line:28] INFO ==== test_recordingpage ====
+2021-05-21 13:53:07,794 mainpageView.py[line:103] INFO ==== start audiorecord ====
+2021-05-21 13:53:10,081 mainpageView.py[line:109] INFO check recording page
+2021-05-21 13:53:10,870 mainpageView.py[line:117] INFO audiorecord  success!
+2021-05-21 13:53:10,870 myunit.py[line:16] INFO ====tearDown====
+2021-05-21 13:53:33,728 run.py[line:20] INFO start run test case...
+2021-05-21 13:53:33,728 myunit.py[line:11] INFO ====setUp====
+2021-05-21 13:53:33,730 desired_caps.py[line:36] INFO start app...
+2021-05-21 13:53:45,986 test_mainpage.py[line:11] INFO ==== test_leftconfig ====
+2021-05-21 13:53:45,986 test_mainpage.py[line:12] INFO ==== check login ====
+2021-05-21 13:53:45,987 common_fun.py[line:19] INFO check_login
+2021-05-21 13:53:57,453 common_fun.py[line:24] INFO needn't login
+2021-05-21 13:53:57,453 test_mainpage.py[line:14] INFO ==== test_leftconfig ====
+2021-05-21 13:53:57,453 mainpageView.py[line:56] INFO ==== change Left_config ====
+2021-05-21 13:53:59,733 mainpageView.py[line:64] INFO ==== check_left_chooseBtn ====
+2021-05-21 13:54:00,376 mainpageView.py[line:74] INFO choose  success!
+2021-05-21 13:54:00,463 test_mainpage.py[line:21] INFO ==== test_rightconfig ====
+2021-05-21 13:54:00,463 mainpageView.py[line:80] INFO ==== change Right_config ====
+2021-05-21 13:54:03,758 mainpageView.py[line:88] INFO ==== check_right_chooseBtn ====
+2021-05-21 13:54:04,385 mainpageView.py[line:98] INFO choose  success!
+2021-05-21 13:54:04,472 test_mainpage.py[line:28] INFO ==== test_recordingpage ====
+2021-05-21 13:54:04,472 mainpageView.py[line:103] INFO ==== start audiorecord ====
+2021-05-21 13:54:06,748 mainpageView.py[line:109] INFO check recording page
+2021-05-21 13:54:08,528 mainpageView.py[line:117] INFO audiorecord  success!
+2021-05-21 13:54:08,529 myunit.py[line:16] INFO ====tearDown====
+2021-05-21 14:09:48,724 run.py[line:20] INFO start run test case...
+2021-05-21 14:09:48,725 myunit.py[line:11] INFO ====setUp====
+2021-05-21 14:09:48,730 desired_caps.py[line:36] INFO start app...
+2021-05-21 14:10:16,322 test_mainpage.py[line:11] INFO ==== test_leftconfig ====
+2021-05-21 14:10:16,322 test_mainpage.py[line:12] INFO ==== check login ====
+2021-05-21 14:10:16,322 common_fun.py[line:19] INFO check_login
+2021-05-21 14:10:19,498 common_fun.py[line:27] INFO login success
+2021-05-21 14:10:19,499 test_mainpage.py[line:14] INFO ==== test_leftconfig ====
+2021-05-21 14:10:19,499 mainpageView.py[line:56] INFO ==== change Left_config ====
+2021-05-21 14:10:29,529 mainpageView.py[line:64] INFO ==== check_left_chooseBtn ====
+2021-05-21 14:10:30,286 mainpageView.py[line:74] INFO choose  success!
+2021-05-21 14:10:30,404 test_mainpage.py[line:21] INFO ==== test_rightconfig ====
+2021-05-21 14:10:30,404 mainpageView.py[line:80] INFO ==== change Right_config ====
+2021-05-21 14:10:33,831 mainpageView.py[line:88] INFO ==== check_right_chooseBtn ====
+2021-05-21 14:10:34,574 mainpageView.py[line:98] INFO choose  success!
+2021-05-21 14:10:34,691 test_mainpage.py[line:28] INFO ==== test_recordingpage ====
+2021-05-21 14:10:34,692 mainpageView.py[line:103] INFO ==== start audiorecord ====
+2021-05-21 14:10:37,177 mainpageView.py[line:109] INFO check recording page
+2021-05-21 14:10:38,964 mainpageView.py[line:117] INFO audiorecord  success!
+2021-05-21 14:10:38,964 myunit.py[line:16] INFO ====tearDown====
+2021-05-21 15:11:41,305 run.py[line:20] INFO start run test case...
+2021-05-21 15:11:41,305 myunit.py[line:11] INFO ====setUp====
+2021-05-21 15:11:41,308 desired_caps.py[line:36] INFO start app...
+2021-05-21 15:12:03,489 test_mainpage.py[line:11] INFO ==== test_leftconfig ====
+2021-05-21 15:12:03,490 test_mainpage.py[line:12] INFO ==== check login ====
+2021-05-21 15:12:03,490 common_fun.py[line:19] INFO check_login
+2021-05-21 15:12:06,649 common_fun.py[line:27] INFO login success
+2021-05-21 15:12:06,650 test_mainpage.py[line:14] INFO ==== test_leftconfig ====
+2021-05-21 15:12:06,650 mainpageView.py[line:56] INFO ==== change Left_config ====
+2021-05-21 15:12:14,771 test_mainpage.py[line:21] INFO ==== test_rightconfig ====
+2021-05-21 15:12:14,771 mainpageView.py[line:80] INFO ==== change Right_config ====
+2021-05-21 15:12:40,628 run.py[line:20] INFO start run test case...
+2021-05-21 15:12:40,628 myunit.py[line:11] INFO ====setUp====
+2021-05-21 15:12:40,630 desired_caps.py[line:36] INFO start app...
+2021-05-21 15:13:02,392 test_mainpage.py[line:11] INFO ==== test_leftconfig ====
+2021-05-21 15:13:02,393 test_mainpage.py[line:12] INFO ==== check login ====
+2021-05-21 15:13:02,393 common_fun.py[line:19] INFO check_login
+2021-05-21 15:13:05,533 common_fun.py[line:27] INFO login success
+2021-05-21 15:13:05,533 test_mainpage.py[line:14] INFO ==== test_leftconfig ====
+2021-05-21 15:13:05,534 mainpageView.py[line:56] INFO ==== change Left_config ====
+2021-05-21 15:13:16,255 mainpageView.py[line:64] INFO ==== check_left_chooseBtn ====
+2021-05-21 15:13:24,345 mainpageView.py[line:69] ERROR choose  Fail!
+2021-05-21 15:13:24,346 common_fun.py[line:100] INFO get choose  Fail! screenshot
+2021-05-21 15:13:41,063 run.py[line:20] INFO start run test case...
+2021-05-21 15:13:41,064 myunit.py[line:11] INFO ====setUp====
+2021-05-21 15:13:41,068 desired_caps.py[line:36] INFO start app...
+2021-05-21 15:14:02,960 test_login.py[line:9] INFO ==== test_login_no_verificationcode ====
+2021-05-21 15:14:02,960 common_fun.py[line:105] INFO =====get_csv_data=====
+2021-05-21 15:14:02,962 loginView.py[line:18] INFO ===== login_action =====
+2021-05-21 15:14:02,962 loginView.py[line:19] INFO ===== check_change_phonenum =====
+2021-05-21 15:14:02,962 common_fun.py[line:42] INFO check_check_change_phonenum
+2021-05-21 15:14:05,839 loginView.py[line:21] INFO Empty notification bar
+2021-05-21 15:14:05,839 common_fun.py[line:75] INFO swipDown
+2021-05-21 15:14:07,562 common_fun.py[line:81] INFO swipDown success
+2021-05-21 15:14:07,562 common_fun.py[line:32] INFO check_deleteBtn
+2021-05-21 15:14:08,312 loginView.py[line:25] INFO phonenumber is:123456
+2021-05-21 15:14:10,544 loginView.py[line:28] INFO click vergetBtn
+2021-05-21 15:14:11,765 loginView.py[line:33] INFO check verificationStatus
+2021-05-21 15:14:14,835 loginView.py[line:42] ERROR get verificationcode Fail!
+2021-05-21 15:14:14,836 common_fun.py[line:100] INFO get get verificationcode Fail screenshot
+2021-05-21 15:14:15,283 test_login.py[line:18] INFO ==== test_login_success ====
+2021-05-21 15:14:15,284 common_fun.py[line:105] INFO =====get_csv_data=====
+2021-05-21 15:14:15,285 loginView.py[line:18] INFO ===== login_action =====
+2021-05-21 15:14:15,285 loginView.py[line:19] INFO ===== check_change_phonenum =====
+2021-05-21 15:14:15,285 common_fun.py[line:42] INFO check_check_change_phonenum
+2021-05-21 15:14:23,695 common_fun.py[line:46] INFO no change_phonenum
+2021-05-21 15:14:23,695 loginView.py[line:21] INFO Empty notification bar
+2021-05-21 15:14:23,696 common_fun.py[line:75] INFO swipDown
+2021-05-21 15:14:25,052 common_fun.py[line:81] INFO swipDown success
+2021-05-21 15:14:25,052 common_fun.py[line:32] INFO check_deleteBtn
+2021-05-21 15:14:33,072 common_fun.py[line:36] INFO no deleteBtn
+2021-05-21 15:14:33,072 common_fun.py[line:67] INFO swipUp
+2021-05-21 15:14:34,388 loginView.py[line:25] INFO phonenumber is:13867111151
+2021-05-21 15:14:35,426 loginView.py[line:28] INFO click vergetBtn
+2021-05-21 15:14:36,131 loginView.py[line:33] INFO check verificationStatus
+2021-05-21 15:14:47,372 loginView.py[line:38] INFO get verificationcode  success!
+2021-05-21 15:14:47,372 loginView.py[line:48] INFO get verification code
+2021-05-21 15:14:47,372 common_fun.py[line:75] INFO swipDown
+2021-05-21 15:14:48,725 common_fun.py[line:81] INFO swipDown success
+2021-05-21 15:14:49,269 loginView.py[line:52] INFO messagecontent：【科大讯飞】您的验证码为：978946，该验证码5分钟内有效，请勿泄漏于他人。
+2021-05-21 15:14:49,269 loginView.py[line:55] INFO verificationcode is978946
+2021-05-21 15:14:49,270 common_fun.py[line:67] INFO swipUp
+2021-05-21 15:14:50,592 common_fun.py[line:67] INFO swipUp
+2021-05-21 15:14:57,527 loginView.py[line:79] INFO ====login finished!====
+2021-05-21 15:14:57,528 loginView.py[line:82] INFO ===== check_loginStatus =====
+2021-05-21 15:14:59,650 loginView.py[line:90] INFO login success!
+2021-05-21 15:14:59,650 loginView.py[line:95] INFO ==== logout_action ==== 
+2021-05-21 15:15:01,278 loginView.py[line:99] INFO ==== logout success! ====
+2021-05-21 15:15:01,278 test_login.py[line:29] INFO ==== test_wechat_login ====
+2021-05-21 15:15:01,278 loginView.py[line:102] INFO ==== Wechat_login ====
+2021-05-21 15:15:09,368 loginView.py[line:106] ERROR start Wechatlogin!
+2021-05-21 15:15:09,463 loginView.py[line:82] INFO ===== check_loginStatus =====
+2021-05-21 15:15:16,377 loginView.py[line:90] INFO login success!
+2021-05-21 15:15:16,377 loginView.py[line:95] INFO ==== logout_action ==== 
+2021-05-21 15:15:18,065 loginView.py[line:99] INFO ==== logout success! ====
+2021-05-21 15:15:18,065 test_login.py[line:37] INFO ==== test_authsdk_login ====
+2021-05-21 15:15:18,066 loginView.py[line:114] INFO ==== authsdk_login ====
+2021-05-21 15:15:26,221 loginView.py[line:118] ERROR start authsdk_login!
+2021-05-21 15:15:27,246 loginView.py[line:82] INFO ===== check_loginStatus =====
+2021-05-21 15:15:32,974 loginView.py[line:90] INFO login success!
+2021-05-21 15:15:32,974 loginView.py[line:95] INFO ==== logout_action ==== 
+2021-05-21 15:15:34,581 loginView.py[line:99] INFO ==== logout success! ====
+2021-05-21 15:15:34,582 myunit.py[line:16] INFO ====tearDown====
+2021-05-21 15:15:40,060 myunit.py[line:11] INFO ====setUp====
+2021-05-21 15:15:40,066 desired_caps.py[line:36] INFO start app...
+2021-05-21 15:16:01,856 test_mainpage.py[line:11] INFO ==== test_leftconfig ====
+2021-05-21 15:16:01,857 test_mainpage.py[line:12] INFO ==== check login ====
+2021-05-21 15:16:01,857 common_fun.py[line:19] INFO check_login
+2021-05-21 15:16:05,037 common_fun.py[line:27] INFO login success
+2021-05-21 15:16:05,037 test_mainpage.py[line:14] INFO ==== test_leftconfig ====
+2021-05-21 15:16:05,038 mainpageView.py[line:56] INFO ==== change Left_config ====
+2021-05-21 15:16:15,435 mainpageView.py[line:64] INFO ==== check_left_chooseBtn ====
+2021-05-21 15:16:16,092 mainpageView.py[line:74] INFO choose  success!
+2021-05-21 15:16:16,212 test_mainpage.py[line:21] INFO ==== test_rightconfig ====
+2021-05-21 15:16:16,213 mainpageView.py[line:80] INFO ==== change Right_config ====
+2021-05-21 15:16:19,656 mainpageView.py[line:88] INFO ==== check_right_chooseBtn ====
+2021-05-21 15:16:20,315 mainpageView.py[line:98] INFO choose  success!
+2021-05-21 15:16:20,435 test_mainpage.py[line:28] INFO ==== test_recordingpage ====
+2021-05-21 15:16:20,435 mainpageView.py[line:103] INFO ==== start audiorecord ====
+2021-05-21 15:16:22,850 mainpageView.py[line:109] INFO check recording page
+2021-05-21 15:16:23,151 mainpageView.py[line:117] INFO audiorecord  success!
+2021-05-21 15:16:23,152 myunit.py[line:16] INFO ====tearDown====
+2021-05-25 12:01:37,426 run.py[line:20] INFO start run test case...
+2021-05-25 12:01:37,436 myunit.py[line:11] INFO ====setUp====
+2021-05-25 12:01:37,436 desired_caps.py[line:36] INFO start app...
+2021-05-25 12:01:48,386 test_login.py[line:9] INFO ==== test_login_no_verificationcode ====
+2021-05-25 12:01:48,386 common_fun.py[line:105] INFO =====get_csv_data=====
+2021-05-25 12:01:48,387 loginView.py[line:18] INFO ===== login_action =====
+2021-05-25 12:01:48,387 loginView.py[line:19] INFO ===== check_change_phonenum =====
+2021-05-25 12:01:48,387 common_fun.py[line:42] INFO check_check_change_phonenum
+2021-05-25 12:01:51,003 loginView.py[line:21] INFO Empty notification bar
+2021-05-25 12:01:51,003 common_fun.py[line:75] INFO swipDown
+2021-05-25 12:01:52,768 common_fun.py[line:81] INFO swipDown success
+2021-05-25 12:01:52,768 common_fun.py[line:32] INFO check_deleteBtn
+2021-05-25 12:01:53,165 loginView.py[line:25] INFO phonenumber is:123456
+2021-05-25 12:01:55,021 loginView.py[line:28] INFO click vergetBtn
+2021-05-25 12:01:55,731 loginView.py[line:33] INFO check verificationStatus
+2021-05-25 12:01:58,788 loginView.py[line:42] ERROR get verificationcode Fail!
+2021-05-25 12:01:58,798 common_fun.py[line:100] INFO get get verificationcode Fail screenshot
+2021-05-25 12:01:59,188 test_login.py[line:18] INFO ==== test_login_success ====
+2021-05-25 12:01:59,188 common_fun.py[line:105] INFO =====get_csv_data=====
+2021-05-25 12:01:59,188 loginView.py[line:18] INFO ===== login_action =====
+2021-05-25 12:01:59,188 loginView.py[line:19] INFO ===== check_change_phonenum =====
+2021-05-25 12:01:59,188 common_fun.py[line:42] INFO check_check_change_phonenum
+2021-05-25 12:02:07,739 common_fun.py[line:46] INFO no change_phonenum
+2021-05-25 12:02:07,739 loginView.py[line:21] INFO Empty notification bar
+2021-05-25 12:02:07,739 common_fun.py[line:75] INFO swipDown
+2021-05-25 12:02:09,048 common_fun.py[line:81] INFO swipDown success
+2021-05-25 12:02:09,048 common_fun.py[line:32] INFO check_deleteBtn
+2021-05-25 12:02:17,243 common_fun.py[line:36] INFO no deleteBtn
+2021-05-25 12:02:17,243 common_fun.py[line:67] INFO swipUp
+2021-05-25 12:02:18,534 loginView.py[line:25] INFO phonenumber is:13867111151
+2021-05-25 12:02:18,613 loginView.py[line:28] INFO click vergetBtn
+2021-05-25 12:02:19,255 loginView.py[line:33] INFO check verificationStatus
+2021-05-25 12:02:30,520 loginView.py[line:38] INFO get verificationcode  success!
+2021-05-25 12:02:30,520 loginView.py[line:48] INFO get verification code
+2021-05-25 12:02:30,520 common_fun.py[line:75] INFO swipDown
+2021-05-25 12:02:31,832 common_fun.py[line:81] INFO swipDown success
+2021-05-25 12:02:32,381 loginView.py[line:52] INFO messagecontent：【科大讯飞】您的验证码为：462776，该验证码5分钟内有效，请勿泄漏于他人。
+2021-05-25 12:02:32,381 loginView.py[line:55] INFO verificationcode is462776
+2021-05-25 12:02:32,381 common_fun.py[line:67] INFO swipUp
+2021-05-25 12:02:33,682 common_fun.py[line:67] INFO swipUp
+2021-05-25 12:02:40,645 loginView.py[line:79] INFO ====login finished!====
+2021-05-25 12:02:40,645 loginView.py[line:82] INFO ===== check_loginStatus =====
+2021-05-25 12:02:42,566 loginView.py[line:90] INFO login success!
+2021-05-25 12:02:42,566 loginView.py[line:95] INFO ==== logout_action ==== 
+2021-05-25 12:02:44,155 loginView.py[line:99] INFO ==== logout success! ====
+2021-05-25 12:02:44,155 test_login.py[line:29] INFO ==== test_wechat_login ====
+2021-05-25 12:02:44,155 loginView.py[line:102] INFO ==== Wechat_login ====
+2021-05-25 12:02:52,261 loginView.py[line:106] ERROR start Wechatlogin!
+2021-05-25 12:02:52,332 loginView.py[line:82] INFO ===== check_loginStatus =====
+2021-05-25 12:03:00,490 loginView.py[line:86] ERROR login Fail!
+2021-05-25 12:03:00,490 common_fun.py[line:100] INFO get login fail screenshot
+2021-05-25 12:03:00,888 test_login.py[line:37] INFO ==== test_authsdk_login ====
+2021-05-25 12:03:00,888 loginView.py[line:114] INFO ==== authsdk_login ====
+2021-05-25 12:03:01,468 loginView.py[line:122] INFO already logged
+2021-05-25 12:03:01,468 myunit.py[line:16] INFO ====tearDown====
+2021-05-25 12:03:06,690 myunit.py[line:11] INFO ====setUp====
+2021-05-25 12:03:06,690 desired_caps.py[line:36] INFO start app...
+2021-05-25 12:03:18,700 test_mainpage.py[line:11] INFO ==== test_leftconfig ====
+2021-05-25 12:03:18,701 test_mainpage.py[line:12] INFO ==== check login ====
+2021-05-25 12:03:18,701 common_fun.py[line:19] INFO check_login
+2021-05-25 12:03:29,972 common_fun.py[line:24] INFO needn't login
+2021-05-25 12:03:29,972 test_mainpage.py[line:14] INFO ==== test_leftconfig ====
+2021-05-25 12:03:29,972 mainpageView.py[line:58] INFO ==== change Left_config ====
+2021-05-25 12:03:33,315 mainpageView.py[line:66] INFO ==== check_left_chooseBtn ====
+2021-05-25 12:03:33,395 mainpageView.py[line:76] INFO choose  success!
+2021-05-25 12:03:33,495 test_mainpage.py[line:21] INFO ==== test_rightconfig ====
+2021-05-25 12:03:33,495 mainpageView.py[line:82] INFO ==== change Right_config ====
+2021-05-25 12:03:37,810 mainpageView.py[line:90] INFO ==== check_right_chooseBtn ====
+2021-05-25 12:03:37,900 mainpageView.py[line:100] INFO choose  success!
+2021-05-25 12:03:37,970 test_mainpage.py[line:28] INFO ==== test_recordingpage ====
+2021-05-25 12:03:37,980 mainpageView.py[line:105] INFO ==== start audiorecord ====
+2021-05-25 12:03:40,406 mainpageView.py[line:111] INFO check recording page
+2021-05-25 12:03:40,686 mainpageView.py[line:119] INFO audiorecord  success!
+2021-05-25 12:03:40,686 myunit.py[line:16] INFO ====tearDown====
+2021-06-23 10:45:33,404 run.py[line:20] INFO start run test case...
+2021-06-23 10:45:33,404 myunit.py[line:11] INFO ====setUp====
+2021-06-23 10:45:33,406 desired_caps.py[line:36] INFO start app...
+2021-06-23 10:46:09,970 test_login.py[line:9] INFO ==== test_login_no_verificationcode ====
+2021-06-23 10:46:09,970 common_fun.py[line:105] INFO =====get_csv_data=====
+2021-06-23 10:46:09,971 loginView.py[line:18] INFO ===== login_action =====
+2021-06-23 10:46:09,971 loginView.py[line:19] INFO ===== check_change_phonenum =====
+2021-06-23 10:46:09,971 common_fun.py[line:42] INFO check_check_change_phonenum
+2021-06-23 10:46:18,068 common_fun.py[line:46] INFO no change_phonenum
+2021-06-23 10:46:18,068 loginView.py[line:21] INFO Empty notification bar
+2021-06-23 10:46:18,068 common_fun.py[line:75] INFO swipDown
+2021-06-23 10:46:19,448 common_fun.py[line:81] INFO swipDown success
+2021-06-23 10:46:19,448 common_fun.py[line:32] INFO check_deleteBtn
+2021-06-23 10:46:19,959 loginView.py[line:25] INFO phonenumber is:123456
