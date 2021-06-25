@@ -124,5 +124,3 @@ class LoginView(Common):
 
 
 
-
-
