@@ -3327,3 +3327,788 @@
 2021-06-23 10:46:19,448 common_fun.py[line:81] INFO swipDown success
 2021-06-23 10:46:19,448 common_fun.py[line:32] INFO check_deleteBtn
 2021-06-23 10:46:19,959 loginView.py[line:25] INFO phonenumber is:123456
+2021-07-01 14:26:14,712 run.py[line:20] INFO start run test case...
+2021-07-01 14:26:51,027 run.py[line:20] INFO start run test case...
+2021-07-01 14:48:10,578 run.py[line:20] INFO start run test case...
+2021-07-01 14:48:10,578 myunit.py[line:11] INFO ====setUp====
+2021-07-01 14:48:10,580 desired_caps.py[line:36] INFO start app...
+2021-07-01 14:48:22,915 test_guidepage.py[line:9] INFO ==== test_disagreePopup ====
+2021-07-01 14:48:22,915 guidepageView.py[line:60] INFO ==== click disagree ====
+2021-07-01 14:48:23,968 guidepageView.py[line:64] INFO ==== check_conbx ====
+2021-07-01 14:48:24,552 guidepageView.py[line:72] INFO Pop-up success
+2021-07-01 14:48:24,553 test_guidepage.py[line:16] INFO ==== test_disagree_exit ====
+2021-07-01 14:48:24,553 guidepageView.py[line:76] INFO ==== click exit ====
+2021-07-01 14:48:24,650 guidepageView.py[line:80] INFO ==== check_exit ====
+2021-07-01 14:48:24,988 guidepageView.py[line:88] INFO exit success
+2021-07-01 14:48:24,989 test_guidepage.py[line:23] INFO ==== test_agree ====
+2021-07-01 14:48:28,257 guidepageView.py[line:96] INFO ==== check_agree ====
+2021-07-01 14:48:28,307 guidepageView.py[line:104] INFO agree success
+2021-07-01 14:48:28,307 test_guidepage.py[line:30] INFO ==== test_peragree ====
+2021-07-01 14:48:28,413 guidepageView.py[line:110] INFO ==== check_per_agree ====
+2021-07-01 14:48:29,488 guidepageView.py[line:118] INFO per_agree success
+2021-07-01 14:48:29,488 myunit.py[line:16] INFO ====tearDown====
+2021-07-06 13:58:29,225 run.py[line:20] INFO start run test case...
+2021-07-06 13:58:29,230 myunit.py[line:11] INFO ====setUp====
+2021-07-06 13:58:29,232 desired_caps.py[line:36] INFO start app...
+2021-07-06 13:58:43,040 test_guidepage.py[line:9] INFO ==== test_disagreePopup ====
+2021-07-06 13:58:43,041 guidepageView.py[line:61] INFO ==== check_conbx ====
+2021-07-06 13:58:46,884 guidepageView.py[line:70] INFO Pop-up success
+2021-07-06 13:58:46,884 test_guidepage.py[line:15] INFO ==== test_disagree_exit ====
+2021-07-06 13:58:46,918 guidepageView.py[line:74] INFO ==== check_exit ====
+2021-07-06 13:58:48,635 guidepageView.py[line:84] INFO exit success
+2021-07-06 13:58:48,635 test_guidepage.py[line:21] INFO ==== test_agree ====
+2021-07-06 13:58:48,635 guidepageView.py[line:88] INFO ==== check_agree ====
+2021-07-06 13:58:55,287 guidepageView.py[line:100] INFO agree success
+2021-07-06 13:58:55,287 test_guidepage.py[line:27] INFO ==== test_peragree ====
+2021-07-06 13:58:55,287 guidepageView.py[line:104] INFO ==== check_per_agree ====
+2021-07-06 13:58:56,554 guidepageView.py[line:113] INFO per_agree success
+2021-07-06 13:58:56,554 myunit.py[line:16] INFO ====tearDown====
+2021-07-06 14:04:00,370 run.py[line:20] INFO start run test case...
+2021-07-06 14:04:00,370 myunit.py[line:11] INFO ====setUp====
+2021-07-06 14:04:00,372 desired_caps.py[line:36] INFO start app...
+2021-07-06 14:04:13,071 test_guidepage.py[line:9] INFO ==== test_disagreePopup ====
+2021-07-06 14:04:13,071 guidepageView.py[line:61] INFO ==== check_conbx ====
+2021-07-06 14:04:17,330 guidepageView.py[line:70] INFO Pop-up success
+2021-07-06 14:04:17,330 test_guidepage.py[line:15] INFO ==== test_disagree_exit ====
+2021-07-06 14:04:17,331 guidepageView.py[line:74] INFO ==== check_exit ====
+2021-07-06 14:04:18,577 guidepageView.py[line:84] INFO exit success
+2021-07-06 14:04:18,578 test_guidepage.py[line:21] INFO ==== test_agree ====
+2021-07-06 14:04:18,578 guidepageView.py[line:88] INFO ==== check_agree ====
+2021-07-06 14:04:24,602 guidepageView.py[line:100] INFO agree success
+2021-07-06 14:04:24,602 test_guidepage.py[line:27] INFO ==== test_peragree ====
+2021-07-06 14:04:24,603 guidepageView.py[line:104] INFO ==== check_per_agree ====
+2021-07-06 14:04:32,966 guidepageView.py[line:109] ERROR per_agree failure
+2021-07-06 14:04:32,966 common_fun.py[line:100] INFO get per_agree failure screenshot
+2021-07-06 14:04:33,376 myunit.py[line:16] INFO ====tearDown====
+2021-07-06 14:04:38,605 myunit.py[line:11] INFO ====setUp====
+2021-07-06 14:04:38,608 desired_caps.py[line:36] INFO start app...
+2021-07-06 14:04:51,133 test_login.py[line:9] INFO ==== test_login_no_verificationcode ====
+2021-07-06 14:04:51,133 common_fun.py[line:105] INFO =====get_csv_data=====
+2021-07-06 14:04:51,133 loginView.py[line:25] INFO ===== login_action =====
+2021-07-06 14:04:51,133 loginView.py[line:26] INFO ===== check_change_phonenum =====
+2021-07-06 14:04:51,133 common_fun.py[line:42] INFO check_check_change_phonenum
+2021-07-06 14:04:59,216 common_fun.py[line:46] INFO no change_phonenum
+2021-07-06 14:04:59,216 loginView.py[line:28] INFO Empty notification bar
+2021-07-06 14:04:59,216 common_fun.py[line:75] INFO swipDown
+2021-07-06 14:05:00,539 common_fun.py[line:81] INFO swipDown success
+2021-07-06 14:05:00,540 common_fun.py[line:32] INFO check_deleteBtn
+2021-07-06 14:05:08,547 common_fun.py[line:36] INFO no deleteBtn
+2021-07-06 14:05:08,547 common_fun.py[line:67] INFO swipUp
+2021-07-06 14:05:09,874 loginView.py[line:32] INFO phonenumber is:123456
+2021-07-06 14:05:18,317 test_login.py[line:18] INFO ==== test_login_success ====
+2021-07-06 14:05:18,317 common_fun.py[line:105] INFO =====get_csv_data=====
+2021-07-06 14:05:18,317 loginView.py[line:25] INFO ===== login_action =====
+2021-07-06 14:05:18,317 loginView.py[line:26] INFO ===== check_change_phonenum =====
+2021-07-06 14:05:18,317 common_fun.py[line:42] INFO check_check_change_phonenum
+2021-07-06 14:05:54,140 run.py[line:20] INFO start run test case...
+2021-07-06 14:05:54,140 myunit.py[line:11] INFO ====setUp====
+2021-07-06 14:05:54,144 desired_caps.py[line:36] INFO start app...
+2021-07-06 14:06:06,745 test_guidepage.py[line:9] INFO ==== test_disagreePopup ====
+2021-07-06 14:06:06,745 guidepageView.py[line:61] INFO ==== check_conbx ====
+2021-07-06 14:06:11,123 guidepageView.py[line:70] INFO Pop-up success
+2021-07-06 14:06:11,123 test_guidepage.py[line:15] INFO ==== test_disagree_exit ====
+2021-07-06 14:06:11,123 guidepageView.py[line:74] INFO ==== check_exit ====
+2021-07-06 14:06:12,379 guidepageView.py[line:84] INFO exit success
+2021-07-06 14:06:12,379 test_guidepage.py[line:21] INFO ==== test_agree ====
+2021-07-06 14:06:12,379 guidepageView.py[line:88] INFO ==== check_agree ====
+2021-07-06 14:06:19,013 guidepageView.py[line:100] INFO agree success
+2021-07-06 14:06:19,014 test_guidepage.py[line:27] INFO ==== test_peragree ====
+2021-07-06 14:06:19,014 guidepageView.py[line:104] INFO ==== check_per_agree ====
+2021-07-06 14:06:27,427 guidepageView.py[line:109] ERROR per_agree failure
+2021-07-06 14:06:27,428 common_fun.py[line:100] INFO get per_agree failure screenshot
+2021-07-06 14:06:27,832 myunit.py[line:16] INFO ====tearDown====
+2021-07-06 14:06:33,072 myunit.py[line:11] INFO ====setUp====
+2021-07-06 14:06:33,074 desired_caps.py[line:36] INFO start app...
+2021-07-06 14:06:45,429 test_login.py[line:9] INFO ==== test_login_no_verificationcode ====
+2021-07-06 14:06:45,429 common_fun.py[line:105] INFO =====get_csv_data=====
+2021-07-06 14:06:45,429 loginView.py[line:25] INFO ===== login_action =====
+2021-07-06 14:06:45,429 loginView.py[line:26] INFO ===== check_change_phonenum =====
+2021-07-06 14:06:45,429 common_fun.py[line:42] INFO check_check_change_phonenum
+2021-07-06 14:06:53,709 common_fun.py[line:46] INFO no change_phonenum
+2021-07-06 14:06:53,709 loginView.py[line:28] INFO Empty notification bar
+2021-07-06 14:06:53,709 common_fun.py[line:75] INFO swipDown
+2021-07-06 14:06:54,669 test_login.py[line:18] INFO ==== test_login_success ====
+2021-07-06 14:06:54,669 common_fun.py[line:105] INFO =====get_csv_data=====
+2021-07-06 14:06:54,670 loginView.py[line:25] INFO ===== login_action =====
+2021-07-06 14:06:54,670 loginView.py[line:26] INFO ===== check_change_phonenum =====
+2021-07-06 14:06:54,670 common_fun.py[line:42] INFO check_check_change_phonenum
+2021-07-06 14:07:02,757 common_fun.py[line:46] INFO no change_phonenum
+2021-07-06 14:07:02,757 loginView.py[line:28] INFO Empty notification bar
+2021-07-06 14:07:02,757 common_fun.py[line:75] INFO swipDown
+2021-07-06 14:07:04,147 common_fun.py[line:81] INFO swipDown success
+2021-07-06 14:07:04,147 common_fun.py[line:32] INFO check_deleteBtn
+2021-07-06 14:07:09,008 loginView.py[line:32] INFO phonenumber is:13867111151
+2021-07-06 14:07:12,762 loginView.py[line:35] INFO click vergetBtn
+2021-07-06 14:07:13,449 loginView.py[line:40] INFO check verificationStatus
+2021-07-06 14:07:24,689 loginView.py[line:45] INFO get verificationcode  success!
+2021-07-06 14:07:24,689 loginView.py[line:55] INFO get verification code
+2021-07-06 14:07:24,689 common_fun.py[line:75] INFO swipDown
+2021-07-06 14:07:26,089 common_fun.py[line:81] INFO swipDown success
+2021-07-06 14:07:26,812 loginView.py[line:59] INFO messagecontent：【科大讯飞】您的验证码为：159373，该验证码5分钟内有效，请勿泄漏于他人。
+2021-07-06 14:07:26,812 loginView.py[line:62] INFO verificationcode is159373
+2021-07-06 14:07:26,812 common_fun.py[line:67] INFO swipUp
+2021-07-06 14:07:28,066 common_fun.py[line:67] INFO swipUp
+2021-07-06 14:07:34,813 loginView.py[line:86] INFO ====login finished!====
+2021-07-06 14:07:34,813 loginView.py[line:90] INFO ===== check_firstlogin =====
+2021-07-06 14:07:34,813 loginView.py[line:92] INFO ==== Allow the authorized ====
+2021-07-06 14:07:34,813 loginView.py[line:93] INFO ==== Allow Authorization Locations ====
+2021-07-06 14:07:50,045 loginView.py[line:100] ERROR firstlogin Fail!
+2021-07-06 14:07:50,045 common_fun.py[line:100] INFO get firstlogin fail screenshot
+2021-07-06 14:07:50,506 test_login.py[line:29] INFO ==== test_guide_page ====
+2021-07-06 14:07:50,507 loginView.py[line:109] INFO ===== check_guidepage_change =====
+2021-07-06 14:07:50,507 loginView.py[line:111] INFO ==== click btn_next ====
+2021-07-06 14:07:50,528 loginView.py[line:113] INFO ==== Slide the page  ====
+2021-07-06 14:07:50,529 test_login.py[line:35] INFO ==== test_wechat_login ====
+2021-07-06 14:07:50,529 loginView.py[line:158] INFO ==== Wechat_login ====
+2021-07-06 14:07:58,660 loginView.py[line:162] ERROR start Wechatlogin!
+2021-07-06 14:08:06,986 test_login.py[line:43] INFO ==== test_authsdk_login ====
+2021-07-06 14:08:06,986 loginView.py[line:170] INFO ==== authsdk_login ====
+2021-07-06 14:08:07,084 loginView.py[line:178] INFO already logged
+2021-07-06 14:08:07,084 myunit.py[line:16] INFO ====tearDown====
+2021-07-06 14:08:12,278 myunit.py[line:11] INFO ====setUp====
+2021-07-06 14:08:12,280 desired_caps.py[line:36] INFO start app...
+2021-07-06 14:08:24,890 test_mainpage.py[line:11] INFO ==== test_leftconfig ====
+2021-07-06 14:08:24,890 test_mainpage.py[line:12] INFO ==== check login ====
+2021-07-06 14:08:24,890 common_fun.py[line:19] INFO check_login
+2021-07-06 14:08:33,586 common_fun.py[line:27] INFO login success
+2021-07-06 14:08:33,586 test_mainpage.py[line:14] INFO ==== test_leftconfig ====
+2021-07-06 14:08:33,586 mainpageView.py[line:58] INFO ==== change Left_config ====
+2021-07-06 14:08:42,068 test_mainpage.py[line:21] INFO ==== test_rightconfig ====
+2021-07-06 14:08:42,068 mainpageView.py[line:82] INFO ==== change Right_config ====
+2021-07-06 14:08:50,380 test_mainpage.py[line:28] INFO ==== test_recordingpage ====
+2021-07-06 14:08:50,380 mainpageView.py[line:105] INFO ==== start audiorecord ====
+2021-07-06 14:08:56,006 mainpageView.py[line:111] INFO check recording page
+2021-07-06 14:08:56,792 mainpageView.py[line:119] INFO audiorecord  success!
+2021-07-06 14:08:56,792 myunit.py[line:16] INFO ====tearDown====
+2021-07-06 14:52:59,819 run.py[line:20] INFO start run test case...
+2021-07-06 14:52:59,819 myunit.py[line:11] INFO ====setUp====
+2021-07-06 14:52:59,821 desired_caps.py[line:36] INFO start app...
+2021-07-06 14:53:09,942 test_guidepage.py[line:9] INFO ==== test_disagreePopup ====
+2021-07-06 14:53:09,942 guidepageView.py[line:61] INFO ==== check_conbx ====
+2021-07-06 14:53:13,127 guidepageView.py[line:70] INFO Pop-up success
+2021-07-06 14:53:13,127 test_guidepage.py[line:15] INFO ==== test_disagree_exit ====
+2021-07-06 14:53:13,127 guidepageView.py[line:74] INFO ==== check_exit ====
+2021-07-06 14:53:14,946 guidepageView.py[line:84] INFO exit success
+2021-07-06 14:53:14,946 test_guidepage.py[line:21] INFO ==== test_agree ====
+2021-07-06 14:53:14,947 guidepageView.py[line:88] INFO ==== check_agree ====
+2021-07-06 14:53:18,968 guidepageView.py[line:100] INFO agree success
+2021-07-06 14:53:18,968 test_guidepage.py[line:27] INFO ==== test_peragree ====
+2021-07-06 14:53:18,968 guidepageView.py[line:104] INFO ==== check_per_agree ====
+2021-07-06 14:53:27,340 guidepageView.py[line:109] ERROR per_agree failure
+2021-07-06 14:53:27,341 common_fun.py[line:100] INFO get per_agree failure screenshot
+2021-07-06 14:53:27,719 myunit.py[line:16] INFO ====tearDown====
+2021-07-06 14:53:32,941 myunit.py[line:11] INFO ====setUp====
+2021-07-06 14:53:32,943 desired_caps.py[line:36] INFO start app...
+2021-07-06 14:53:45,047 test_login.py[line:9] INFO ==== test_login_no_verificationcode ====
+2021-07-06 14:53:45,047 common_fun.py[line:105] INFO =====get_csv_data=====
+2021-07-06 14:53:45,048 loginView.py[line:25] INFO ===== login_action =====
+2021-07-06 14:53:45,048 loginView.py[line:26] INFO ===== check_change_phonenum =====
+2021-07-06 14:53:45,048 common_fun.py[line:42] INFO check_check_change_phonenum
+2021-07-06 14:53:47,215 loginView.py[line:28] INFO Empty notification bar
+2021-07-06 14:53:47,215 common_fun.py[line:75] INFO swipDown
+2021-07-06 14:53:49,012 common_fun.py[line:81] INFO swipDown success
+2021-07-06 14:53:49,012 common_fun.py[line:32] INFO check_deleteBtn
+2021-07-06 14:53:49,826 loginView.py[line:32] INFO phonenumber is:123456
+2021-07-06 14:53:51,949 loginView.py[line:35] INFO click vergetBtn
+2021-07-06 14:53:53,126 loginView.py[line:40] INFO check verificationStatus
+2021-07-06 14:53:56,182 loginView.py[line:49] ERROR get verificationcode Fail!
+2021-07-06 14:53:56,182 common_fun.py[line:100] INFO get get verificationcode Fail screenshot
+2021-07-06 14:53:56,608 test_login.py[line:18] INFO ==== test_login_success ====
+2021-07-06 14:53:56,608 common_fun.py[line:105] INFO =====get_csv_data=====
+2021-07-06 14:53:56,608 loginView.py[line:25] INFO ===== login_action =====
+2021-07-06 14:53:56,608 loginView.py[line:26] INFO ===== check_change_phonenum =====
+2021-07-06 14:53:56,608 common_fun.py[line:42] INFO check_check_change_phonenum
+2021-07-06 14:54:04,638 common_fun.py[line:46] INFO no change_phonenum
+2021-07-06 14:54:04,638 loginView.py[line:28] INFO Empty notification bar
+2021-07-06 14:54:04,638 common_fun.py[line:75] INFO swipDown
+2021-07-06 14:54:05,948 common_fun.py[line:81] INFO swipDown success
+2021-07-06 14:54:05,948 common_fun.py[line:32] INFO check_deleteBtn
+2021-07-06 14:54:14,050 common_fun.py[line:36] INFO no deleteBtn
+2021-07-06 14:54:14,050 common_fun.py[line:67] INFO swipUp
+2021-07-06 14:54:15,329 loginView.py[line:32] INFO phonenumber is:13867111151
+2021-07-06 14:54:16,301 loginView.py[line:35] INFO click vergetBtn
+2021-07-06 14:54:16,979 loginView.py[line:40] INFO check verificationStatus
+2021-07-06 14:54:28,363 loginView.py[line:45] INFO get verificationcode  success!
+2021-07-06 14:54:28,363 loginView.py[line:55] INFO get verification code
+2021-07-06 14:54:28,363 common_fun.py[line:75] INFO swipDown
+2021-07-06 14:54:29,695 common_fun.py[line:81] INFO swipDown success
+2021-07-06 14:54:30,458 loginView.py[line:59] INFO messagecontent：【科大讯飞】您的验证码为：116279，该验证码5分钟内有效，请勿泄漏于他人。
+2021-07-06 14:54:30,458 loginView.py[line:62] INFO verificationcode is116279
+2021-07-06 14:54:30,458 common_fun.py[line:67] INFO swipUp
+2021-07-06 14:54:31,730 common_fun.py[line:67] INFO swipUp
+2021-07-06 14:54:38,522 loginView.py[line:86] INFO ====login finished!====
+2021-07-06 14:54:38,522 loginView.py[line:90] INFO ===== check_firstlogin =====
+2021-07-06 14:54:38,522 loginView.py[line:92] INFO ==== Allow the authorized ====
+2021-07-06 14:54:38,522 loginView.py[line:93] INFO ==== Allow Authorization Locations ====
+2021-07-06 14:54:54,902 loginView.py[line:100] ERROR firstlogin Fail!
+2021-07-06 14:54:54,902 common_fun.py[line:100] INFO get firstlogin fail screenshot
+2021-07-06 14:54:55,340 test_login.py[line:29] INFO ==== test_guide_page ====
+2021-07-06 14:54:55,340 loginView.py[line:109] INFO ===== check_guidepage_change =====
+2021-07-06 14:54:55,340 loginView.py[line:111] INFO ==== click btn_next ====
+2021-07-06 14:54:55,356 loginView.py[line:113] INFO ==== Slide the page  ====
+2021-07-06 14:54:55,357 test_login.py[line:35] INFO ==== test_wechat_login ====
+2021-07-06 14:54:55,357 loginView.py[line:158] INFO ==== Wechat_login ====
+2021-07-06 14:55:03,481 loginView.py[line:162] ERROR start Wechatlogin!
+2021-07-06 14:55:11,561 test_login.py[line:43] INFO ==== test_authsdk_login ====
+2021-07-06 14:55:11,561 loginView.py[line:170] INFO ==== authsdk_login ====
+2021-07-06 14:55:17,001 loginView.py[line:178] INFO already logged
+2021-07-06 14:55:17,002 myunit.py[line:16] INFO ====tearDown====
+2021-07-06 14:55:22,196 myunit.py[line:11] INFO ====setUp====
+2021-07-06 14:55:22,198 desired_caps.py[line:36] INFO start app...
+2021-07-06 14:55:34,751 test_mainpage.py[line:11] INFO ==== test_leftconfig ====
+2021-07-06 14:55:34,751 test_mainpage.py[line:12] INFO ==== check login ====
+2021-07-06 14:55:34,751 common_fun.py[line:19] INFO check_login
+2021-07-06 14:55:45,822 common_fun.py[line:24] INFO needn't login
+2021-07-06 14:55:45,823 test_mainpage.py[line:14] INFO ==== test_leftconfig ====
+2021-07-06 14:55:45,823 mainpageView.py[line:58] INFO ==== change Left_config ====
+2021-07-06 14:55:49,176 mainpageView.py[line:66] INFO ==== check_left_chooseBtn ====
+2021-07-06 14:55:49,254 mainpageView.py[line:76] INFO choose  success!
+2021-07-06 14:55:49,343 test_mainpage.py[line:21] INFO ==== test_rightconfig ====
+2021-07-06 14:55:49,343 mainpageView.py[line:82] INFO ==== change Right_config ====
+2021-07-06 14:55:53,529 mainpageView.py[line:90] INFO ==== check_right_chooseBtn ====
+2021-07-06 14:55:53,611 mainpageView.py[line:100] INFO choose  success!
+2021-07-06 14:55:53,680 test_mainpage.py[line:28] INFO ==== test_recordingpage ====
+2021-07-06 14:55:53,680 mainpageView.py[line:105] INFO ==== start audiorecord ====
+2021-07-06 14:55:56,252 mainpageView.py[line:111] INFO check recording page
+2021-07-06 14:55:56,538 mainpageView.py[line:119] INFO audiorecord  success!
+2021-07-06 14:55:56,539 myunit.py[line:16] INFO ====tearDown====
+2021-07-06 15:02:31,163 run.py[line:20] INFO start run test case...
+2021-07-06 15:02:31,163 myunit.py[line:11] INFO ====setUp====
+2021-07-06 15:02:31,165 desired_caps.py[line:36] INFO start app...
+2021-07-06 15:02:43,190 test_guidepage.py[line:9] INFO ==== test_disagreePopup ====
+2021-07-06 15:02:43,191 guidepageView.py[line:61] INFO ==== check_conbx ====
+2021-07-06 15:02:47,539 guidepageView.py[line:70] INFO Pop-up success
+2021-07-06 15:02:47,540 test_guidepage.py[line:15] INFO ==== test_disagree_exit ====
+2021-07-06 15:02:47,540 guidepageView.py[line:74] INFO ==== check_exit ====
+2021-07-06 15:02:48,788 guidepageView.py[line:84] INFO exit success
+2021-07-06 15:02:48,788 test_guidepage.py[line:21] INFO ==== test_agree ====
+2021-07-06 15:02:48,788 guidepageView.py[line:88] INFO ==== check_agree ====
+2021-07-06 15:02:55,443 guidepageView.py[line:100] INFO agree success
+2021-07-06 15:02:55,443 test_guidepage.py[line:27] INFO ==== test_peragree ====
+2021-07-06 15:02:55,443 guidepageView.py[line:104] INFO ==== check_per_agree ====
+2021-07-06 15:03:02,567 guidepageView.py[line:113] INFO per_agree success
+2021-07-06 15:03:02,567 myunit.py[line:16] INFO ====tearDown====
+2021-07-06 15:03:07,798 myunit.py[line:11] INFO ====setUp====
+2021-07-06 15:03:07,800 desired_caps.py[line:36] INFO start app...
+2021-07-06 15:03:20,132 test_login.py[line:9] INFO ==== test_login_no_verificationcode ====
+2021-07-06 15:03:20,132 common_fun.py[line:105] INFO =====get_csv_data=====
+2021-07-06 15:03:20,132 loginView.py[line:25] INFO ===== login_action =====
+2021-07-06 15:03:20,132 loginView.py[line:26] INFO ===== check_change_phonenum =====
+2021-07-06 15:03:20,132 common_fun.py[line:42] INFO check_check_change_phonenum
+2021-07-06 15:03:24,932 loginView.py[line:28] INFO Empty notification bar
+2021-07-06 15:03:24,932 common_fun.py[line:75] INFO swipDown
+2021-07-06 15:03:26,671 common_fun.py[line:81] INFO swipDown success
+2021-07-06 15:03:26,671 common_fun.py[line:32] INFO check_deleteBtn
+2021-07-06 15:03:27,259 loginView.py[line:32] INFO phonenumber is:123456
+2021-07-06 15:03:29,444 loginView.py[line:35] INFO click vergetBtn
+2021-07-06 15:03:30,650 loginView.py[line:40] INFO check verificationStatus
+2021-07-06 15:03:33,714 loginView.py[line:49] ERROR get verificationcode Fail!
+2021-07-06 15:03:33,714 common_fun.py[line:100] INFO get get verificationcode Fail screenshot
+2021-07-06 15:03:34,112 test_login.py[line:18] INFO ==== test_login_success ====
+2021-07-06 15:03:34,113 common_fun.py[line:105] INFO =====get_csv_data=====
+2021-07-06 15:03:34,113 loginView.py[line:25] INFO ===== login_action =====
+2021-07-06 15:03:34,113 loginView.py[line:26] INFO ===== check_change_phonenum =====
+2021-07-06 15:03:34,113 common_fun.py[line:42] INFO check_check_change_phonenum
+2021-07-06 15:03:42,379 common_fun.py[line:46] INFO no change_phonenum
+2021-07-06 15:03:42,379 loginView.py[line:28] INFO Empty notification bar
+2021-07-06 15:03:42,379 common_fun.py[line:75] INFO swipDown
+2021-07-06 15:03:43,702 common_fun.py[line:81] INFO swipDown success
+2021-07-06 15:03:43,702 common_fun.py[line:32] INFO check_deleteBtn
+2021-07-06 15:03:52,222 common_fun.py[line:36] INFO no deleteBtn
+2021-07-06 15:03:52,222 common_fun.py[line:67] INFO swipUp
+2021-07-06 15:03:53,502 loginView.py[line:32] INFO phonenumber is:13867111151
+2021-07-06 15:03:54,424 loginView.py[line:35] INFO click vergetBtn
+2021-07-06 15:03:55,091 loginView.py[line:40] INFO check verificationStatus
+2021-07-06 15:04:06,837 loginView.py[line:45] INFO get verificationcode  success!
+2021-07-06 15:04:06,837 loginView.py[line:55] INFO get verification code
+2021-07-06 15:04:06,837 common_fun.py[line:75] INFO swipDown
+2021-07-06 15:04:08,132 common_fun.py[line:81] INFO swipDown success
+2021-07-06 15:04:08,675 loginView.py[line:59] INFO messagecontent：【科大讯飞】您的验证码为：319288，该验证码5分钟内有效，请勿泄漏于他人。
+2021-07-06 15:04:08,675 loginView.py[line:62] INFO verificationcode is319288
+2021-07-06 15:04:08,675 common_fun.py[line:67] INFO swipUp
+2021-07-06 15:04:09,969 common_fun.py[line:67] INFO swipUp
+2021-07-06 15:04:15,947 loginView.py[line:86] INFO ====login finished!====
+2021-07-06 15:04:15,947 loginView.py[line:98] INFO ===== check_firstlogin =====
+2021-07-06 15:04:17,657 loginView.py[line:106] INFO firstlogin success!
+2021-07-06 15:04:17,658 loginView.py[line:89] INFO ==== Allow the authorized ====
+2021-07-06 15:04:17,658 loginView.py[line:90] INFO ==== Allow Authorization Locations ====
+2021-07-06 15:04:23,790 test_login.py[line:29] INFO ==== test_guide_page ====
+2021-07-06 15:04:23,790 loginView.py[line:111] INFO ===== check_guidepage_change =====
+2021-07-06 15:04:23,790 loginView.py[line:113] INFO ==== click btn_next ====
+2021-07-06 15:04:23,826 loginView.py[line:115] INFO ==== Slide the page  ====
+2021-07-06 15:04:23,827 test_login.py[line:35] INFO ==== test_wechat_login ====
+2021-07-06 15:04:23,827 loginView.py[line:160] INFO ==== Wechat_login ====
+2021-07-06 15:04:32,348 loginView.py[line:164] ERROR start Wechatlogin!
+2021-07-06 15:32:08,563 run.py[line:20] INFO start run test case...
+2021-07-06 15:32:08,564 myunit.py[line:11] INFO ====setUp====
+2021-07-06 15:32:08,565 desired_caps.py[line:36] INFO start app...
+2021-07-06 15:32:20,930 test_login.py[line:9] INFO ==== test_login_no_verificationcode ====
+2021-07-06 15:32:20,931 common_fun.py[line:105] INFO =====get_csv_data=====
+2021-07-06 15:32:20,931 loginView.py[line:26] INFO ===== login_action =====
+2021-07-06 15:32:20,931 loginView.py[line:27] INFO ===== check_change_phonenum =====
+2021-07-06 15:32:20,931 common_fun.py[line:42] INFO check_check_change_phonenum
+2021-07-06 15:32:25,535 loginView.py[line:29] INFO Empty notification bar
+2021-07-06 15:32:25,535 common_fun.py[line:75] INFO swipDown
+2021-07-06 15:32:27,303 common_fun.py[line:81] INFO swipDown success
+2021-07-06 15:32:27,303 common_fun.py[line:32] INFO check_deleteBtn
+2021-07-06 15:32:27,939 loginView.py[line:33] INFO phonenumber is:123456
+2021-07-06 15:32:30,121 loginView.py[line:36] INFO click vergetBtn
+2021-07-06 15:32:31,285 loginView.py[line:41] INFO check verificationStatus
+2021-07-06 15:32:34,347 loginView.py[line:50] ERROR get verificationcode Fail!
+2021-07-06 15:32:34,348 common_fun.py[line:100] INFO get get verificationcode Fail screenshot
+2021-07-06 15:32:34,738 test_login.py[line:18] INFO ==== test_login_success ====
+2021-07-06 15:32:34,738 common_fun.py[line:105] INFO =====get_csv_data=====
+2021-07-06 15:32:34,739 loginView.py[line:26] INFO ===== login_action =====
+2021-07-06 15:32:34,739 loginView.py[line:27] INFO ===== check_change_phonenum =====
+2021-07-06 15:32:34,739 common_fun.py[line:42] INFO check_check_change_phonenum
+2021-07-06 15:32:42,920 common_fun.py[line:46] INFO no change_phonenum
+2021-07-06 15:32:42,921 loginView.py[line:29] INFO Empty notification bar
+2021-07-06 15:32:42,921 common_fun.py[line:75] INFO swipDown
+2021-07-06 15:32:44,239 common_fun.py[line:81] INFO swipDown success
+2021-07-06 15:32:44,239 common_fun.py[line:32] INFO check_deleteBtn
+2021-07-06 15:32:52,574 common_fun.py[line:36] INFO no deleteBtn
+2021-07-06 15:32:52,574 common_fun.py[line:67] INFO swipUp
+2021-07-06 15:32:53,843 loginView.py[line:33] INFO phonenumber is:13867111151
+2021-07-06 15:32:54,766 loginView.py[line:36] INFO click vergetBtn
+2021-07-06 15:32:55,430 loginView.py[line:41] INFO check verificationStatus
+2021-07-06 15:33:07,063 loginView.py[line:46] INFO get verificationcode  success!
+2021-07-06 15:33:07,063 loginView.py[line:56] INFO get verification code
+2021-07-06 15:33:07,063 common_fun.py[line:75] INFO swipDown
+2021-07-06 15:33:08,385 common_fun.py[line:81] INFO swipDown success
+2021-07-06 15:33:16,634 test_login.py[line:29] INFO ==== test_guide_page ====
+2021-07-06 15:33:16,634 loginView.py[line:112] INFO ===== check_guidepage_change =====
+2021-07-06 15:33:16,634 loginView.py[line:114] INFO ==== click btn_next ====
+2021-07-06 15:33:25,078 loginView.py[line:131] ERROR guidepage change Fail!
+2021-07-06 15:33:25,078 common_fun.py[line:100] INFO get guidepage change Fail! screenshot
+2021-07-06 15:33:25,431 test_login.py[line:35] INFO ==== test_wechat_login ====
+2021-07-06 15:33:25,431 loginView.py[line:161] INFO ==== Wechat_login ====
+2021-07-06 15:33:35,058 loginView.py[line:165] ERROR start Wechatlogin!
+2021-07-06 15:33:43,698 run.py[line:20] INFO start run test case...
+2021-07-06 15:33:43,699 myunit.py[line:11] INFO ====setUp====
+2021-07-06 15:33:43,700 desired_caps.py[line:36] INFO start app...
+2021-07-06 15:33:56,053 test_login.py[line:9] INFO ==== test_login_no_verificationcode ====
+2021-07-06 15:33:56,053 common_fun.py[line:105] INFO =====get_csv_data=====
+2021-07-06 15:33:56,054 loginView.py[line:26] INFO ===== login_action =====
+2021-07-06 15:33:56,054 loginView.py[line:27] INFO ===== check_change_phonenum =====
+2021-07-06 15:33:56,054 common_fun.py[line:42] INFO check_check_change_phonenum
+2021-07-06 15:34:00,547 loginView.py[line:29] INFO Empty notification bar
+2021-07-06 15:34:00,547 common_fun.py[line:75] INFO swipDown
+2021-07-06 15:34:02,258 common_fun.py[line:81] INFO swipDown success
+2021-07-06 15:34:02,258 common_fun.py[line:32] INFO check_deleteBtn
+2021-07-06 15:34:02,964 loginView.py[line:33] INFO phonenumber is:123456
+2021-07-06 15:34:05,154 loginView.py[line:36] INFO click vergetBtn
+2021-07-06 15:34:06,346 loginView.py[line:41] INFO check verificationStatus
+2021-07-06 15:34:09,401 loginView.py[line:50] ERROR get verificationcode Fail!
+2021-07-06 15:34:09,401 common_fun.py[line:100] INFO get get verificationcode Fail screenshot
+2021-07-06 15:34:09,826 test_login.py[line:18] INFO ==== test_login_success ====
+2021-07-06 15:34:09,826 common_fun.py[line:105] INFO =====get_csv_data=====
+2021-07-06 15:34:09,826 loginView.py[line:26] INFO ===== login_action =====
+2021-07-06 15:34:09,827 loginView.py[line:27] INFO ===== check_change_phonenum =====
+2021-07-06 15:34:09,827 common_fun.py[line:42] INFO check_check_change_phonenum
+2021-07-06 15:34:18,092 common_fun.py[line:46] INFO no change_phonenum
+2021-07-06 15:34:18,092 loginView.py[line:29] INFO Empty notification bar
+2021-07-06 15:34:18,092 common_fun.py[line:75] INFO swipDown
+2021-07-06 15:34:19,413 common_fun.py[line:81] INFO swipDown success
+2021-07-06 15:34:19,414 common_fun.py[line:32] INFO check_deleteBtn
+2021-07-06 15:34:27,707 common_fun.py[line:36] INFO no deleteBtn
+2021-07-06 15:34:27,707 common_fun.py[line:67] INFO swipUp
+2021-07-06 15:34:28,968 loginView.py[line:33] INFO phonenumber is:13867111151
+2021-07-06 15:34:30,005 loginView.py[line:36] INFO click vergetBtn
+2021-07-06 15:34:30,688 loginView.py[line:41] INFO check verificationStatus
+2021-07-06 15:34:42,036 loginView.py[line:46] INFO get verificationcode  success!
+2021-07-06 15:34:42,037 loginView.py[line:56] INFO get verification code
+2021-07-06 15:34:42,037 common_fun.py[line:75] INFO swipDown
+2021-07-06 15:34:43,355 common_fun.py[line:81] INFO swipDown success
+2021-07-06 15:34:43,878 loginView.py[line:60] INFO messagecontent：【科大讯飞】您的验证码为：661422，该验证码5分钟内有效，请勿泄漏于他人。
+2021-07-06 15:34:43,878 loginView.py[line:63] INFO verificationcode is661422
+2021-07-06 15:34:43,878 common_fun.py[line:67] INFO swipUp
+2021-07-06 15:34:45,124 common_fun.py[line:67] INFO swipUp
+2021-07-06 15:34:51,181 loginView.py[line:87] INFO ====login finished!====
+2021-07-06 15:34:51,182 loginView.py[line:99] INFO ===== check_firstlogin =====
+2021-07-06 15:34:52,525 loginView.py[line:107] INFO firstlogin success!
+2021-07-06 15:34:52,526 loginView.py[line:90] INFO ==== Allow the authorized ====
+2021-07-06 15:34:52,526 loginView.py[line:91] INFO ==== Allow Authorization Locations ====
+2021-07-06 15:34:58,639 test_login.py[line:29] INFO ==== test_guide_page ====
+2021-07-06 15:34:58,639 loginView.py[line:112] INFO ===== check_guidepage_change =====
+2021-07-06 15:34:58,639 loginView.py[line:114] INFO ==== click btn_next ====
+2021-07-06 15:34:58,670 loginView.py[line:116] INFO ==== Slide the page  ====
+2021-07-06 15:34:58,671 test_login.py[line:35] INFO ==== test_wechat_login ====
+2021-07-06 15:34:58,671 loginView.py[line:161] INFO ==== Wechat_login ====
+2021-07-06 15:35:06,907 loginView.py[line:165] ERROR start Wechatlogin!
+2021-07-06 15:35:15,391 test_login.py[line:43] INFO ==== test_authsdk_login ====
+2021-07-06 15:35:15,391 loginView.py[line:173] INFO ==== authsdk_login ====
+2021-07-06 15:35:23,569 loginView.py[line:177] ERROR start authsdk_login!
+2021-07-06 15:35:32,067 myunit.py[line:16] INFO ====tearDown====
+2021-07-06 15:39:57,266 run.py[line:20] INFO start run test case...
+2021-07-06 15:39:57,266 myunit.py[line:11] INFO ====setUp====
+2021-07-06 15:39:57,268 desired_caps.py[line:36] INFO start app...
+2021-07-06 15:40:10,007 test_login.py[line:9] INFO ==== test_login_no_verificationcode ====
+2021-07-06 15:40:10,008 common_fun.py[line:105] INFO =====get_csv_data=====
+2021-07-06 15:40:10,008 loginView.py[line:26] INFO ===== login_action =====
+2021-07-06 15:40:10,008 loginView.py[line:27] INFO ===== check_change_phonenum =====
+2021-07-06 15:40:10,008 common_fun.py[line:42] INFO check_check_change_phonenum
+2021-07-06 15:40:14,930 loginView.py[line:29] INFO Empty notification bar
+2021-07-06 15:40:14,930 common_fun.py[line:75] INFO swipDown
+2021-07-06 15:40:16,689 common_fun.py[line:81] INFO swipDown success
+2021-07-06 15:40:16,689 common_fun.py[line:32] INFO check_deleteBtn
+2021-07-06 15:40:17,048 loginView.py[line:33] INFO phonenumber is:123456
+2021-07-06 15:40:18,623 loginView.py[line:36] INFO click vergetBtn
+2021-07-06 15:40:19,318 loginView.py[line:41] INFO check verificationStatus
+2021-07-06 15:40:22,374 loginView.py[line:50] ERROR get verificationcode Fail!
+2021-07-06 15:40:22,374 common_fun.py[line:100] INFO get get verificationcode Fail screenshot
+2021-07-06 15:40:22,813 test_login.py[line:18] INFO ==== test_login_success ====
+2021-07-06 15:40:22,814 common_fun.py[line:105] INFO =====get_csv_data=====
+2021-07-06 15:40:22,814 loginView.py[line:26] INFO ===== login_action =====
+2021-07-06 15:40:22,814 loginView.py[line:27] INFO ===== check_change_phonenum =====
+2021-07-06 15:40:22,814 common_fun.py[line:42] INFO check_check_change_phonenum
+2021-07-06 15:40:31,049 common_fun.py[line:46] INFO no change_phonenum
+2021-07-06 15:40:31,049 loginView.py[line:29] INFO Empty notification bar
+2021-07-06 15:40:31,049 common_fun.py[line:75] INFO swipDown
+2021-07-06 15:40:32,394 common_fun.py[line:81] INFO swipDown success
+2021-07-06 15:40:32,394 common_fun.py[line:32] INFO check_deleteBtn
+2021-07-06 15:40:40,462 common_fun.py[line:36] INFO no deleteBtn
+2021-07-06 15:40:40,462 common_fun.py[line:67] INFO swipUp
+2021-07-06 15:40:41,735 loginView.py[line:33] INFO phonenumber is:13867111151
+2021-07-06 15:40:42,662 loginView.py[line:36] INFO click vergetBtn
+2021-07-06 15:40:43,335 loginView.py[line:41] INFO check verificationStatus
+2021-07-06 15:40:54,814 loginView.py[line:46] INFO get verificationcode  success!
+2021-07-06 15:40:54,814 loginView.py[line:56] INFO get verification code
+2021-07-06 15:40:54,814 common_fun.py[line:75] INFO swipDown
+2021-07-06 15:40:56,133 common_fun.py[line:81] INFO swipDown success
+2021-07-06 15:41:04,804 test_login.py[line:29] INFO ==== test_guide_page ====
+2021-07-06 15:41:04,804 loginView.py[line:112] INFO ===== check_guidepage_change =====
+2021-07-06 15:41:04,804 loginView.py[line:114] INFO ==== click btn_next ====
+2021-07-06 15:41:12,825 loginView.py[line:131] ERROR guidepage change Fail!
+2021-07-06 15:41:12,825 common_fun.py[line:100] INFO get guidepage change Fail! screenshot
+2021-07-06 15:41:13,157 test_login.py[line:35] INFO ==== test_wechat_login ====
+2021-07-06 15:41:13,157 loginView.py[line:161] INFO ==== Wechat_login ====
+2021-07-06 15:41:42,351 run.py[line:20] INFO start run test case...
+2021-07-06 15:41:42,352 myunit.py[line:11] INFO ====setUp====
+2021-07-06 15:41:42,353 desired_caps.py[line:36] INFO start app...
+2021-07-06 15:41:54,806 test_login.py[line:9] INFO ==== test_login_no_verificationcode ====
+2021-07-06 15:41:54,806 common_fun.py[line:105] INFO =====get_csv_data=====
+2021-07-06 15:41:54,806 loginView.py[line:26] INFO ===== login_action =====
+2021-07-06 15:41:54,806 loginView.py[line:27] INFO ===== check_change_phonenum =====
+2021-07-06 15:41:54,806 common_fun.py[line:42] INFO check_check_change_phonenum
+2021-07-06 15:42:02,951 common_fun.py[line:46] INFO no change_phonenum
+2021-07-06 15:42:02,951 loginView.py[line:29] INFO Empty notification bar
+2021-07-06 15:42:02,951 common_fun.py[line:75] INFO swipDown
+2021-07-06 15:42:04,237 common_fun.py[line:81] INFO swipDown success
+2021-07-06 15:42:04,237 common_fun.py[line:32] INFO check_deleteBtn
+2021-07-06 15:42:12,737 common_fun.py[line:36] INFO no deleteBtn
+2021-07-06 15:42:12,738 common_fun.py[line:67] INFO swipUp
+2021-07-06 15:42:14,008 loginView.py[line:33] INFO phonenumber is:123456
+2021-07-06 15:42:22,513 test_login.py[line:18] INFO ==== test_login_success ====
+2021-07-06 15:42:22,513 common_fun.py[line:105] INFO =====get_csv_data=====
+2021-07-06 15:42:22,513 loginView.py[line:26] INFO ===== login_action =====
+2021-07-06 15:42:22,514 loginView.py[line:27] INFO ===== check_change_phonenum =====
+2021-07-06 15:42:22,514 common_fun.py[line:42] INFO check_check_change_phonenum
+2021-07-06 15:42:28,015 loginView.py[line:29] INFO Empty notification bar
+2021-07-06 15:42:28,015 common_fun.py[line:75] INFO swipDown
+2021-07-06 15:42:29,758 common_fun.py[line:81] INFO swipDown success
+2021-07-06 15:42:29,758 common_fun.py[line:32] INFO check_deleteBtn
+2021-07-06 15:42:30,332 loginView.py[line:33] INFO phonenumber is:13867111151
+2021-07-06 15:42:32,426 loginView.py[line:36] INFO click vergetBtn
+2021-07-06 15:42:33,105 loginView.py[line:41] INFO check verificationStatus
+2021-07-06 15:42:46,456 loginView.py[line:46] INFO get verificationcode  success!
+2021-07-06 15:42:46,457 loginView.py[line:56] INFO get verification code
+2021-07-06 15:42:46,457 common_fun.py[line:75] INFO swipDown
+2021-07-06 15:42:47,775 common_fun.py[line:81] INFO swipDown success
+2021-07-06 15:42:48,340 loginView.py[line:60] INFO messagecontent：【科大讯飞】您的验证码为：720518，该验证码5分钟内有效，请勿泄漏于他人。
+2021-07-06 15:42:48,340 loginView.py[line:63] INFO verificationcode is720518
+2021-07-06 15:42:48,340 common_fun.py[line:67] INFO swipUp
+2021-07-06 15:42:49,626 common_fun.py[line:67] INFO swipUp
+2021-07-06 15:42:56,583 loginView.py[line:87] INFO ====login finished!====
+2021-07-06 15:42:56,584 loginView.py[line:99] INFO ===== check_firstlogin =====
+2021-07-06 15:42:57,915 loginView.py[line:107] INFO firstlogin success!
+2021-07-06 15:42:57,915 loginView.py[line:90] INFO ==== Allow the authorized ====
+2021-07-06 15:42:57,915 loginView.py[line:91] INFO ==== Allow Authorization Locations ====
+2021-07-06 15:43:04,042 test_login.py[line:29] INFO ==== test_guide_page ====
+2021-07-06 15:43:04,042 loginView.py[line:112] INFO ===== check_guidepage_change =====
+2021-07-06 15:43:04,042 loginView.py[line:114] INFO ==== click btn_next ====
+2021-07-06 15:43:04,076 loginView.py[line:116] INFO ==== Slide the page  ====
+2021-07-06 15:43:04,076 common_fun.py[line:58] INFO ==== swipLeft ====
+2021-07-06 15:43:05,863 common_fun.py[line:58] INFO ==== swipLeft ====
+2021-07-06 15:43:07,658 loginView.py[line:120] INFO ==== click next ====
+2021-07-06 15:43:08,692 loginView.py[line:123] INFO ==== click btn_access ====
+2021-07-06 15:53:16,904 run.py[line:20] INFO start run test case...
+2021-07-06 15:53:16,904 myunit.py[line:11] INFO ====setUp====
+2021-07-06 15:53:16,906 desired_caps.py[line:36] INFO start app...
+2021-07-06 15:53:29,551 test_login.py[line:9] INFO ==== test_login_no_verificationcode ====
+2021-07-06 15:53:29,551 common_fun.py[line:105] INFO =====get_csv_data=====
+2021-07-06 15:53:29,551 loginView.py[line:26] INFO ===== login_action =====
+2021-07-06 15:53:29,551 loginView.py[line:27] INFO ===== check_change_phonenum =====
+2021-07-06 15:53:29,551 common_fun.py[line:42] INFO check_check_change_phonenum
+2021-07-06 15:53:34,233 loginView.py[line:29] INFO Empty notification bar
+2021-07-06 15:53:34,233 common_fun.py[line:75] INFO swipDown
+2021-07-06 15:53:36,023 common_fun.py[line:81] INFO swipDown success
+2021-07-06 15:53:36,023 common_fun.py[line:32] INFO check_deleteBtn
+2021-07-06 15:53:36,660 loginView.py[line:33] INFO phonenumber is:123456
+2021-07-06 15:53:38,856 loginView.py[line:36] INFO click vergetBtn
+2021-07-06 15:53:39,509 loginView.py[line:41] INFO check verificationStatus
+2021-07-06 15:53:44,567 loginView.py[line:50] ERROR get verificationcode Fail!
+2021-07-06 15:53:44,567 common_fun.py[line:100] INFO get get verificationcode Fail screenshot
+2021-07-06 15:53:44,961 test_login.py[line:18] INFO ==== test_login_success ====
+2021-07-06 15:53:44,961 common_fun.py[line:105] INFO =====get_csv_data=====
+2021-07-06 15:53:44,962 loginView.py[line:26] INFO ===== login_action =====
+2021-07-06 15:53:44,962 loginView.py[line:27] INFO ===== check_change_phonenum =====
+2021-07-06 15:53:44,962 common_fun.py[line:42] INFO check_check_change_phonenum
+2021-07-06 15:53:53,225 common_fun.py[line:46] INFO no change_phonenum
+2021-07-06 15:53:53,225 loginView.py[line:29] INFO Empty notification bar
+2021-07-06 15:53:53,225 common_fun.py[line:75] INFO swipDown
+2021-07-06 15:53:54,544 common_fun.py[line:81] INFO swipDown success
+2021-07-06 15:53:54,544 common_fun.py[line:32] INFO check_deleteBtn
+2021-07-06 15:54:02,616 common_fun.py[line:36] INFO no deleteBtn
+2021-07-06 15:54:02,616 common_fun.py[line:67] INFO swipUp
+2021-07-06 15:54:03,896 loginView.py[line:33] INFO phonenumber is:13867111151
+2021-07-06 15:54:04,233 loginView.py[line:36] INFO click vergetBtn
+2021-07-06 15:54:04,882 loginView.py[line:41] INFO check verificationStatus
+2021-07-06 15:54:18,273 loginView.py[line:46] INFO get verificationcode  success!
+2021-07-06 15:54:18,274 loginView.py[line:56] INFO get verification code
+2021-07-06 15:54:18,274 common_fun.py[line:75] INFO swipDown
+2021-07-06 15:54:19,605 common_fun.py[line:81] INFO swipDown success
+2021-07-06 15:54:27,755 test_login.py[line:29] INFO ==== test_guide_page ====
+2021-07-06 15:54:27,755 loginView.py[line:112] INFO ===== check_guidepage_change =====
+2021-07-06 15:54:27,756 loginView.py[line:114] INFO ==== click btn_next ====
+2021-07-06 15:54:37,426 loginView.py[line:131] ERROR guidepage change Fail!
+2021-07-06 15:54:37,426 common_fun.py[line:100] INFO get guidepage change Fail! screenshot
+2021-07-06 15:54:37,826 test_login.py[line:35] INFO ==== test_wechat_login ====
+2021-07-06 15:54:37,826 loginView.py[line:161] INFO ==== Wechat_login ====
+2021-07-06 15:54:49,188 run.py[line:20] INFO start run test case...
+2021-07-06 15:54:49,188 myunit.py[line:11] INFO ====setUp====
+2021-07-06 15:54:49,190 desired_caps.py[line:36] INFO start app...
+2021-07-06 15:55:01,729 test_login.py[line:9] INFO ==== test_login_no_verificationcode ====
+2021-07-06 15:55:01,730 common_fun.py[line:105] INFO =====get_csv_data=====
+2021-07-06 15:55:01,730 loginView.py[line:26] INFO ===== login_action =====
+2021-07-06 15:55:01,730 loginView.py[line:27] INFO ===== check_change_phonenum =====
+2021-07-06 15:55:01,730 common_fun.py[line:42] INFO check_check_change_phonenum
+2021-07-06 15:55:06,343 loginView.py[line:29] INFO Empty notification bar
+2021-07-06 15:55:06,343 common_fun.py[line:75] INFO swipDown
+2021-07-06 15:55:08,116 common_fun.py[line:81] INFO swipDown success
+2021-07-06 15:55:08,116 common_fun.py[line:32] INFO check_deleteBtn
+2021-07-06 15:55:08,738 loginView.py[line:33] INFO phonenumber is:123456
+2021-07-06 15:55:10,893 loginView.py[line:36] INFO click vergetBtn
+2021-07-06 15:55:11,571 loginView.py[line:41] INFO check verificationStatus
+2021-07-06 15:55:16,636 loginView.py[line:50] ERROR get verificationcode Fail!
+2021-07-06 15:55:16,636 common_fun.py[line:100] INFO get get verificationcode Fail screenshot
+2021-07-06 15:55:17,066 test_login.py[line:18] INFO ==== test_login_success ====
+2021-07-06 15:55:17,066 common_fun.py[line:105] INFO =====get_csv_data=====
+2021-07-06 15:55:17,067 loginView.py[line:26] INFO ===== login_action =====
+2021-07-06 15:55:17,067 loginView.py[line:27] INFO ===== check_change_phonenum =====
+2021-07-06 15:55:17,067 common_fun.py[line:42] INFO check_check_change_phonenum
+2021-07-06 15:55:25,297 common_fun.py[line:46] INFO no change_phonenum
+2021-07-06 15:55:25,297 loginView.py[line:29] INFO Empty notification bar
+2021-07-06 15:55:25,297 common_fun.py[line:75] INFO swipDown
+2021-07-06 15:55:26,662 common_fun.py[line:81] INFO swipDown success
+2021-07-06 15:55:26,662 common_fun.py[line:32] INFO check_deleteBtn
+2021-07-06 15:55:34,962 common_fun.py[line:36] INFO no deleteBtn
+2021-07-06 15:55:34,962 common_fun.py[line:67] INFO swipUp
+2021-07-06 15:55:36,255 loginView.py[line:33] INFO phonenumber is:13867111151
+2021-07-06 15:55:37,276 loginView.py[line:36] INFO click vergetBtn
+2021-07-06 15:55:37,957 loginView.py[line:41] INFO check verificationStatus
+2021-07-06 15:55:51,507 loginView.py[line:46] INFO get verificationcode  success!
+2021-07-06 15:55:51,507 loginView.py[line:56] INFO get verification code
+2021-07-06 15:55:51,507 common_fun.py[line:75] INFO swipDown
+2021-07-06 15:55:52,822 common_fun.py[line:81] INFO swipDown success
+2021-07-06 15:56:02,797 test_login.py[line:29] INFO ==== test_guide_page ====
+2021-07-06 15:56:02,797 loginView.py[line:112] INFO ===== check_guidepage_change =====
+2021-07-06 15:56:02,797 loginView.py[line:114] INFO ==== click btn_next ====
+2021-07-06 15:56:11,285 loginView.py[line:131] ERROR guidepage change Fail!
+2021-07-06 15:56:11,285 common_fun.py[line:100] INFO get guidepage change Fail! screenshot
+2021-07-06 15:56:11,728 test_login.py[line:35] INFO ==== test_wechat_login ====
+2021-07-06 15:56:11,728 loginView.py[line:161] INFO ==== Wechat_login ====
+2021-07-06 15:56:20,456 loginView.py[line:165] ERROR start Wechatlogin!
+2021-07-06 15:56:28,931 test_login.py[line:43] INFO ==== test_authsdk_login ====
+2021-07-06 15:56:28,932 loginView.py[line:173] INFO ==== authsdk_login ====
+2021-07-06 15:56:37,331 loginView.py[line:177] ERROR start authsdk_login!
+2021-07-06 15:56:45,814 myunit.py[line:16] INFO ====tearDown====
+2021-07-06 15:59:25,988 run.py[line:20] INFO start run test case...
+2021-07-06 15:59:25,988 myunit.py[line:11] INFO ====setUp====
+2021-07-06 15:59:25,990 desired_caps.py[line:36] INFO start app...
+2021-07-06 15:59:38,422 test_login.py[line:9] INFO ==== test_login_no_verificationcode ====
+2021-07-06 15:59:38,422 common_fun.py[line:105] INFO =====get_csv_data=====
+2021-07-06 15:59:38,422 loginView.py[line:26] INFO ===== login_action =====
+2021-07-06 15:59:38,422 loginView.py[line:27] INFO ===== check_change_phonenum =====
+2021-07-06 15:59:38,423 common_fun.py[line:42] INFO check_check_change_phonenum
+2021-07-06 15:59:42,954 loginView.py[line:29] INFO Empty notification bar
+2021-07-06 15:59:42,954 common_fun.py[line:75] INFO swipDown
+2021-07-06 15:59:44,712 common_fun.py[line:81] INFO swipDown success
+2021-07-06 15:59:44,713 common_fun.py[line:32] INFO check_deleteBtn
+2021-07-06 15:59:45,073 loginView.py[line:33] INFO phonenumber is:123456
+2021-07-06 15:59:47,288 loginView.py[line:36] INFO click vergetBtn
+2021-07-06 15:59:47,988 loginView.py[line:41] INFO check verificationStatus
+2021-07-06 15:59:58,050 loginView.py[line:50] ERROR get verificationcode Fail!
+2021-07-06 15:59:58,050 common_fun.py[line:100] INFO get get verificationcode Fail screenshot
+2021-07-06 15:59:58,412 test_login.py[line:18] INFO ==== test_login_success ====
+2021-07-06 15:59:58,412 common_fun.py[line:105] INFO =====get_csv_data=====
+2021-07-06 15:59:58,412 loginView.py[line:26] INFO ===== login_action =====
+2021-07-06 15:59:58,412 loginView.py[line:27] INFO ===== check_change_phonenum =====
+2021-07-06 15:59:58,412 common_fun.py[line:42] INFO check_check_change_phonenum
+2021-07-06 16:00:06,809 common_fun.py[line:46] INFO no change_phonenum
+2021-07-06 16:00:06,809 loginView.py[line:29] INFO Empty notification bar
+2021-07-06 16:00:06,810 common_fun.py[line:75] INFO swipDown
+2021-07-06 16:00:08,127 common_fun.py[line:81] INFO swipDown success
+2021-07-06 16:00:08,127 common_fun.py[line:32] INFO check_deleteBtn
+2021-07-06 16:00:16,690 common_fun.py[line:36] INFO no deleteBtn
+2021-07-06 16:00:16,690 common_fun.py[line:67] INFO swipUp
+2021-07-06 16:00:17,959 loginView.py[line:33] INFO phonenumber is:13867111151
+2021-07-06 16:00:18,350 loginView.py[line:36] INFO click vergetBtn
+2021-07-06 16:00:19,031 loginView.py[line:41] INFO check verificationStatus
+2021-07-06 16:00:37,724 loginView.py[line:46] INFO get verificationcode  success!
+2021-07-06 16:00:37,724 loginView.py[line:56] INFO get verification code
+2021-07-06 16:00:37,724 common_fun.py[line:75] INFO swipDown
+2021-07-06 16:00:39,094 common_fun.py[line:81] INFO swipDown success
+2021-07-06 16:00:40,105 loginView.py[line:60] INFO messagecontent：【科大讯飞】您的验证码为：212474，该验证码5分钟内有效，请勿泄漏于他人。
+2021-07-06 16:00:40,106 loginView.py[line:63] INFO verificationcode is212474
+2021-07-06 16:00:40,106 common_fun.py[line:67] INFO swipUp
+2021-07-06 16:00:41,398 common_fun.py[line:67] INFO swipUp
+2021-07-06 16:00:47,614 loginView.py[line:87] INFO ====login finished!====
+2021-07-06 16:00:47,614 loginView.py[line:99] INFO ===== check_firstlogin =====
+2021-07-06 16:00:48,939 loginView.py[line:107] INFO firstlogin success!
+2021-07-06 16:00:48,939 loginView.py[line:90] INFO ==== Allow the authorized ====
+2021-07-06 16:00:48,939 loginView.py[line:91] INFO ==== Allow Authorization Locations ====
+2021-07-06 16:00:55,089 test_login.py[line:29] INFO ==== test_guide_page ====
+2021-07-06 16:00:55,089 loginView.py[line:112] INFO ===== check_guidepage_change =====
+2021-07-06 16:00:55,089 loginView.py[line:114] INFO ==== click btn_next ====
+2021-07-06 16:00:55,182 loginView.py[line:116] INFO ==== Slide the page  ====
+2021-07-06 16:00:55,182 common_fun.py[line:58] INFO ==== swipLeft ====
+2021-07-06 16:00:56,981 common_fun.py[line:58] INFO ==== swipLeft ====
+2021-07-06 16:00:58,763 loginView.py[line:120] INFO ==== click next ====
+2021-07-06 16:01:06,859 loginView.py[line:131] ERROR guidepage change Fail!
+2021-07-06 16:01:06,859 common_fun.py[line:100] INFO get guidepage change Fail! screenshot
+2021-07-06 16:01:07,314 test_login.py[line:35] INFO ==== test_wechat_login ====
+2021-07-06 16:01:07,314 loginView.py[line:161] INFO ==== Wechat_login ====
+2021-07-06 16:01:15,717 loginView.py[line:165] ERROR start Wechatlogin!
+2021-07-06 16:01:23,772 test_login.py[line:43] INFO ==== test_authsdk_login ====
+2021-07-06 16:01:23,772 loginView.py[line:173] INFO ==== authsdk_login ====
+2021-07-06 16:01:32,076 loginView.py[line:177] ERROR start authsdk_login!
+2021-07-06 16:01:40,124 myunit.py[line:16] INFO ====tearDown====
+2021-07-06 16:08:07,987 run.py[line:20] INFO start run test case...
+2021-07-06 16:08:07,987 myunit.py[line:11] INFO ====setUp====
+2021-07-06 16:08:07,989 desired_caps.py[line:36] INFO start app...
+2021-07-06 16:08:21,479 test_login.py[line:9] INFO ==== test_login_no_verificationcode ====
+2021-07-06 16:08:21,480 common_fun.py[line:105] INFO =====get_csv_data=====
+2021-07-06 16:08:21,480 loginView.py[line:26] INFO ===== login_action =====
+2021-07-06 16:08:21,480 loginView.py[line:27] INFO ===== check_change_phonenum =====
+2021-07-06 16:08:21,480 common_fun.py[line:42] INFO check_check_change_phonenum
+2021-07-06 16:08:25,959 loginView.py[line:29] INFO Empty notification bar
+2021-07-06 16:08:25,959 common_fun.py[line:75] INFO swipDown
+2021-07-06 16:08:27,733 common_fun.py[line:81] INFO swipDown success
+2021-07-06 16:08:27,734 common_fun.py[line:32] INFO check_deleteBtn
+2021-07-06 16:08:28,408 loginView.py[line:33] INFO phonenumber is:123456
+2021-07-06 16:08:30,553 loginView.py[line:36] INFO click vergetBtn
+2021-07-06 16:08:31,761 loginView.py[line:41] INFO check verificationStatus
+2021-07-06 16:08:41,838 loginView.py[line:50] ERROR get verificationcode Fail!
+2021-07-06 16:08:41,838 common_fun.py[line:100] INFO get get verificationcode Fail screenshot
+2021-07-06 16:08:42,305 test_login.py[line:18] INFO ==== test_login_success ====
+2021-07-06 16:08:42,306 common_fun.py[line:105] INFO =====get_csv_data=====
+2021-07-06 16:08:42,306 loginView.py[line:26] INFO ===== login_action =====
+2021-07-06 16:08:42,306 loginView.py[line:27] INFO ===== check_change_phonenum =====
+2021-07-06 16:08:42,306 common_fun.py[line:42] INFO check_check_change_phonenum
+2021-07-06 16:08:50,540 common_fun.py[line:46] INFO no change_phonenum
+2021-07-06 16:08:50,540 loginView.py[line:29] INFO Empty notification bar
+2021-07-06 16:08:50,540 common_fun.py[line:75] INFO swipDown
+2021-07-06 16:08:51,890 common_fun.py[line:81] INFO swipDown success
+2021-07-06 16:08:51,890 common_fun.py[line:32] INFO check_deleteBtn
+2021-07-06 16:08:56,333 test_login.py[line:29] INFO ==== test_guide_page ====
+2021-07-06 16:08:56,334 loginView.py[line:112] INFO ===== check_guidepage_change =====
+2021-07-06 16:08:56,334 loginView.py[line:114] INFO ==== click btn_next ====
+2021-07-06 16:08:58,359 test_login.py[line:35] INFO ==== test_wechat_login ====
+2021-07-06 16:08:58,359 loginView.py[line:162] INFO ==== Wechat_login ====
+2021-07-06 16:08:58,363 test_login.py[line:43] INFO ==== test_authsdk_login ====
+2021-07-06 16:08:58,364 loginView.py[line:174] INFO ==== authsdk_login ====
+2021-07-06 16:08:58,367 myunit.py[line:16] INFO ====tearDown====
+2021-07-06 16:09:34,495 run.py[line:20] INFO start run test case...
+2021-07-06 16:09:34,495 myunit.py[line:11] INFO ====setUp====
+2021-07-06 16:09:34,497 desired_caps.py[line:36] INFO start app...
+2021-07-06 16:09:47,728 run.py[line:20] INFO start run test case...
+2021-07-06 16:09:47,729 myunit.py[line:11] INFO ====setUp====
+2021-07-06 16:09:47,731 desired_caps.py[line:36] INFO start app...
+2021-07-06 16:10:44,967 run.py[line:20] INFO start run test case...
+2021-07-06 16:10:44,968 myunit.py[line:11] INFO ====setUp====
+2021-07-06 16:10:44,969 desired_caps.py[line:36] INFO start app...
+2021-07-06 16:14:25,507 run.py[line:20] INFO start run test case...
+2021-07-06 16:17:31,322 run.py[line:20] INFO start run test case...
+2021-07-06 16:17:31,322 myunit.py[line:11] INFO ====setUp====
+2021-07-06 16:17:31,324 desired_caps.py[line:36] INFO start app...
+2021-07-06 16:17:51,241 run.py[line:20] INFO start run test case...
+2021-07-06 16:17:51,241 myunit.py[line:11] INFO ====setUp====
+2021-07-06 16:17:51,242 desired_caps.py[line:36] INFO start app...
+2021-07-06 16:20:03,954 run.py[line:20] INFO start run test case...
+2021-07-06 16:21:08,733 run.py[line:20] INFO start run test case...
+2021-07-06 16:21:08,734 myunit.py[line:11] INFO ====setUp====
+2021-07-06 16:21:08,735 desired_caps.py[line:36] INFO start app...
+2021-07-06 16:22:29,637 run.py[line:20] INFO start run test case...
+2021-07-06 16:22:29,637 myunit.py[line:11] INFO ====setUp====
+2021-07-06 16:22:29,639 desired_caps.py[line:36] INFO start app...
+2021-07-06 16:22:40,726 test_login.py[line:9] INFO ==== test_login_no_verificationcode ====
+2021-07-06 16:22:40,726 common_fun.py[line:105] INFO =====get_csv_data=====
+2021-07-06 16:22:40,727 loginView.py[line:26] INFO ===== login_action =====
+2021-07-06 16:22:40,727 loginView.py[line:27] INFO ===== check_change_phonenum =====
+2021-07-06 16:22:40,727 common_fun.py[line:42] INFO check_check_change_phonenum
+2021-07-06 16:22:45,323 loginView.py[line:29] INFO Empty notification bar
+2021-07-06 16:22:45,323 common_fun.py[line:75] INFO swipDown
+2021-07-06 16:22:47,036 common_fun.py[line:81] INFO swipDown success
+2021-07-06 16:22:47,036 common_fun.py[line:32] INFO check_deleteBtn
+2021-07-06 16:22:55,097 common_fun.py[line:36] INFO no deleteBtn
+2021-07-06 16:22:55,097 common_fun.py[line:67] INFO swipUp
+2021-07-06 16:22:56,392 loginView.py[line:33] INFO phonenumber is:123456
+2021-07-06 16:22:56,837 loginView.py[line:36] INFO click vergetBtn
+2021-07-06 16:22:58,045 loginView.py[line:41] INFO check verificationStatus
+2021-07-06 16:23:08,099 loginView.py[line:50] ERROR get verificationcode Fail!
+2021-07-06 16:23:08,099 common_fun.py[line:100] INFO get get verificationcode Fail screenshot
+2021-07-06 16:23:08,517 test_login.py[line:18] INFO ==== test_login_success ====
+2021-07-06 16:23:08,517 common_fun.py[line:105] INFO =====get_csv_data=====
+2021-07-06 16:23:08,517 loginView.py[line:26] INFO ===== login_action =====
+2021-07-06 16:23:08,517 loginView.py[line:27] INFO ===== check_change_phonenum =====
+2021-07-06 16:23:08,517 common_fun.py[line:42] INFO check_check_change_phonenum
+2021-07-06 16:23:16,733 common_fun.py[line:46] INFO no change_phonenum
+2021-07-06 16:23:16,734 loginView.py[line:29] INFO Empty notification bar
+2021-07-06 16:23:16,734 common_fun.py[line:75] INFO swipDown
+2021-07-06 16:23:18,048 common_fun.py[line:81] INFO swipDown success
+2021-07-06 16:23:18,048 common_fun.py[line:32] INFO check_deleteBtn
+2021-07-06 16:23:26,624 common_fun.py[line:36] INFO no deleteBtn
+2021-07-06 16:23:26,624 common_fun.py[line:67] INFO swipUp
+2021-07-06 16:23:27,881 loginView.py[line:33] INFO phonenumber is:13867111151
+2021-07-06 16:23:28,808 loginView.py[line:36] INFO click vergetBtn
+2021-07-06 16:23:29,482 loginView.py[line:41] INFO check verificationStatus
+2021-07-06 16:23:47,884 loginView.py[line:46] INFO get verificationcode  success!
+2021-07-06 16:23:47,884 loginView.py[line:56] INFO get verification code
+2021-07-06 16:23:47,884 common_fun.py[line:75] INFO swipDown
+2021-07-06 16:23:49,198 common_fun.py[line:81] INFO swipDown success
+2021-07-06 16:23:49,740 loginView.py[line:60] INFO messagecontent：【科大讯飞】您的验证码为：888673，该验证码5分钟内有效，请勿泄漏于他人。
+2021-07-06 16:23:49,740 loginView.py[line:63] INFO verificationcode is888673
+2021-07-06 16:23:49,740 common_fun.py[line:67] INFO swipUp
+2021-07-06 16:23:51,019 common_fun.py[line:67] INFO swipUp
+2021-07-06 16:23:57,039 loginView.py[line:87] INFO ====login finished!====
+2021-07-06 16:23:57,039 loginView.py[line:99] INFO ===== check_firstlogin =====
+2021-07-06 16:23:58,351 loginView.py[line:107] INFO firstlogin success!
+2021-07-06 16:23:58,351 loginView.py[line:90] INFO ==== Allow the authorized ====
+2021-07-06 16:23:58,351 loginView.py[line:91] INFO ==== Allow Authorization Locations ====
+2021-07-06 16:24:04,574 test_login.py[line:29] INFO ==== test_guide_page ====
+2021-07-06 16:24:04,574 loginView.py[line:112] INFO ===== check_guidepage_change =====
+2021-07-06 16:24:04,574 loginView.py[line:114] INFO ==== click btn_next ====
+2021-07-06 16:24:05,665 loginView.py[line:117] INFO ==== Slide the page  ====
+2021-07-06 16:24:05,665 common_fun.py[line:58] INFO ==== swipLeft ====
+2021-07-06 16:24:07,451 common_fun.py[line:58] INFO ==== swipLeft ====
+2021-07-06 16:24:09,239 loginView.py[line:121] INFO ==== click next ====
+2021-07-06 16:24:10,338 loginView.py[line:124] INFO ==== click btn_access ====
+2021-07-06 16:24:11,430 loginView.py[line:127] INFO ==== click btn_device_allow ====
+2021-07-06 16:24:17,588 loginView.py[line:136] INFO guidepage change success!
+2021-07-06 16:24:17,588 loginView.py[line:155] INFO ==== logout_action ==== 
+2021-07-06 16:24:19,168 loginView.py[line:159] INFO ==== logout success! ====
+2021-07-06 16:24:19,168 test_login.py[line:35] INFO ==== test_wechat_login ====
+2021-07-06 16:24:19,168 loginView.py[line:162] INFO ==== Wechat_login ====
+2021-07-06 16:24:27,390 loginView.py[line:166] ERROR start Wechatlogin!
+2021-07-06 16:24:27,457 loginView.py[line:142] INFO ===== check_loginStatus =====
+2021-07-06 16:24:34,419 loginView.py[line:150] INFO login success!
+2021-07-06 16:24:34,419 loginView.py[line:155] INFO ==== logout_action ==== 
+2021-07-06 16:24:36,012 loginView.py[line:159] INFO ==== logout success! ====
+2021-07-06 16:24:36,012 test_login.py[line:43] INFO ==== test_authsdk_login ====
+2021-07-06 16:24:36,012 loginView.py[line:174] INFO ==== authsdk_login ====
+2021-07-06 16:24:44,043 loginView.py[line:178] ERROR start authsdk_login!
+2021-07-06 16:24:46,182 loginView.py[line:142] INFO ===== check_loginStatus =====
+2021-07-06 16:24:50,666 loginView.py[line:150] INFO login success!
+2021-07-06 16:24:50,667 loginView.py[line:155] INFO ==== logout_action ==== 
+2021-07-06 16:24:52,203 loginView.py[line:159] INFO ==== logout success! ====
+2021-07-06 16:24:52,203 myunit.py[line:16] INFO ====tearDown====
