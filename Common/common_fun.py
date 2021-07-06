@@ -55,7 +55,7 @@ class Common(BaseView):
 
     # 右向左滑动
     def swipeLeft(self):
-        logging.info('swipLeft')
+        logging.info('==== swipLeft ====')
         l = self.get_size()
         x1 = int(l[0] * 0.9)
         x2 = int(l[0] * 0.2)

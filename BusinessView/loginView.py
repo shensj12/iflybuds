@@ -12,6 +12,14 @@ class LoginView(Common):
     btn_setting_account=(By.ID,'tws.iflytek.headset:id/setting_account')
     btn_loginout=(By.ID,'tws.iflytek.headset:id/login_out')
     btn_authsdk_login=(By.ID,'tws.iflytek.headset:id/authsdk_login_view')
+    # 首次登录授权按钮
+    btn_location_allow=(By.ID,'com.android.permissioncontroller:id/permission_allow_foreground_only_button')
+    btn_file_allow=(By.ID,'com.android.permissioncontroller:id/permission_allow_button')
+    # 引导页按钮
+    btn_next=(By.ID,'tws.iflytek.headset:id/next')
+    # 授权请求-允许访问手机信息
+    btn_access=(By.ID,'tws.iflytek.headset:id/permission_phone_layout')
+    btn_device_allow=(By.ID,'com.android.permissioncontroller:id/permission_allow_button')
 
     # 输入手机号码后获取验证码
     def login_action(self,phone_num):
@@ -31,7 +39,7 @@ class LoginView(Common):
     # 检查是否发送了验证码
     def check_verificationStatus(self):
         logging.info('check verificationStatus')
-        sleep(3)
+        sleep(10)
         try:
             self.driver.find_element(*self.phonenum_type)
         except NoSuchElementException:
@@ -77,6 +85,58 @@ class LoginView(Common):
             "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.RelativeLayout[1]/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.LinearLayout/android.widget.EditText[6]").send_keys(
             verificationcode[5])
         logging.info('====login finished!====')
+    # 首次登录后点击允许授权
+    def grant(self):
+        logging.info('==== Allow the authorized ====')
+        logging.info('==== Allow Authorization Locations ====')
+        self.driver.find_element(*self.btn_location_allow).click()
+        sleep(1)
+        self.driver.find_element(*self.btn_file_allow).click()
+        sleep(5)
+
+    # APP下载后首次登录检查是否成功登录
+    def check_firstlogin(self):
+        logging.info('===== check_firstlogin =====')
+        try:
+            self.driver.find_element(*self.btn_location_allow)
+        except NoSuchElementException:
+            logging.error('firstlogin Fail!')
+            self.getScreenShot('firstlogin fail')
+            return False
+        else:
+            logging.info('firstlogin success!')
+            self.grant()
+            return True
+    # 检查引导页是否正常切换完成
+    def check_guidepage_change(self):
+        logging.info('===== check_guidepage_change =====')
+        try:
+            logging.info('==== click btn_next ====')
+            self.driver.find_element(*self.btn_next).click()
+            sleep(1)
+            logging.info('==== Slide the page  ====')
+            for i in range(2):
+                self.swipeLeft()
+                sleep(0.5)
+            logging.info('==== click next ====')
+            self.driver.find_element(*self.btn_next).click()
+            sleep(1)
+            logging.info('==== click btn_access ====')
+            self.driver.find_element(*self.btn_access).click()
+            sleep(1)
+            logging.info('==== click btn_device_allow ====')
+            self.driver.find_element(*self.btn_device_allow).click()
+            sleep(1)
+            self.driver.find_element(*self.btn_set)
+        except NoSuchElementException:
+            logging.error('guidepage change Fail!')
+            self.getScreenShot('guidepage change Fail!')
+            return False
+        else:
+            logging.info('guidepage change success!')
+            self.logout_action()
+            return True
+
     # 检查是否登录
     def check_loginStatus(self):
         logging.info('===== check_loginStatus =====')
@@ -121,4 +181,3 @@ class LoginView(Common):
         else:
             logging.info('already logged')
             return True
-
