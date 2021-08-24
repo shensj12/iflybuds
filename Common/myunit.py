@@ -3,13 +3,19 @@ import unittest
 from Common.desired_caps import appium_desired
 import logging
 from time import sleep
+import warnings
+
 
 class StartEnd(unittest.TestCase):
+    driver = None
+
     # 用例执行前执行操作
     @classmethod
     def setUpClass(cls):
+        warnings.simplefilter('ignore', ResourceWarning)
         logging.info('====setUp====')
-        cls.driver=appium_desired()
+        cls.driver = appium_desired()
+
     # 用例执行完成后的操作
     @classmethod
     def tearDownClass(cls):
