@@ -23,9 +23,15 @@ class TestLogin(StartEnd):
         # 断言查看是否成功获取验证码
         self.assertTrue(l.check_verificationStatus())
         # 断言查看是否登录成功
-        self.assertTrue(l.check_loginStatus())
+        self.assertTrue(l.check_firstlogin())
 
-    def test_03_wechat_login(self):
+    def test_03_guide_page(self):
+        logging.info('==== test_guide_page ====')
+        l=LoginView(self.driver)
+        # 断言查看引导页是否正常切换完成
+        self.assertTrue(l.check_guidepage_change())
+
+    def test_04_wechat_login(self):
         logging.info('==== test_wechat_login ====')
         l=LoginView(self.driver)
         # 断言是否在登录页，在则点击微信登录按钮
@@ -33,7 +39,7 @@ class TestLogin(StartEnd):
         # 断言查看是否登录成功
         self.assertTrue(l.check_loginStatus())
 
-    def test_04_authsdk_login(self):
+    def test_05_authsdk_login(self):
         logging.info('==== test_authsdk_login ====')
         l = LoginView(self.driver)
         # 断言是否在登录页，在则点击一键手机号登录按钮
