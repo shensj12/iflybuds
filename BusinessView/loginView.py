@@ -60,7 +60,6 @@ class LoginView(Common):
             return True
         else:
             logging.error('get verificationcode Fail!')
-            self.getScreenShot('get verificationcode Fail')
             return False
 
     # 获取验证码并输入

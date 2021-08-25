@@ -328,6 +328,9 @@ class MainPageView(Common):
         except NoSuchElementException:
             logging.error('change language fail')
             self.getScreenShot('change language fail')
+            self.find_element(*self.Btn_back).click()
+            sleep(1)
+            self.find_element(*elements.Btn_recording_menu).click()
             return False
         else:
             logging.info('change language success')
@@ -346,6 +349,7 @@ class MainPageView(Common):
         try:
             self.driver.find_element(*elements.Btn_IFLYBUDS).click()
             self.driver.find_element(*self.Btn_start_record).click()
+            sleep(1)
             self.driver.find_element(*record_type).click()
         except NoSuchElementException:
             pass
