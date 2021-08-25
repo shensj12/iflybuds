@@ -341,6 +341,7 @@ class RecordingView(Common):
     # 上传云端
     def upload_to_cloud(self):
         logging.info('==== upload to cloud ====')
+        sleep(1)
         self.find_element(*elements.Btn_more).click()
         # Wi-Fi
         try:
@@ -412,8 +413,11 @@ class RecordingView(Common):
     # 删除测试用记录
     def delete_testcase(self):
         self.find_element(*elements.Btn_more).click()
+        sleep(1)
         self.find_element(*elements.delete_record).click()
+        sleep(1)
         self.find_element(*elements.delete_record_confirm).click()
+        sleep(1)
 
     # 检查是否成功删除测试用记录
     def check_testcase_deleted(self):
