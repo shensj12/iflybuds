@@ -378,7 +378,7 @@ class RecordingView(Common):
     # 确认搜索框
     def show_search_bar(self):
         logging.info('====show search bar====')
-        self.swipeCodown()
+        self.find_element(*elements.Btn_search_icon).click()
         try:
             self.find_element(*elements.Btn_search)
         except NoSuchElementException:
@@ -513,5 +513,11 @@ class RecordingView(Common):
         self.find_element(*elements.Btn_cloud).click()
         sleep(2)
 
-
-
+    def cloud_backup(self):
+        try:
+            self.find_element(*elements.Btn_cloud_backup)
+        except NoSuchElementException:
+            logging.info('==== normal ====')
+        else:
+            logging.info('==== click Btn_later ====')
+            self.find_element(*elements.btn_next).click()

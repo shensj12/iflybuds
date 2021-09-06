@@ -150,10 +150,12 @@ no_search_result = (By.XPATH, '/hierarchy/android.widget.FrameLayout/android.wid
                               '.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget'
                               '.LinearLayout/android.widget.TextView')
 delete_search = (By.ID, 'tws.iflytek.headset:id/delete_search')
+Btn_search_icon = (By.ID,'tws.iflytek.headset:id/left_img')
 Btn_search_confirm = (By.ID, 'tws.iflytek.headset:id/cancel')
 Btn_search_result = (By.ID, 'tws.iflytek.headset:id/container')
 Btn_search = (By.ID, 'tws.iflytek.headset:id/search_edit')
 Btn_confirm = (By.ID, 'tws.iflytek.headset:id/pop_confirm')
+Btn_cloud_backup=(By.ID,"tws.iflytek.headset:id/auto_upload")
 not_wifi_hint = (By.XPATH, '/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget'
                            '.LinearLayout/android.widget.LinearLayout')
 Btn_cloud = (By.XPATH, '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout'
