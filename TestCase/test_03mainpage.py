@@ -26,11 +26,12 @@ class TestMainpage(StartEnd):
         # 断言动作设置是否成功被切换
         self.assertTrue(m.check_right_chooseBtn())
 
-    def test_03_check_scanning(self):
-        m = MainPageView(self.driver)
-        logging.info('==== test_scanning ====')
-        # 断言是否进入扫一扫
-        self.assertTrue(m.check_scanning())
+    # 功能被干掉
+    # def test_03_check_scanning(self):
+    #     m = MainPageView(self.driver)
+    #     logging.info('==== test_scanning ====')
+    #     # 断言是否进入扫一扫
+    #     self.assertTrue(m.check_scanning())
 
 # =====================================================================================================================
     # audio改变语言和悬浮窗测试

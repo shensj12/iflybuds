@@ -313,7 +313,7 @@ class SettingView(Common):
         self.find_element(*elements.Btn_back).click()
         return exist
 
-    # 检查进程防关闭页面中是否为空
+    # 检查常见问题中是否为空
     def check_fqa_exist(self):
         logging.info('====check_fqa_exist====')
         exist = True
