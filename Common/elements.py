@@ -30,6 +30,7 @@ close_ad = (By.ID, 'tws.iflytek.headset:id/close')
 phonenum_type = (By.ID, 'tws.iflytek.headset:id/input')
 btn_getver = (By.ID, 'tws.iflytek.headset:id/button_tv')
 wechat_btn = (By.ID, 'tws.iflytek.headset:id/login_type_wx')
+wechat_btn2=(By.ID,'tws.iflytek.headset:id/login_wechat')
 btn_set = (By.XPATH,
            '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android'
            '.widget.RelativeLayout/android.widget.LinearLayout['
@@ -53,6 +54,9 @@ wechat_double_first = (By.XPATH, '/hierarchy/android.widget.FrameLayout/android.
                                  '/android.widget.GridView/android.widget.LinearLayout['
                                  '1]/android.widget.LinearLayout/android.widget.ImageView')
 # mainpageView
+# 未开启自动云备份后录音结束（1.3.5.7。。。次）弹出开启提示框
+Btn_auto_cloud_backup=(By.ID,"tws.iflytek.headset:id/auto_upload")
+
 close_first_record_prompt = (By.XPATH, '/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android'
                                        '.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout'
                                        '/android.widget.LinearLayout[2]/android.widget.ImageView')
@@ -285,6 +289,11 @@ Btn_english_check = (By.XPATH, '/hierarchy/android.widget.FrameLayout/android.wi
                                '.LinearLayout/android.widget.LinearLayout['
                                '4]/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout['
                                '2]/android.widget.LinearLayout/android.widget.ImageView')
+Label_putonghua=(By.XPATH,"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget"
+                          ".FrameLayout/android.widget.LinearLayout/android.widget.ScrollView/android.widget"
+                          ".LinearLayout/android.widget.LinearLayout["
+                          "4]/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout["
+                          "1]/android.widget.LinearLayout")
 Btn_telephone = (By.ID, 'tws.iflytek.headset:id/setting_account')
 Btn_nickname = (By.XPATH, '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget'
                           '.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout['
@@ -554,16 +563,8 @@ Having_meeting_end = (By.XPATH, '/hierarchy/android.widget.FrameLayout/android.w
                        '/android.view.ViewGroup/android.widget.LinearLayout/android.widget.TextView[2]')
 # 喜马拉雅FM
 Desktop_ximalaya = (By.XPATH, '//android.widget.TextView[@content-desc="喜马拉雅"]')
-Btn_ranking = (By.XPATH, '//android.widget.Button[@content-desc="排行榜"]/android.widget.ImageView')
-Ranking_first = (By.XPATH, '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget'
-                           '.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.widget'
-                           '.FrameLayout[3]/android.widget.FrameLayout/android.widget.FrameLayout/android.widget'
-                           '.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget'
-                           '.RelativeLayout/androidx.viewpager.widget.ViewPager/android.widget.FrameLayout/android'
-                           '.widget.LinearLayout/android.widget.LinearLayout/android.widget.FrameLayout/android'
-                           '.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget'
-                           '.FrameLayout/android.widget.ListView/android.widget.LinearLayout['
-                           '1]/android.widget.RelativeLayout')
+Btn_ximaplay = (By.ID, 'com.ximalaya.ting.android:id/main_fragment_playbar')
+Btn_ximaplay2=(By.ID,'com.ximalaya.ting.android:id/main_play_btn_bg')
 all_play = (By.ID, 'com.ximalaya.ting.android:id/main_tv_play_control')
 play_bar = (By.ID, 'com.ximalaya.ting.android:id/main_fragment_playbar')
 Btn_pause = (By.ID, 'com.ximalaya.ting.android:id/main_iv_play_btn_center_icon')

@@ -38,6 +38,8 @@ class TestMainpage(StartEnd):
     def test_04_audiorecordingpage_success(self):
         m = MainPageView(self.driver)
         logging.info('==== test_audiorecordingpage ====')
+        # 检查是否开启实时录音
+        m.turn_open_transtext()
         # 播放喜马拉雅FM
         m.open_ximalaya()
         m.audio_record_action()

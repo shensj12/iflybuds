@@ -1,13 +1,13 @@
 import logging
 import operator
-
 from appium.webdriver.common.touch_action import TouchAction
-
+from BusinessView.mainpageView import MainPageView
 from Common.common_fun import Common, NoSuchElementException
 from Common import elements
 from time import sleep
 
-class RecordingView(Common):
+
+class RecordingView(Common,MainPageView):
     # 切换至录音记录界面
     def change_to_recording_page(self):
         logging.info('==== change to recording page ====')
@@ -15,6 +15,8 @@ class RecordingView(Common):
         self.cancel_upgrade()
         sleep(1)
         self.driver.find_element(*elements.Btn_recording_menu).click()
+        sleep(1)
+        self.check_auto_cloud_backup()
         sleep(1)
         self.driver.find_element(*elements.refresh_icon).click()
 
@@ -371,7 +373,7 @@ class RecordingView(Common):
         self.delete_uploaded()
         self.find_element(*elements.first_record).click()
         sleep(1)
-        TouchAction(self.driver).tap(x=515, y=2228).perform() # 下载音频
+        TouchAction(self.driver).tap(x=515, y=2228).perform()  # 下载音频
         sleep(1)
         self.find_element(*elements.Btn_back).click()
 
@@ -462,7 +464,6 @@ class RecordingView(Common):
         sleep(1)
         # 暂停
         TouchAction(self.driver).tap(x=371, y=2153).perform()
-
 
     # 详情页改名
     def change_record_name(self):

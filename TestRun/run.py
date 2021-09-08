@@ -4,7 +4,7 @@ import time
 import unittest
 from HTMLTestRunnerCN import HTMLTestRunner
 
-path = 'G:\\iflybuds'
+path = '～/Desktop/iflybuds'
 sys.path.append(path)
 
 test_dir = '../TestCase'

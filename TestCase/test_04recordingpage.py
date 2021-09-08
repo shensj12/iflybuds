@@ -2,6 +2,7 @@ from Common.myunit import StartEnd
 from BusinessView.recordingView import RecordingView
 import logging
 
+
 class TestRecordingpage(StartEnd):
     def test_01_change_to_recordingpage(self):
         logging.info('RECORDING TESTS')
@@ -35,6 +36,7 @@ class TestRecordingpage(StartEnd):
         logging.info('==== test contents dist ====')
         # 断言更多内容是否为空
         self.assertTrue(r.check_more_contents_dist())
+
     #
     # def test_06_check_more_cancel(self):
     #     r = RecordingView(self.driver)
@@ -210,6 +212,3 @@ class TestRecordingpage(StartEnd):
         r = RecordingView(self.driver)
         logging.info('====test_download_inlist====')
         r.download_inlist()
-
-
-

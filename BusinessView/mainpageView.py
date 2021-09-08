@@ -226,16 +226,13 @@ class MainPageView(Common):
         self.driver.back()
         self.find_element(*elements.Desktop_ximalaya).click()
         sleep(10)
-        self.find_element(*elements.Btn_ranking).click()
-        sleep(1)
-        self.find_element(*elements.Ranking_first).click()
-        sleep(1)
+        logging.info('click play')
         try:
-            self.find_element(*elements.Btn_YiHouZaiShou).click()
-            sleep(1)
+            self.find_element(*elements.Btn_ximaplay2)
         except NoSuchElementException:
-            pass
-        self.find_element(*elements.all_play).click()
+            self.find_element(*elements.Btn_ximaplay).click()
+        else:
+            self.find_element(*elements.Btn_ximaplay2).click()
         sleep(1)
         self.driver.start_activity('tws.iflytek.headset', 'tws.iflytek.ui.SplashActivity')
 
@@ -287,6 +284,16 @@ class MainPageView(Common):
         except NoSuchElementException:
             pass
 
+    # 检查未开启自动云备份后录音结束（1.3.5.7。。。次）弹出开启提示框
+    def check_auto_cloud_backup(self):
+        logging.info("==== check_cloud_backup ====")
+        try:
+            self.find_element(*elements.Btn_auto_cloud_backup)
+        except NoSuchElementException:
+            logging.info('==== normal ====')
+        else:
+            self.find_element(*elements.btn_next).click()
+
     # 录音界面改变语言
     def change_language(self):
         logging.info('==== change language ====')
@@ -308,6 +315,8 @@ class MainPageView(Common):
         sleep(1)
         # 第一次通话后通讯录授权
         self.grant()
+        # 自动云备份提示框
+        self.check_auto_cloud_backup()
 
     # 检查语言是否成功被改变
     def check_language_change(self):
@@ -341,6 +350,8 @@ class MainPageView(Common):
             self.find_element(*elements.Btn_recording_menu).click()
         # 第一次通话后通讯录授权
         self.grant()
+        # 自动云备份提示框
+        self.check_auto_cloud_backup()
         return True
 
     #  悬浮窗
@@ -385,6 +396,8 @@ class MainPageView(Common):
             self.find_element(*elements.Btn_back).click()
         except NoSuchElementException:
             pass
+        # 自动云备份提示框
+        self.check_auto_cloud_backup()
         try:
             self.find_element(*elements.Btn_setting_menu)
         except NoSuchElementException:
@@ -396,11 +409,13 @@ class MainPageView(Common):
             logging.info('floating window success')
             # 可能有通讯录授权
             self.grant()
+
             return True
 
     # 检查录音是否正常结束
     def check_record_over(self):
         logging.info('====check_record_over====')
+        self.check_auto_cloud_backup()
         try:
             self.find_element(*elements.first_record)
         except NoSuchElementException:
@@ -413,6 +428,24 @@ class MainPageView(Common):
             self.find_element(*elements.Btn_IFLYBUDS).click()
             return True
 
+    # 打开录音实时转文字
+    def turn_open_transtext(self):
+        logging.info('====turn open transtext====')
+        self.find_element(*elements.Btn_setting_menu).click()
+        sleep(1)
+        self.find_element(*elements.Btn_setting_call_record).click()
+        sleep(1)
+        try:
+            self.find_element(*elements.Label_putonghua)
+        except NoSuchElementException:
+            self.find_element(*elements.Btn_simultaneous).click()
+        else:
+            pass
+        sleep(1)
+        self.find_element(*elements.Btn_back).click()
+        sleep(1)
+        self.find_element(*elements.Btn_IFLYBUDS).click()
+
     # 关闭录音实时转文字
     def turn_off_transtext(self):
         logging.info('====turn off transtext====')
@@ -420,7 +453,12 @@ class MainPageView(Common):
         sleep(1)
         self.find_element(*elements.Btn_setting_call_record).click()
         sleep(1)
-        self.find_element(*elements.Btn_simultaneous).click()
+        try:
+            self.find_element(*elements.Label_putonghua)
+        except NoSuchElementException:
+            pass
+        else:
+            self.find_element(*elements.Btn_simultaneous).click()
         sleep(1)
         self.find_element(*elements.Btn_back).click()
         sleep(1)
@@ -502,6 +540,7 @@ class MainPageView(Common):
             try:
                 self.find_element(*elements.Btn_stop_record).click()
                 self.find_element(*elements.Btn_back).click()
+                self.check_auto_cloud_backup()
             except NoSuchElementException:
                 pass
             return False
@@ -515,6 +554,7 @@ class MainPageView(Common):
                 except NoSuchElementException:
                     pass
                 self.find_element(*elements.Btn_back).click()
+                self.check_auto_cloud_backup()
             except NoSuchElementException:
                 pass
             return True
