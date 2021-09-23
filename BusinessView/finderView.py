@@ -111,7 +111,6 @@ class FinderView(Common):
         logging.info('====check_in_sleep_music====')
         return self.find_element(*elements.relax_title).text
 
-
     # 滑动进入冥想时刻
     def swipe_to_meditation(self):
         logging.info('====swipe_to_meditation====')
@@ -135,11 +134,9 @@ class FinderView(Common):
         return self.find_element(*elements.relax_title).text
 
     # 音乐最小化至发现页
-    def minimise_music(self):
+    def check_music_minimisation(self):
         logging.info('====minimise music====')
         self.find_element(*elements.Btn_back).click()
-
-    def check_music_minimisation(self):
         try:
             self.find_element(*elements.finder_pause_music)
         except NoSuchElementException:
@@ -152,3 +149,45 @@ class FinderView(Common):
             sleep(1)
             self.find_element(*elements.close_music_bar).click()
             return True
+
+    # ================2.4.0新增======================
+    def check_in_useguide(self):
+        sleep(2)
+        self.find_element(*elements.Btn_useguide).click()
+        try:
+            self.find_element(*elements.Title_h5)
+        except NoSuchElementException:
+            logging.info('==== Failed to enter H5 page ====')
+            self.getScreenShot('Failed to enter H5 page')
+            return False
+        else:
+            logging.info('==== Enter H5 page successfully ====')
+            return True
+
+    def findpage_back(self):
+        sleep(2)
+        self.find_element(*elements.Btn_back).click()
+        try:
+            self.find_element(*elements.Title_h5)
+        except NoSuchElementException:
+            logging.info('==== Page returned successfully ====')
+            return True
+        else:
+            logging.info('==== Failed to return to page ====')
+            self.getScreenShot('Failed to return to page')
+            return False
+
+    def check_in_help(self):
+        sleep(2)
+        self.find_element(*elements.Btn_help).click()
+        try:
+            self.find_element(*elements.Title_h5)
+        except NoSuchElementException:
+            logging.info('==== Failed to enter H5 page ====')
+            self.getScreenShot('Failed to enter H5 page')
+            return False
+        else:
+            logging.info('Enter H5 page successfully')
+            return True
+
+

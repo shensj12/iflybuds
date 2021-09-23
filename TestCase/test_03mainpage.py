@@ -11,6 +11,7 @@ class TestMainpage(StartEnd):
         logging.info('MAIN TESTS')
         c = Common(self.driver)
         m = MainPageView(self.driver)
+        c.check_crash_lm()
         logging.info('==== test_leftconfig ====')
         logging.info('==== check login ====')
         c.check_login()
@@ -21,6 +22,8 @@ class TestMainpage(StartEnd):
 
     def test_02_rightconfig_success(self):
         m = MainPageView(self.driver)
+        c = Common(self.driver)
+        c.check_crash_lm()
         logging.info('==== test_rightconfig ====')
         m.change_Right_config()
         # 断言动作设置是否成功被切换
@@ -33,11 +36,15 @@ class TestMainpage(StartEnd):
     #     # 断言是否进入扫一扫
     #     self.assertTrue(m.check_scanning())
 
-# =====================================================================================================================
+    # =====================================================================================================================
     # audio改变语言和悬浮窗测试
     def test_04_audiorecordingpage_success(self):
         m = MainPageView(self.driver)
+        c = Common(self.driver)
+        c.check_crash_lm()
         logging.info('==== test_audiorecordingpage ====')
+        # 检查是否开启实时录音
+        m.turn_open_transtext()
         # 播放喜马拉雅FM
         m.open_ximalaya()
         m.audio_record_action()
@@ -46,6 +53,8 @@ class TestMainpage(StartEnd):
 
     def test_05_audio_change_language_success(self):
         m = MainPageView(self.driver)
+        c = Common(self.driver)
+        c.check_crash_lm()
         logging.info('==== change language ====')
         m.change_language()
         # 断言成功改变语言
@@ -63,10 +72,13 @@ class TestMainpage(StartEnd):
         logging.info('====test_record_complete====')
         # 断言是否成功结束录音
         self.assertTrue(m.check_record_over())
-# =====================================================================================================================
+
+    # =====================================================================================================================
     # microphone改变语言和悬浮窗测试
     def test_08_microphonerecordingpage_success(self):
         m = MainPageView(self.driver)
+        c = Common(self.driver)
+        c.check_crash_lm()
         logging.info('==== test_microphonerecordingpage ====')
         m.microphone_record_action()
         # 断言是否进入录音页面
@@ -91,10 +103,13 @@ class TestMainpage(StartEnd):
         logging.info('====test_record_complete====')
         # 断言是否成功结束录音
         self.assertTrue(m.check_record_over())
-# =====================================================================================================================
+
+    # =====================================================================================================================
     # dial改变语言和悬浮窗测试
     def test_12_dialrecordingpage_success(self):
         m = MainPageView(self.driver)
+        c = Common(self.driver)
+        c.check_crash_lm()
         logging.info('==== test_dialrecordingpage ====')
         m.dial_record_action()
         # 断言是否进入录音页面
@@ -110,21 +125,26 @@ class TestMainpage(StartEnd):
     def test_14_dial_floating_window_success(self):
         m = MainPageView(self.driver)
         logging.info('====test_floating_window====')
-        m.start_up_floating_window(elements.Sel_dialrecord) # 通话时进入app直接开始录音
+        m.start_up_floating_window(elements.Sel_dialrecord)  # 通话时进入app直接开始录音
         # 断言是否成功切换悬浮窗
         self.assertTrue(m.check_floating_window())
 
     def test_15_dial_over_success(self):
         m = MainPageView(self.driver)
+        c = Common(self.driver)
+        m.check_finish_record()
+        c.check_crash_lm_r()
         logging.info('====test_record_complete====')
         # 断言是否成功结束录音
         self.assertTrue(m.check_record_over())
         # 关闭喜马拉雅FM和腾讯会议
         m.close_wemeet()
 
-# ======================================================================================================================
+    # ======================================================================================================================
     def test_16_nontrans_audiorecord_success(self):
         m = MainPageView(self.driver)
+        c = Common(self.driver)
+        c.check_crash_lm()
         logging.info('====test_nontrans_audio====')
         m.turn_off_transtext()
         m.audio_record_action()
@@ -140,6 +160,8 @@ class TestMainpage(StartEnd):
     def test_18_transtext_in_record_audio(self):
         logging.info('====test_transtext_in_record_audio====')
         m = MainPageView(self.driver)
+        c = Common(self.driver)
+        c.check_crash_lm_r()
         m.transtext_action()
         # 断言是否成功转文字
         self.assertTrue(m.check_record_transtext())
@@ -151,9 +173,12 @@ class TestMainpage(StartEnd):
         # 断言录音时切换转文字成功
         self.assertTrue(m.check_change_trans_success())
 
-# ======================================================================================================================
+    # ======================================================================================================================
     def test_20_nontrans_microphonerecord_success(self):
         m = MainPageView(self.driver)
+        c = Common(self.driver)
+        c.check_crash_lm()
+        m.check_auto_cloud_backup()
         logging.info('====test_nontrans_microphone====')
         m.microphone_record_action()
         # 断言成功进入录音界面
@@ -162,26 +187,33 @@ class TestMainpage(StartEnd):
     def test_21_nontrans_microphone_over_success(self):
         m = MainPageView(self.driver)
         logging.info('====test_nontrans_microphone_over====')
+        m.check_auto_cloud_backup()
         # 断言录音是否成功结束
         self.assertTrue(m.check_nontrans_record_over(elements.Btn_record_transtext))
 
     def test_22_transtext_in_record_microphone(self):
         logging.info('====test_transtext_in_record_microphone====')
         m = MainPageView(self.driver)
+        c = Common(self.driver)
+        c.check_crash_lm()
         m.transtext_action()
         # 断言是否成功转文字
         self.assertTrue(m.check_record_transtext())
 
     def test_23_trantext_when_recording_microphone(self):
         m = MainPageView(self.driver)
+        c = Common(self.driver)
+        c.check_crash_lm()
         m.microphone_record_action()
         m.transtext_when_recording()
         # 断言录音时切换转文字成功
         self.assertTrue(m.check_change_trans_success())
 
-# ======================================================================================================================
+    # ======================================================================================================================
     def test_24_nontrans_dialrecord_success(self):
         m = MainPageView(self.driver)
+        c = Common(self.driver)
+        c.check_crash_lm()
         logging.info('====test_nontrans_dial====')
         m.dial_record_action()
         # 断言成功进入录音界面
@@ -196,6 +228,8 @@ class TestMainpage(StartEnd):
     def test_26_transtext_in_record_dial(self):
         logging.info('====test_transtext_in_record_dial====')
         m = MainPageView(self.driver)
+        c = Common(self.driver)
+        c.check_crash_lm()
         m.transtext_action()
         # 断言是否成功转文字
         self.assertTrue(m.check_record_transtext())

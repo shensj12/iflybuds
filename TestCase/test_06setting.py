@@ -28,6 +28,8 @@ class TestSettingpage(StartEnd):
 
     def test_04_change_username_success(self):
         s = SettingView(self.driver)
+        c = Common(self.driver)
+        c.check_crash_s()
         logging.info('====change username ====')
         # 断言改变用户名
         self.assertTrue(s.change_username())
@@ -45,6 +47,7 @@ class TestSettingpage(StartEnd):
         # 断言语言是否成功被切换
         self.assertTrue(s.check_language_changed())
 
+    # 白色耳机去除
     # def test_06_check_wakeup_change(self):
     #     s = SettingView(self.driver)
     #     logging.info('==== check wakeup change')
@@ -53,14 +56,16 @@ class TestSettingpage(StartEnd):
     #         # 断言是否改变语音唤醒选项
     #         self.assertTrue(s.check_wakeup_options())
 
-    def test_07_webpage_check_success(self):
-        s = SettingView(self.driver)
-        logging.info('==== check webpage existence ====')
-        # 断言各页面存在内容
-        self.assertTrue(s.check_webpage_exist())
+    # def test_07_webpage_check_success(self):
+    #     s = SettingView(self.driver)
+    #     logging.info('==== check webpage existence ====')
+    #     # 断言各页面存在内容
+    #     self.assertTrue(s.check_webpage_exist())
 
-    def test_08_process_check_success(self):
+    def test_07_process_check_success(self):
         s = SettingView(self.driver)
+        c = Common(self.driver)
+        c.check_crash_s()
         logging.info('==== check process existence ====')
         # 断言各页面存在内容
         self.assertTrue(s.check_process_exist())
@@ -72,55 +77,65 @@ class TestSettingpage(StartEnd):
     #         # 断言各页面存在内容
     #         self.assertTrue(s.check_dial_exist())
 
-    def test_10_instructions_image_success(self):
+    def test_08_instructions_image_success(self):
         s = SettingView(self.driver)
+        c = Common(self.driver)
+        c.check_crash_s()
         logging.info('==== check instructions existence ====')
         # 断言各页面存在内容
         self.assertTrue(s.check_image_exist())
 
-    def test_11_instructions_video_success(self):
+    def test_09_instructions_video_success(self):
         s = SettingView(self.driver)
+        c = Common(self.driver)
+        c.check_crash_s()
         logging.info('==== check instructions existence ====')
         # 断言各页面存在内容
         self.assertTrue(s.check_video_exist())
 
-    def test_12_fqa_check_success(self):
+    def test_10_fqa_check_success(self):
         s = SettingView(self.driver)
+        c = Common(self.driver)
+        c.check_crash_s()
         logging.info('==== check fqa existence ====')
         # 断言各页面存在内容
         self.assertTrue(s.check_fqa_exist())
 
-    def test_13_help_check_success(self):
+    def test_11_help_check_success(self):
         s = SettingView(self.driver)
+        c = Common(self.driver)
+        c.check_crash_s()
         logging.info('==== check help existence ====')
         # 断言各页面存在内容
         self.assertTrue(s.check_help_exist())
 
-    def test_14_us_check_success(self):
+    def test_12_us_check_success(self):
         s = SettingView(self.driver)
+        c = Common(self.driver)
+        c.check_crash_s()
         logging.info('==== check us existence ====')
         # 断言页面存在内容
         self.assertTrue(s.check_us_exist())
 
-    def test_15_firmware_check_success(self):
+    def test_13_firmware_check_success(self):
         s = SettingView(self.driver)
         logging.info('==== check firmware existence ====')
         # 断言固件版本存在内容
         self.assertTrue(s.check_us_firmware())
 
-    def test_16_weibo_check_success(self):
+    def test_14_weibo_check_success(self):
         s = SettingView(self.driver)
         logging.info('==== check weibo existence ====')
         # 断言官方微博存在内容
         self.assertTrue(s.check_us_weibo())
 
-    def test_17_official_check_success(self):
+    def test_15_official_check_success(self):
         s = SettingView(self.driver)
         logging.info('==== check official existence ====')
         # 断言访问官网存在内容
         self.assertTrue(s.check_us_official())
 
-    def test_18_privacy_check_success(self):
+    def test_16_privacy_check_success(self):
         s = SettingView(self.driver)
         logging.info('==== check privacy existence ====')
         # 断言各页面存在内容

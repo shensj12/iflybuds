@@ -4,6 +4,7 @@ from selenium.webdriver.common.by import By
 from time import sleep
 from Common import elements
 
+
 class LoginView(Common):
     check_privacy = (By.ID, 'tws.iflytek.headset:id/authsdk_checkbox_view')
     check_privacy_02 = (By.ID, 'tws.iflytek.headset:id/checkbox_layout')
@@ -28,7 +29,8 @@ class LoginView(Common):
     btn_access = (By.ID, 'tws.iflytek.headset:id/permission_phone_layout')
     btn_device_allow = (By.ID, 'com.android.permissioncontroller:id/permission_allow_button')
     # 微信双开选择
-    wechat_btn_android = (By.XPATH, '/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.FrameLayout/androidx.viewpager.widget.ViewPager/android.widget.GridView/android.widget.LinearLayout[1]/android.widget.LinearLayout/android.widget.ImageView')
+    wechat_btn_android = (By.XPATH,
+                          '/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.FrameLayout/androidx.viewpager.widget.ViewPager/android.widget.GridView/android.widget.LinearLayout[1]/android.widget.LinearLayout/android.widget.ImageView')
 
     # 输入手机号码后获取验证码
     def login_action(self, phone_num):
@@ -112,18 +114,14 @@ class LoginView(Common):
         try:
             self.driver.find_element(*self.btn_location_allow)
         except NoSuchElementException:
-            logging.error('firstlogin Fail!')
-            self.getScreenShot('firstlogin fail')
-            return False
+            logging.error('not firstlogin!')
         else:
-            logging.info('firstlogin success!')
+            logging.info('is firstlogin ')
             self.grant()
-            return True
+            self.check_guidepage_change()
 
     # 检查引导页是否正常切换完成
     def check_guidepage_change(self):
-        logging.info('===== check_guidepage_change =====')
-        try:
             logging.info('==== click btn_next ====')
             self.driver.find_element(*self.btn_next).click()
             sleep(1)
@@ -146,18 +144,8 @@ class LoginView(Common):
             except NoSuchElementException:
                 pass
             sleep(1)
-            self.driver.find_element(*self.btn_set)
-        except NoSuchElementException:
-            logging.error('guidepage change Fail!')
-            self.getScreenShot('guidepage change Fail!')
-            return False
-        else:
-            logging.info('guidepage change success!')
-            sleep(1)
-            self.cancel_upgrade()
-            sleep(1)
-            self.logout_action()
-            return True
+
+
 
     # 检查是否登录
     def check_loginStatus(self):

@@ -1,13 +1,23 @@
 import logging
 import operator
-
 from appium.webdriver.common.touch_action import TouchAction
-
 from Common.common_fun import Common, NoSuchElementException
 from Common import elements
 from time import sleep
+from BusinessView.mainpageView import MainPageView
+
 
 class RecordingView(Common):
+    # 检查未开启自动云备份后录音结束（1.3.5.7。。。次）弹出开启提示框
+    def check_auto_cloud_backup(self):
+        logging.info("==== check_cloud_backup ====")
+        try:
+            self.find_element(*elements.Btn_auto_cloud_backup)
+        except NoSuchElementException:
+            logging.info('==== normal ====')
+        else:
+            self.find_element(*elements.btn_next).click()
+
     # 切换至录音记录界面
     def change_to_recording_page(self):
         logging.info('==== change to recording page ====')
@@ -16,25 +26,21 @@ class RecordingView(Common):
         sleep(1)
         self.driver.find_element(*elements.Btn_recording_menu).click()
         sleep(1)
+        self.check_auto_cloud_backup()
+        sleep(1)
         self.driver.find_element(*elements.refresh_icon).click()
 
     # 检查是否已在录音记录界面
     def check_page_is_recording(self):
         logging.info('==== check this is recording page ====')
-        return self.driver.find_element(*elements.Img_records).text
-
-    # 检查记录是否为空
-    def check_if_empty_record(self):
-        logging.info('==== check recording empty or not ====')
         try:
-            self.find_element(*elements.first_record)
+            self.find_element(*elements.Btn_search_icon)
         except NoSuchElementException:
-            logging.error('Empty recording list')
-            self.getScreenShot('Empty recording list')
+            logging.info('==== enter the page fail ====')
             return False
         else:
-            logging.info('Non-empty recording list')
-            return True
+            logging.info('==== enter the page success ====')
+            return False
 
     # 进入录音记录
     def enter_record(self):
@@ -46,8 +52,9 @@ class RecordingView(Common):
         logging.info('==== check contents in MORE ROW ====')
         logging.info('==== check sharing URL ====')
         self.find_element(*elements.Btn_more).click()
+        sleep(1)
+        self.find_element(*elements.Btn_share_url).click()
         try:
-            self.find_element(*elements.Btn_share_url).click()
             self.find_element(*elements.Check_share_url)
         except NoSuchElementException:
             logging.error("No share url")
@@ -97,7 +104,7 @@ class RecordingView(Common):
     def share_back_abst(self):
         self.find_element(*elements.back_iflybuds).click()
         try:
-            self.find_element(*elements.Btn_share)
+            self.find_element(*elements.Btn_more)
         except NoSuchElementException:
             logging.error('back fail')
             self.getScreenShot('back fail')
@@ -188,30 +195,30 @@ class RecordingView(Common):
         else:
             return True
 
-    # 检查区分说话人
-    def check_more_contents_dist(self):
-        logging.info('==== check contents in MORE ROW ====')
-        logging.info('====区分说话人====')
-        self.find_element(*elements.Btn_more).click()
-        self.find_element(*elements.more_col_01).click()
-        try:
-            # 开始分析
-            TouchAction(self.driver).tap(x=534, y=1954).perform()
-            # 不需要
-            # self.driver.tap([(546, 2136)], 100)
-        except NoSuchElementException:
-            logging.error('dist Fail')
-            self.getScreenShot('dist Fail')
-            return False
-        else:
-            logging.info('dist Success')
-            return True
+    # # 检查区分说话人
+    # def check_more_contents_dist(self):
+    #     logging.info('==== check contents in MORE ROW ====')
+    #     logging.info('====区分说话人====')
+    #     self.find_element(*elements.Btn_more).click()
+    #     self.find_element(*elements.more_col_01).click()
+    #     try:
+    #         # 开始分析
+    #         TouchAction(self.driver).tap(x=534, y=1954).perform()
+    #         # 不需要
+    #         # self.driver.tap([(546, 2136)], 100)
+    #     except NoSuchElementException:
+    #         logging.error('dist Fail')
+    #         self.getScreenShot('dist Fail')
+    #         return False
+    #     else:
+    #         logging.info('dist Success')
+    #         return True
 
     # 检查原始记录
     def check_more_contents_origin(self):
         logging.info('====查看原始记录====')
         self.find_element(*elements.Btn_more).click()
-        self.find_element(*elements.more_col_01).click()
+        self.find_element(*elements.more_col_02).click()
         try:
             self.driver.find_element_by_xpath('/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout'
                                               '/android.widget.FrameLayout/android.widget.RelativeLayout/android'
@@ -230,7 +237,7 @@ class RecordingView(Common):
     def check_more_contents_translate(self):
         logging.info('====翻译====')
         self.find_element(*elements.Btn_more).click()
-        self.find_element(*elements.more_col_03).click()
+        self.find_element(*elements.more_col_04).click()
         sleep(3)
         try:
             self.driver.find_element_by_id('tws.iflytek.headset:id/left_text')
@@ -248,7 +255,7 @@ class RecordingView(Common):
     def check_more_contents_copyall(self):
         logging.info('====复制全部====')
         self.find_element(*elements.Btn_more).click()
-        self.find_element(*elements.more_col_04).click()
+        self.find_element(*elements.more_col_05).click()
         try:
             self.find_element(*elements.Btn_more)
         except NoSuchElementException:
@@ -263,7 +270,7 @@ class RecordingView(Common):
     def check_more_contents_abstract(self):
         logging.info('====查看摘要====')
         self.find_element(*elements.Btn_more).click()
-        self.find_element(*elements.more_col_05).click()
+        self.find_element(*elements.more_col_06).click()
         try:
             self.driver.find_element_by_id('tws.iflytek.headset:id/content')
         except NoSuchElementException:
@@ -278,6 +285,8 @@ class RecordingView(Common):
     # 分享摘要链接
     def share_abst_url(self):
         logging.info('====share abst url====')
+        self.find_element(*elements.Btn_more).click()
+        sleep(1)
         self.find_element(*elements.Btn_share).click()
         sleep(1)
         self.find_element(*elements.abst_share_url).click()
@@ -293,6 +302,8 @@ class RecordingView(Common):
     # 分享摘要文字
     def share_abst_text(self):
         logging.info('====share abst text====')
+        self.find_element(*elements.Btn_more).click()
+        sleep(1)
         self.find_element(*elements.Btn_share).click()
         sleep(1)
         self.find_element(*elements.abst_share_text).click()
@@ -304,25 +315,6 @@ class RecordingView(Common):
         self.find_element(*elements.wechat_forward_first).click()
         sleep(1)
         self.find_element(*elements.wechat_forward_confirm).click()
-
-    # 导出摘要
-    def output_abst(self):
-        logging.info('====output abstract====')
-        self.find_element(*elements.Btn_share).click()
-        sleep(1)
-        self.find_element(*elements.abst_output).click()
-        sleep(1)
-        try:
-            self.find_element(*elements.Btn_cancel).click()
-        except NoSuchElementException:
-            logging.error('output fail')
-            self.getScreenShot('output fail')
-            self.find_element(*elements.Btn_back).click()
-            return False
-        else:
-            logging.info('output success')
-            self.find_element(*elements.Btn_back).click()
-            return True
 
     # 删除云端
     def delete_uploaded(self):
@@ -345,7 +337,7 @@ class RecordingView(Common):
         self.find_element(*elements.Btn_more).click()
         # Wi-Fi
         try:
-            self.find_element(*elements.more_col_02).click()
+            self.find_element(*elements.more_col_03).click()
         except NoSuchElementException:
             logging.error('upload Fail')
             self.getScreenShot('upload Fail')
@@ -371,30 +363,25 @@ class RecordingView(Common):
         self.delete_uploaded()
         self.find_element(*elements.first_record).click()
         sleep(1)
-        TouchAction(self.driver).tap(x=515, y=2228).perform() # 下载音频
+        TouchAction(self.driver).tap(x=515, y=2228).perform()  # 下载音频
         sleep(1)
         self.find_element(*elements.Btn_back).click()
-
-    # 确认搜索框
-    def show_search_bar(self):
-        logging.info('====show search bar====')
-        self.find_element(*elements.Btn_search_icon).click()
-        try:
-            self.find_element(*elements.Btn_search)
-        except NoSuchElementException:
-            logging.error('no search bar')
-            self.getScreenShot('no search bar')
-            return False
-        else:
-            logging.info('search bar exists')
-            return True
 
     # 搜索进入测试用记录
     def enter_search_case(self):
         logging.info('====enter_search_case====')
+        sleep(1)
+        logging.info('1')
+        # self.find_element(*elements.Btn_search_icon).click()
+        # sleep(1)
+        logging.info('2')
         self.find_element(*elements.Btn_search).click()
+        sleep(1)
+        logging.info('3')
         self.find_element(*elements.Btn_search).send_keys('测试用')
+        sleep(1)
         self.find_element(*elements.Btn_search_confirm).click()
+        sleep(1)
         self.find_element(*elements.Btn_search_result).click()
 
     # 检查是否已进入记录
@@ -423,7 +410,7 @@ class RecordingView(Common):
     def check_testcase_deleted(self):
         logging.info('====check testcase deleted====')
         self.swipeCodown()
-        self.find_element(*elements.Btn_search).send_keys('测试用')
+        self.find_element(*elements.Btn_search).send_keys('标题栏分组')
         self.find_element(*elements.Btn_search_confirm).click()
         try:
             self.find_element(*elements.no_search_result)
@@ -463,24 +450,23 @@ class RecordingView(Common):
         # 暂停
         TouchAction(self.driver).tap(x=371, y=2153).perform()
 
-
-    # 详情页改名
-    def change_record_name(self):
+    # 详情页改名取消
+    def change_record_name_cancel(self):
         self.find_element(*elements.first_record).click()
         sleep(1)
         self.find_element(*elements.record_title).click()
         sleep(1)
-        self.find_element(*elements.name_bar).send_keys("改名")
-        sleep(1)
-        self.find_element(*elements.Title_confirm).click()
-
-    # 详情页改名取消
-    def change_record_name_cancel(self):
-        self.find_element(*elements.record_title).click()
-        sleep(1)
         self.find_element(*elements.Btn_exit).click()
-        sleep(1)
-        self.find_element(*elements.Btn_back).click()
+        try:
+            self.find_element(*elements.Btn_exit)
+        except NoSuchElementException:
+            logging.info('==== cancel success ====')
+            self.find_element(*elements.Btn_back).click()
+            return True
+        else:
+            logging.info('==== cancel fail ====')
+            self.find_element(*elements.Btn_back).click()
+            return False
 
     # 检查更多关闭键
     def check_more_cancel(self):
@@ -501,11 +487,28 @@ class RecordingView(Common):
         deleted = self.find_element(*elements.first_record)
         TouchAction(self.driver).long_press(deleted).perform()
         self.find_element(*elements.Btn_confirm).click()
+        sleep(2)
+        try:
+            self.find_element(*elements.Btn_confirm)
+        except NoSuchElementException:
+            logging.info('==== delete record success ====')
+            return True
+        else:
+            logging.info('==== delete record fail ====')
+            return False
 
     def delete_record_cancel(self):
         deleted = self.find_element(*elements.first_record)
         TouchAction(self.driver).long_press(deleted).perform()
         self.find_element(*elements.Btn_cancel).click()
+        try:
+            self.find_element(*elements.Btn_confirm)
+        except NoSuchElementException:
+            logging.info('==== cancel delete success ====')
+            return True
+        else:
+            logging.info('==== cancel delete fail ====')
+            return False
 
     def download_inlist(self):
         self.delete_uploaded()
@@ -521,3 +524,236 @@ class RecordingView(Common):
         else:
             logging.info('==== click Btn_later ====')
             self.find_element(*elements.btn_next).click()
+
+    # 2.4.0需求
+    def group_select(self):
+        self.find_element(*elements.Icon_select).click()
+        try:
+            self.find_element(*elements.Btn_management_group)
+        except NoSuchElementException:
+            logging.info('==== Drop down failed ====')
+            self.getScreenShot('Drop down failed')
+            return False
+        else:
+            logging.info('==== Drop down success ====')
+            return True
+
+    def management_group(self):
+        self.find_element(*elements.Btn_management_group).click()
+        try:
+            self.find_element(*elements.Btn_group_create1)
+        except NoSuchElementException:
+            logging.info('==== enter page fail ====')
+            self.getScreenShot('enter page fail')
+            return False
+        else:
+            logging.info('==== enter page success ====')
+            return True
+
+    def create(self):
+        self.find_element(*elements.Btn_group_create1).click()
+        sleep(1)
+        self.find_element(*elements.Text_group_name).send_keys('测试')
+        sleep(2)
+        logging.info('==== click comfirm ====')
+        self.find_element(*elements.Btn_group_comfirm).click()
+        sleep(1)
+        a = self.find_element(*elements.First_group)
+        b = a.get_attribute("text")
+        if b == "测试":
+            logging.info('==== create success ====')
+            return True
+        else:
+            logging.info('==== create fail ====')
+            self.getScreenShot('create fail')
+            return False
+
+    def create_cancel(self):
+        self.find_element(*elements.Btn_group_create1).click()
+        sleep(1)
+        self.find_element(*elements.Btn_group_cancel).click()
+        try:
+            self.find_element(*elements.Btn_group_cancel)
+        except NoSuchElementException:
+            logging.info('==== click btn_cancel success ====')
+            return True
+        else:
+            logging.info('==== click btn_cancel fail ====')
+            self.getScreenShot('click btn_cancel fail')
+            return False
+
+    def group_press_action(self):
+        First_group = self.find_element(*elements.First_group)
+        TouchAction(self.driver).long_press(First_group).perform()
+        try:
+            self.find_element(*elements.Btn_rename)
+        except NoSuchElementException:
+            logging.info('==== press fail ====')
+            self.getScreenShot('press fail')
+        else:
+            logging.info('==== press success =====')
+
+    def rename(self):
+        self.group_press_action()
+        sleep(1)
+        self.find_element(*elements.Btn_rename).click()
+        sleep(1)
+        self.find_element(*elements.Text_rename).send_keys('修改名称')
+        sleep(2)
+        self.find_element(*elements.Btn_group_comfirm).click()
+        a = self.find_element(*elements.First_group)
+        b = a.get_attribute("text")
+        if b == "修改名称":
+            logging.info('==== rename success ====')
+            return True
+        else:
+            logging.info('==== rename fail ====')
+            self.getScreenShot('rename fail')
+            return False
+
+    def rename_cancel(self):
+        self.group_press_action()
+        sleep(1)
+        self.find_element(*elements.Btn_rename).click()
+        sleep(1)
+        self.find_element(*elements.Btn_group_cancel).click()
+        try:
+            self.find_element(*elements.Btn_group_cancel)
+        except NoSuchElementException:
+            logging.info('==== click btn_cancel success ====')
+            return True
+        else:
+            logging.info('==== click btn_cancel fail ====')
+            self.getScreenShot('click btn_cancel fail')
+            return False
+
+    def rename_delete(self):
+        self.group_press_action()
+        First_group = self.find_element(*elements.First_group)
+        TouchAction(self.driver).long_press(First_group).perform()
+        sleep(1)
+        self.find_element(*elements.Btn_group_delete).click()
+        sleep(1)
+        self.find_element(*elements.Btn_confirm).click()
+        sleep(1)
+        a = self.find_element(*elements.First_group)
+        b = a.get_attribute("text")
+        if b == "修改名称":
+            logging.info('==== delete fail ====')
+            self.find_element(*elements.Btn_back).click()
+            self.getScreenShot('delete fail')
+            return False
+        else:
+            logging.info('==== delete success ====')
+            self.find_element(*elements.Btn_back).click()
+            return True
+
+    def title_group_create(self):
+        self.find_element(*elements.record_title).click()
+        sleep(1)
+        self.find_element(*elements.Btn_group_create2).click()
+        sleep(1)
+        self.find_element(*elements.Text_group_name).send_keys('标题栏分组')
+        sleep(2)
+        self.find_element(*elements.Btn_group_comfirm).click()
+        sleep(1)
+        a = self.find_element(*elements.First_group2)
+        b = a.get_attribute("text")
+        if b == "标题栏分组":
+            logging.info('==== create success ====')
+            return True
+        else:
+            logging.info('==== create fail ====')
+            self.getScreenShot('create fail ')
+            return False
+
+    def title_group_create_cancel(self):
+        self.find_element(*elements.Btn_group_create2).click()
+        sleep(1)
+        self.find_element(*elements.Btn_group_cancel).click()
+        try:
+            self.find_element(*elements.Btn_group_create2)
+        except NoSuchElementException:
+            logging.info('==== click btn_cancel fail ====')
+            self.getScreenShot('click btn_cancel fail')
+            return False
+        else:
+            logging.info('==== click btn_cancel success ====')
+            return True
+
+    def check_in_group_choose(self):
+        self.find_element(*elements.Btn_group_comfirm).click()
+        sleep(1)
+        a = self.find_element(*elements.Title_tip)
+        b = a.get_attribute("text")
+        if b == "标题栏分组":
+            logging.info('==== choose group success ====')
+            self.find_element(*elements.Icon_select).click()
+            sleep(1)
+            self.find_element(*elements.Btn_management_group).click()
+            sleep(1)
+            First_group = self.find_element(*elements.First_group)
+            TouchAction(self.driver).long_press(First_group).perform()
+            sleep(1)
+            self.find_element(*elements.Btn_group_delete).click()
+            sleep(1)
+            self.find_element(*elements.Btn_confirm).click()
+            sleep(1)
+            self.find_element(*elements.Btn_back).click()
+            return True
+        else:
+            logging.info('==== choose group fail ====')
+            self.getScreenShot('choose group fail ')
+            self.find_element(*elements.Icon_select).click()
+            sleep(1)
+            self.find_element(*elements.Btn_management_group).click()
+            sleep(1)
+            First_group = self.find_element(*elements.First_group)
+            TouchAction(self.driver).long_press(First_group).perform()
+            sleep(1)
+            self.find_element(*elements.Btn_group_delete).click()
+            sleep(1)
+            self.find_element(*elements.Btn_confirm).click()
+            sleep(1)
+            self.find_element(*elements.Btn_back).click()
+            return False
+
+    def check_group_choose(self):
+        self.find_element(elements.Icon_select).click()
+        sleep(1)
+        self.find_element(*elements.Second_group).click()
+        a = self.find_element(*elements.Title_tip)
+        b = a.get_attribute("text")
+        if b == "不删除":
+            logging.info('==== choose group success ====')
+            return True
+        else:
+            logging.info('==== choose group fail ====')
+            self.getScreenShot('choose group fail ')
+            return False
+
+    # ========防止闪退后腾讯会议未关闭，开启app始终在通话录音，无法继续测试
+
+    def check_finish_record(self):
+        logging.info('==== check_meeting ====')
+        try:
+            self.find_element(*elements.Btn_stop_record)
+        except NoSuchElementException:
+            logging.info('==== not in meeting ====')
+            pass
+        else:
+            logging.info('==== in meeting,start close record and meeting ====')
+            self.find_element(*elements.Btn_stop_record).click()
+            try:
+                self.find_element(*elements.name_bar)
+            except NoSuchElementException:
+                pass
+            else:
+                self.find_element(*elements.Btn_exit).click()
+                sleep(1)
+                self.find_element(*elements.Btn_back).click()
+            m = MainPageView(self.driver)
+            m.close_wemeet()
+            m.stop_ximalaya()
+            sleep(1)
+            self.driver.start_activity('tws.iflytek.headset', 'tws.iflytek.ui.SplashActivity')
