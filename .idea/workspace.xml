@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="314a92a2-50ce-4b82-8cd5-692244fc9d17" name="Default" comment="【优化】修改是否登录判断逻辑，优化初次登陆时出来的引导页判断逻辑&#10;【2.3.0】修改录音记录查询操作逻辑&#10;【2.3.0】新增云空间自动上传弹窗处理&#10;【优化】优化切换喜马拉雅有时无法正常播放新闻问题">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Report/2021-08-25 13_56_48 test_report.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Report/2021-08-25 14_17_34 test_report.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Report/2021-08-25 14_23_31 test_report.html" />
@@ -234,20 +233,8 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/upload Fail_2021-08-10 16_04_50.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/upload Fail_2021-08-18 15_45_32.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/upload Fail_2021-08-18 15_48_08.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/iflybuds.iml" afterPath="$PROJECT_DIR$/.idea/iflybuds.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BusinessView/finderView.py" afterPath="$PROJECT_DIR$/BusinessView/finderView.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BusinessView/mainpageView.py" afterPath="$PROJECT_DIR$/BusinessView/mainpageView.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BusinessView/recordingView.py" afterPath="$PROJECT_DIR$/BusinessView/recordingView.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BusinessView/settingView.py" afterPath="$PROJECT_DIR$/BusinessView/settingView.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Common/common_fun.py" afterPath="$PROJECT_DIR$/Common/common_fun.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Common/elements.py" afterPath="$PROJECT_DIR$/Common/elements.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Log/runlog.log" afterPath="$PROJECT_DIR$/Log/runlog.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestCase/test_03mainpage.py" afterPath="$PROJECT_DIR$/TestCase/test_03mainpage.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestCase/test_04recordingpage.py" afterPath="$PROJECT_DIR$/TestCase/test_04recordingpage.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestCase/test_05finder.py" afterPath="$PROJECT_DIR$/TestCase/test_05finder.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestCase/test_06setting.py" afterPath="$PROJECT_DIR$/TestCase/test_06setting.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestRun/run.py" afterPath="$PROJECT_DIR$/TestRun/run.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/TestCase/test_02login.py" afterPath="$PROJECT_DIR$/TestCase/02login.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -335,8 +322,8 @@
       <file leaf-file-name="test_03mainpage.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TestCase/test_03mainpage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="172" column="22" lean-forward="true" selection-start-line="172" selection-start-column="22" selection-end-line="172" selection-end-column="22" />
+            <state relative-caret-position="227">
+              <caret line="176" column="56" lean-forward="true" selection-start-line="176" selection-start-column="56" selection-end-line="176" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -986,7 +973,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631092421528</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="【优化】修改是否登录判断逻辑，优化初次登陆时出来的引导页判断逻辑&#10;【2.3.0】修改录音记录查询操作逻辑&#10;【2.3.0】新增云空间自动上传弹窗处理&#10;【优化】优化切换喜马拉雅有时无法正常播放新闻问题&#10;【2.4.0】新增分组增删改&#10;【2.4.0】新增发现页中常见问题和帮助与反馈">
+      <created>1632377730897</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1632377730897</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1012,7 +1006,7 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22228146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973544" sideWeight="0.5125" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2494577" sideWeight="0.5125" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1089,7 +1083,8 @@
     <MESSAGE value="k" />
     <MESSAGE value="增加新安装APP引导页&#10;完善首次登录情况判断" />
     <MESSAGE value="【优化】修改是否登录判断逻辑，优化初次登陆时出来的引导页判断逻辑&#10;【2.3.0】修改录音记录查询操作逻辑&#10;【2.3.0】新增云空间自动上传弹窗处理&#10;【优化】优化切换喜马拉雅有时无法正常播放新闻问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="【优化】修改是否登录判断逻辑，优化初次登陆时出来的引导页判断逻辑&#10;【2.3.0】修改录音记录查询操作逻辑&#10;【2.3.0】新增云空间自动上传弹窗处理&#10;【优化】优化切换喜马拉雅有时无法正常播放新闻问题" />
+    <MESSAGE value="【优化】修改是否登录判断逻辑，优化初次登陆时出来的引导页判断逻辑&#10;【2.3.0】修改录音记录查询操作逻辑&#10;【2.3.0】新增云空间自动上传弹窗处理&#10;【优化】优化切换喜马拉雅有时无法正常播放新闻问题&#10;【2.4.0】新增分组增删改&#10;【2.4.0】新增发现页中常见问题和帮助与反馈" />
+    <option name="LAST_COMMIT_MESSAGE" value="【优化】修改是否登录判断逻辑，优化初次登陆时出来的引导页判断逻辑&#10;【2.3.0】修改录音记录查询操作逻辑&#10;【2.3.0】新增云空间自动上传弹窗处理&#10;【优化】优化切换喜马拉雅有时无法正常播放新闻问题&#10;【2.4.0】新增分组增删改&#10;【2.4.0】新增发现页中常见问题和帮助与反馈" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1236,6 +1231,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1331,8 +1329,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TestCase/test_03mainpage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="172" column="22" lean-forward="true" selection-start-line="172" selection-start-column="22" selection-end-line="172" selection-end-column="22" />
+        <state relative-caret-position="227">
+          <caret line="176" column="56" lean-forward="true" selection-start-line="176" selection-start-column="56" selection-end-line="176" selection-end-column="56" />
           <folding />
         </state>
       </provider>
