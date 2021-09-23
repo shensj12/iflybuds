@@ -239,7 +239,6 @@ class MainPageView(Common):
     def resume_ximalaya(self):
         return True
 
-
     def stop_ximalaya(self):
         logging.info('stop 喜马拉雅FM')
         self.driver.back()
@@ -298,9 +297,9 @@ class MainPageView(Common):
     def change_language(self):
         logging.info('==== change language ====')
         self.find_element(*elements.Btn_change_language).click()
-        sleep(1)
+        sleep(2)
         self.find_element(*elements.Btn_sichuanhua).click()
-        sleep(20)
+        sleep(15)
         self.driver.find_element(*self.Btn_stop_record).click()
         sleep(1)
         try:
@@ -328,10 +327,11 @@ class MainPageView(Common):
             self.find_element(*elements.close_first_record_prompt).click()
         except NoSuchElementException:
             pass
-        sleep(1)
+        sleep(2)
         self.find_element(*elements.Btn_setting_menu).click()
         self.swipeUp()
         self.find_element(*elements.Btn_setting_call_record).click()
+        sleep(2)
         try:
             self.find_element(*elements.check_sichuanhua)
         except NoSuchElementException:
@@ -480,7 +480,7 @@ class MainPageView(Common):
             return True
 
     # 检查录音是否正常结束
-    def check_nontrans_record_over(self,check):
+    def check_nontrans_record_over(self, check):
         logging.info('====check_nontrans_record_over====')
         try:
             self.find_element(*check)
@@ -500,6 +500,7 @@ class MainPageView(Common):
             self.find_element(*elements.Title_confirm).click()
         except NoSuchElementException:
             pass
+        sleep(2)
         self.find_element(*elements.play_audio).click()
         sleep(1)
         self.find_element(*elements.Btn_record_transtext).click()
@@ -558,6 +559,18 @@ class MainPageView(Common):
             except NoSuchElementException:
                 pass
             return True
+
+    def check_finish_record(self):
+        try:
+            self.find_element(*elements.Btn_stop_record)
+        except NoSuchElementException:
+            pass
+        else:
+            self.find_element(*elements.Btn_stop_record).click()
+            if self.find_element(*elements.name_bar):
+                self.find_element(*elements.Btn_exit).click()
+            else:
+                pass
 
 
 

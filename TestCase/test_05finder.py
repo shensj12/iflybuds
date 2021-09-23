@@ -54,11 +54,8 @@ class TestFinderPage(StartEnd):
     def test_07_minimise_music(self):
         logging.info('====test minimise music====')
         f = FinderView(self.driver)
-        f.minimise_music()
         # 断言音乐成功最小化
         self.assertTrue(f.check_music_minimisation())
-
-
 
     # def test_07_check_voice_dial(self):
     #     logging.info('==== check voice dial ====')
@@ -67,5 +64,26 @@ class TestFinderPage(StartEnd):
     #     # 断言是否已启用语音拨号
     #     self.assertTrue(f.check_voicedial_enabled())
 
+    def test_08_check_in_useguide(self):
+        logging.info('====test useguide====')
+        f = FinderView(self.driver)
+        # 断言是否进入使用指南H5
+        self.assertTrue(f.check_in_useguide())
 
+    def test_09_useguide_back(self):
+        logging.info('====test useguide_back====')
+        f = FinderView(self.driver)
+        # 断言页面是否正常返回
+        self.assertTrue(f.findpage_back())
 
+    def test_10_check_in_help(self):
+        logging.info('====test useguide====')
+        f = FinderView(self.driver)
+        # 断言是否进入使用指南H5
+        self.assertTrue(f.check_in_help())
+
+    def test_11_helppage_back(self):
+        logging.info('====test helppage_back====')
+        f = FinderView(self.driver)
+        # 断言页面是否正常返回
+        self.assertTrue(f.findpage_back())

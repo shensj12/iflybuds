@@ -96,6 +96,12 @@ class SettingView(Common):
     # 点击语种设置进行切换
     def setting_call_record_action(self):
         logging.info("==== change language ====")
+        try:
+            self.find_element(*elements.Label_putonghua)
+        except NoSuchElementException:
+            self.find_element(*elements.Btn_simultaneous).click()
+        else:
+            pass
         self.find_element(*elements.Setting_putonghua).click()
 
     # 检查语种是否成功被替换

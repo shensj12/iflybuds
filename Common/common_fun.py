@@ -4,7 +4,6 @@ import os
 import time
 from enum import Enum
 
-
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.by import By
 
@@ -83,6 +82,7 @@ class Common(BaseView):
                 logging.info('--CLICKING--')
                 self.find_element(*self.check_privacy_02).click()
                 time.sleep(1)
+
     # 检查通知栏是否存在清空按钮
     def check_deleteBtn(self):
         logging.info("check_deleteBtn")
@@ -204,3 +204,74 @@ class Common(BaseView):
         self.driver.start_activity('tws.iflytek.headset', 'tws.iflytek.ui.SplashActivity')
         time.sleep(1)
         self.cancel_upgrade()
+
+    def check_crash_lm(self):
+        logging.info('==== start check crash ====')
+        try:
+            self.find_element(*elements.iflbuds)
+        except NoSuchElementException:
+            logging.info('==== in app ====')
+            pass
+        else:
+            logging.info('==== app crash =====')
+            logging.info('==== start app ====')
+            self.driver.start_activity('tws.iflytek.headset', 'tws.iflytek.ui.SplashActivity')
+
+    def check_crash_lm_r(self):
+        logging.info('==== start check crash ====')
+        try:
+            self.find_element(*elements.iflbuds)
+        except NoSuchElementException:
+            logging.info('==== in app ====')
+            pass
+        else:
+            logging.info('==== app crash =====')
+            logging.info('==== start app ====')
+            self.driver.start_activity('tws.iflytek.headset', 'tws.iflytek.ui.SplashActivity')
+            time.sleep(1)
+            self.find_element(*elements.Btn_stop_record).click()
+
+    def check_crash_r(self):
+        logging.info('==== start check crash ====')
+        try:
+            self.find_element(*elements.iflbuds)
+        except NoSuchElementException:
+            logging.info('==== in app ====')
+            pass
+        else:
+            logging.info('==== app crash =====')
+            logging.info('==== start app ====')
+            self.driver.start_activity('tws.iflytek.headset', 'tws.iflytek.ui.SplashActivity')
+            time.sleep(10)
+            self.find_element(*elements.Btn_recording_menu).click()
+
+    def check_crash_f(self):
+        logging.info('==== start check crash ====')
+        try:
+            self.find_element(*elements.iflbuds)
+        except NoSuchElementException:
+            logging.info('==== in app ====')
+            pass
+        else:
+            logging.info('==== app crash =====')
+            logging.info('==== start app ====')
+            self.driver.start_activity('tws.iflytek.headset', 'tws.iflytek.ui.SplashActivity')
+            time.sleep(10)
+            self.find_element(*elements.Btn_finder_menu).click()
+
+    def check_crash_s(self):
+        logging.info('==== start check crash ====')
+        try:
+            self.find_element(*elements.iflbuds)
+        except NoSuchElementException:
+            logging.info('==== in app ====')
+            pass
+        else:
+            logging.info('==== app crash =====')
+            logging.info('==== start app ====')
+            self.driver.start_activity('tws.iflytek.headset', 'tws.iflytek.ui.SplashActivity')
+            time.sleep(10)
+            self.find_element(*elements.Btn_setting_menu).click()
+
+
+

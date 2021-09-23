@@ -1,0 +1,1341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="314a92a2-50ce-4b82-8cd5-692244fc9d17" name="Default" comment="【优化】修改是否登录判断逻辑，优化初次登陆时出来的引导页判断逻辑&#10;【2.3.0】修改录音记录查询操作逻辑&#10;【2.3.0】新增云空间自动上传弹窗处理&#10;【优化】优化切换喜马拉雅有时无法正常播放新闻问题">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Report/2021-08-25 13_56_48 test_report.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Report/2021-08-25 14_17_34 test_report.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Report/2021-08-25 14_23_31 test_report.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Report/2021-08-27 12_56_54 test_report.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Report/2021-08-27 15_06_39 test_report.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Report/2021-08-27 15_07_14 test_report.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Report/2021-05-13 18_20_58 test_report.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/Empty recording list_2021-08-05 15_49_13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/Empty recording list_2021-08-10 16_04_41.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/Empty recording list_2021-08-18 15_45_24.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/Empty recording list_2021-08-18 15_47_59.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/Empty recording list_2021-08-19 17_32_38.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/No share email_2021-08-05 16_19_22.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/No share email_2021-08-05 17_31_00.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/No share email_2021-08-05 17_42_35.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/No share out_2021-08-05 16_45_22.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/No share text_2021-08-05 16_19_11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/No share text_2021-08-05 16_29_08.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/No share text_2021-08-05 17_30_49.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/No share text_2021-08-05 17_42_24.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/No share url_2021-08-05 16_19_00.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/No share url_2021-08-05 16_28_57.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/No share url_2021-08-05 17_30_39.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/No share url_2021-08-05 17_42_13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/No web content_2021-08-23 11_02_08.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/Pop-up failure_2021-08-05 15_40_37.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/Pop-up failure_2021-08-05 15_55_07.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/Pop-up failure_2021-08-05 16_11_20.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/Pop-up failure_2021-08-05 16_23_20.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/Pop-up failure_2021-08-05 16_35_55.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/Pop-up failure_2021-08-05 17_22_38.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/Pop-up failure_2021-08-05 17_37_06.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/Pop-up failure_2021-08-05 17_47_22.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/Pop-up failure_2021-08-05 18_09_52.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/Pop-up failure_2021-08-05 18_14_39.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/Pop-up failure_2021-08-05 18_22_55.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/abstract fail_2021-08-18 16_33_19.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/abstract fail_2021-08-19 16_06_27.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/abstract fail_2021-08-19 17_50_54.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/abstract fail_2021-08-23 14_02_42.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/agree failure_2021-08-05 15_40_55.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/agree failure_2021-08-05 15_55_25.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/agree failure_2021-08-05 16_11_37.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/agree failure_2021-08-05 16_23_39.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/agree failure_2021-08-05 16_36_14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/agree failure_2021-08-05 17_22_58.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/agree failure_2021-08-05 17_37_23.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/agree failure_2021-08-05 17_47_40.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/agree failure_2021-08-05 18_10_09.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/agree failure_2021-08-05 18_14_57.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/agree failure_2021-08-05 18_23_13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/audio record  Fail!_2021-08-12 10_27_08.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/audio record  Fail!_2021-08-12 10_41_24.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/audio record  Fail!_2021-08-12 11_44_15.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/audio record  Fail!_2021-08-13 11_00_22.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/audio record  Fail!_2021-08-13 11_45_53.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/audio record  Fail!_2021-08-18 15_24_11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/audio record  Fail!_2021-08-18 16_10_08.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/back fail_2021-08-20 15_25_49.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/back fail_2021-08-20 15_26_06.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/back fail_2021-08-23 14_03_01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/cancel fail_2021-08-20 11_41_19.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/cancel fail_2021-08-23 10_59_04.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/change  Fail!_2021-08-05 15_05_36.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/change language fail_2021-08-09 15_56_28.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/change language fail_2021-08-09 16_06_49.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/change language fail_2021-08-11 10_56_03.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/change name Fail_2021-08-05 16_22_26.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/change name Fail_2021-08-05 16_32_17.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/change name Fail_2021-08-05 16_47_50.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/choose  Fail!_2021-08-05 14_08_20.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/choose  Fail!_2021-08-19 11_32_18.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/choose  Fail!_2021-08-19 11_34_10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/copy fail_2021-08-19 17_54_08.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/copy fail_2021-08-20 15_34_02.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/copy fail_2021-08-23 11_26_23.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/delete fail_2021-08-05 16_04_29.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/dial record  Fail!_2021-08-11 14_40_55.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/exit failure_2021-08-05 15_40_47.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/exit failure_2021-08-05 15_55_15.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/exit failure_2021-08-05 16_11_28.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/exit failure_2021-08-05 16_23_29.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/exit failure_2021-08-05 16_36_04.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/exit failure_2021-08-05 17_22_47.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/exit failure_2021-08-05 17_37_15.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/exit failure_2021-08-05 17_47_31.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/exit failure_2021-08-05 18_10_01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/exit failure_2021-08-05 18_14_48.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/exit failure_2021-08-05 18_23_04.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/exit failure_2021-08-10 15_10_27.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/firstlogin fail_2021-08-10 14_18_43.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/firstlogin fail_2021-08-10 15_24_03.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/floating window fail_2021-08-06 11_42_35.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/floating window fail_2021-08-06 11_46_44.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/floating window fail_2021-08-06 11_50_49.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/floating window fail_2021-08-09 09_42_25.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/floating window fail_2021-08-09 09_55_38.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/floating window fail_2021-08-09 17_07_49.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/floating window fail_2021-08-09 17_10_57.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/floating window fail_2021-08-10 15_46_35.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/floating window fail_2021-08-10 17_15_37.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/floating window fail_2021-08-10 17_39_12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/floating window fail_2021-08-11 11_13_16.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/floating window fail_2021-08-11 11_14_18.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/floating window fail_2021-08-11 14_07_03.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/floating window fail_2021-08-11 14_21_49.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/floating window fail_2021-08-23 11_10_26.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/floating window fail_2021-08-23 11_12_54.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/floating window fail_2021-08-23 11_16_04.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/get verificationcode Fail_2021-08-10 13_55_24.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/get verificationcode Fail_2021-08-10 14_17_35.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/get verificationcode Fail_2021-08-10 14_22_34.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/get verificationcode Fail_2021-08-10 14_47_47.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/get verificationcode Fail_2021-08-10 14_57_27.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/get verificationcode Fail_2021-08-10 15_03_09.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/get verificationcode Fail_2021-08-10 15_11_26.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/get verificationcode Fail_2021-08-10 15_22_55.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/get verificationcode Fail_2021-08-10 16_43_45.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/get verificationcode Fail_2021-08-23 10_40_28.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/guidepage change Fail!_2021-08-05 15_42_51.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/guidepage change Fail!_2021-08-05 15_57_20.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/guidepage change Fail!_2021-08-05 16_13_32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/guidepage change Fail!_2021-08-05 16_25_34.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/guidepage change Fail!_2021-08-05 16_38_08.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/guidepage change Fail!_2021-08-05 17_24_52.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/guidepage change Fail!_2021-08-05 17_39_20.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/guidepage change Fail!_2021-08-05 17_49_46.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/guidepage change Fail!_2021-08-05 18_17_03.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/guidepage change Fail!_2021-08-05 18_25_18.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/guidepage change Fail!_2021-08-10 13_55_32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/guidepage change Fail!_2021-08-10 14_18_52.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/guidepage change Fail!_2021-08-10 14_23_48.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/guidepage change Fail!_2021-08-10 14_49_04.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/guidepage change Fail!_2021-08-10 14_51_24.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/guidepage change Fail!_2021-08-10 14_58_34.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/guidepage change Fail!_2021-08-10 15_01_07.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/guidepage change Fail!_2021-08-10 15_04_32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/guidepage change Fail!_2021-08-10 15_24_12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/login fail_2021-08-10 13_56_30.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/login fail_2021-08-10 14_59_16.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/login fail_2021-08-10 15_13_25.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/login fail_2021-08-10 15_25_03.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/mic record  Fail!_2021-08-05 15_45_45.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/mic record  Fail!_2021-08-05 16_00_17.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/mic record  Fail!_2021-08-05 16_40_57.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/mic record  Fail!_2021-08-05 17_27_09.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/mic record  Fail!_2021-08-09 09_42_44.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/mic record  Fail!_2021-08-09 16_49_46.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/mic record  Fail!_2021-08-09 17_11_24.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/mic record  Fail!_2021-08-09 17_21_18.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/mic record  Fail!_2021-08-10 15_58_36.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/mic record  Fail!_2021-08-10 17_16_04.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/mic record  Fail!_2021-08-10 17_45_39.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/mic record  Fail!_2021-08-11 13_47_48.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/mic record  Fail!_2021-08-11 17_41_23.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/mic record  Fail!_2021-08-12 14_50_52.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/mic record  Fail!_2021-08-18 10_38_59.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/mic record  Fail!_2021-08-18 15_52_22.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/mic record  Fail!_2021-08-18 16_17_59.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/mic record  Fail!_2021-08-23 11_51_00.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/nontrans audio fail_2021-08-12 09_51_07.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/nontrans audio fail_2021-08-12 10_03_32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/nontrans audio fail_2021-08-12 10_14_16.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/nontrans audio fail_2021-08-12 10_35_24.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/nontrans audio fail_2021-08-12 11_54_58.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/nontrans audio fail_2021-08-18 10_44_21.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/nontrans audio fail_2021-08-23 11_56_44.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/nontrans audio record over fail_2021-08-11 17_44_17.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/nontrans audio record over fail_2021-08-12 09_51_17.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/nontrans audio record over fail_2021-08-12 10_03_41.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/nontrans audio record over fail_2021-08-12 10_04_26.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/nontrans audio record over fail_2021-08-12 10_14_25.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/nontrans audio record over fail_2021-08-12 10_15_20.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/nontrans audio record over fail_2021-08-12 10_35_32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/nontrans audio record over fail_2021-08-12 10_36_26.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/nontrans audio record over fail_2021-08-12 10_43_13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/nontrans audio record over fail_2021-08-12 11_01_11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/nontrans audio record over fail_2021-08-12 11_01_50.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/nontrans audio record over fail_2021-08-12 11_02_44.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/nontrans audio record over fail_2021-08-12 11_54_22.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/nontrans audio record over fail_2021-08-12 11_55_07.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/nontrans audio record over fail_2021-08-13 11_30_43.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/nontrans audio record over fail_2021-08-18 10_44_30.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/nontrans audio record over fail_2021-08-18 16_21_16.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/nontrans audio record over fail_2021-08-18 16_22_00.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/nontrans audio record over fail_2021-08-18 16_22_58.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/nontrans audio record over fail_2021-08-23 11_56_53.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/nontrans audio record over fail_2021-08-23 15_21_41.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/per_agree failure_2021-08-05 15_41_04.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/per_agree failure_2021-08-05 15_55_34.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/per_agree failure_2021-08-05 16_11_46.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/per_agree failure_2021-08-05 16_23_48.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/per_agree failure_2021-08-05 16_36_22.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/per_agree failure_2021-08-05 17_23_07.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/per_agree failure_2021-08-05 17_37_32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/per_agree failure_2021-08-05 17_47_49.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/per_agree failure_2021-08-05 18_10_18.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/per_agree failure_2021-08-05 18_15_06.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/per_agree failure_2021-08-05 18_23_22.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/record over fail_2021-08-11 11_14_29.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/record over fail_2021-08-11 11_42_31.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/record over fail_2021-08-11 11_45_44.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/record over fail_2021-08-11 14_07_14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/record over fail_2021-08-11 14_22_00.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/record over fail_2021-08-11 14_41_30.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/record over fail_2021-08-11 17_42_01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/record over fail_2021-08-11 17_43_51.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/record over fail_2021-08-12 10_41_59.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/record over fail_2021-08-12 10_42_55.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/record over fail_2021-08-12 10_50_30.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/record over fail_2021-08-12 11_50_43.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/record over fail_2021-08-12 14_51_30.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/record over fail_2021-08-13 11_46_28.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/record over fail_2021-08-18 10_38_35.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/record over fail_2021-08-18 10_39_37.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/record over fail_2021-08-18 15_53_00.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/record over fail_2021-08-18 16_11_50.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/record over fail_2021-08-18 16_18_37.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/record over fail_2021-08-18 16_20_51.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/record over fail_2021-08-23 11_10_37.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/record over fail_2021-08-23 11_13_05.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/record over fail_2021-08-23 11_16_15.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/record over fail_2021-08-23 11_37_40.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/record over fail_2021-08-23 11_51_38.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/scanning fail_2021-08-11 10_33_22.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/scanning fail_2021-08-11 10_34_18.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/scanning fail_2021-08-19 11_32_50.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/upload Fail_2021-08-05 15_49_22.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/upload Fail_2021-08-10 16_04_50.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/upload Fail_2021-08-18 15_45_32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshots/upload Fail_2021-08-18 15_48_08.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/iflybuds.iml" afterPath="$PROJECT_DIR$/.idea/iflybuds.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BusinessView/finderView.py" afterPath="$PROJECT_DIR$/BusinessView/finderView.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BusinessView/mainpageView.py" afterPath="$PROJECT_DIR$/BusinessView/mainpageView.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BusinessView/recordingView.py" afterPath="$PROJECT_DIR$/BusinessView/recordingView.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BusinessView/settingView.py" afterPath="$PROJECT_DIR$/BusinessView/settingView.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Common/common_fun.py" afterPath="$PROJECT_DIR$/Common/common_fun.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Common/elements.py" afterPath="$PROJECT_DIR$/Common/elements.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Log/runlog.log" afterPath="$PROJECT_DIR$/Log/runlog.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestCase/test_03mainpage.py" afterPath="$PROJECT_DIR$/TestCase/test_03mainpage.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestCase/test_04recordingpage.py" afterPath="$PROJECT_DIR$/TestCase/test_04recordingpage.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestCase/test_05finder.py" afterPath="$PROJECT_DIR$/TestCase/test_05finder.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestCase/test_06setting.py" afterPath="$PROJECT_DIR$/TestCase/test_06setting.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestRun/run.py" afterPath="$PROJECT_DIR$/TestRun/run.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/TestCase/test_02login.py" afterPath="$PROJECT_DIR$/TestCase/02login.py" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/iflybuds$run.coverage" NAME="run Coverage Results" MODIFIED="1620798370814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/iflybuds$common_fun.coverage" NAME="common_fun Coverage Results" MODIFIED="1620887904500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Common" />
+    <SUITE FILE_PATH="coverage/iflybuds$loginView.coverage" NAME="loginView Coverage Results" MODIFIED="1621239342846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BusinessView" />
+    <SUITE FILE_PATH="coverage/iflybuds__android$Unittests_in_test_05finder_py.coverage" NAME="Unittests in test_05finder.py Coverage Results" MODIFIED="1632296132109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="coverage/iflybuds$run__1_.coverage" NAME="run (1) Coverage Results" MODIFIED="1625559749140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestRun" />
+    <SUITE FILE_PATH="coverage/iflybuds__android$Unittests_in_test_04recordingpage_py.coverage" NAME="Unittests in test_04recordingpage.py Coverage Results" MODIFIED="1632299994085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="coverage/iflybuds__android$run__1_.coverage" NAME="run (1) Coverage Results" MODIFIED="1632307044053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestRun" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="run.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestRun/run.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="20" column="71" lean-forward="false" selection-start-line="20" selection-start-column="71" selection-end-line="20" selection-end-column="71" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_05finder.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestCase/test_05finder.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1944">
+              <caret line="76" column="33" lean-forward="false" selection-start-line="76" selection-start-column="33" selection-end-line="76" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="finderView.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BusinessView/finderView.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5022">
+              <caret line="192" column="0" lean-forward="false" selection-start-line="192" selection-start-column="0" selection-end-line="192" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="elements.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Common/elements.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="14445">
+              <caret line="535" column="380" lean-forward="false" selection-start-line="535" selection-start-column="380" selection-end-line="535" selection-end-column="380" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_06setting.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestCase/test_06setting.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="19" column="49" lean-forward="true" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
+              <folding>
+                <element signature="e#0#36#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_04recordingpage.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestCase/test_04recordingpage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1026">
+              <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_03mainpage.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TestCase/test_03mainpage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="172" column="22" lean-forward="true" selection-start-line="172" selection-start-column="22" selection-end-line="172" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mainpageView.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BusinessView/mainpageView.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7533">
+              <caret line="286" column="31" lean-forward="false" selection-start-line="286" selection-start-column="8" selection-end-line="286" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="recordingView.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BusinessView/recordingView.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="9828">
+              <caret line="370" column="8" lean-forward="false" selection-start-line="370" selection-start-column="8" selection-end-line="370" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settingView.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BusinessView/settingView.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6318">
+              <caret line="239" column="42" lean-forward="true" selection-start-line="239" selection-start-column="42" selection-end-line="239" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>swipe</find>
+      <find>sleep</find>
+      <find>check_verificationStatus</find>
+      <find>app</find>
+      <find>close_lay</find>
+      <find>hangup_btn</find>
+      <find>btn_delete</find>
+      <find>change_phonenum</find>
+      <find>_TestResult</find>
+      <find>io</find>
+      <find>backup</find>
+      <find>audio_record_action</find>
+      <find>start audio_record</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Public/Common/desired_caps.py" />
+        <option value="$PROJECT_DIR$/Public/Common/ReadConfigini.py" />
+        <option value="$PROJECT_DIR$/Public/Common/config.ini.py" />
+        <option value="$PROJECT_DIR$/Public/Common/config.ini" />
+        <option value="$PROJECT_DIR$/Config/kyb_caps.yaml.py" />
+        <option value="$PROJECT_DIR$/Config/kyb_caps.yaml" />
+        <option value="$PROJECT_DIR$/BusinessView/baseView.py" />
+        <option value="$PROJECT_DIR$/run.py" />
+        <option value="$PROJECT_DIR$/Config/log.conf" />
+        <option value="$PROJECT_DIR$/Log/runlog.log" />
+        <option value="$PROJECT_DIR$/Data/account.csv" />
+        <option value="$PROJECT_DIR$/Common/myunit.py" />
+        <option value="$PROJECT_DIR$/Common/desired_caps.py" />
+        <option value="$PROJECT_DIR$/Report/2021-05-21 13_32_23 test_report.html" />
+        <option value="$PROJECT_DIR$/BusinessView/mainpageView.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_mainpage.py" />
+        <option value="$PROJECT_DIR$/BusinessView/guide page.py" />
+        <option value="$PROJECT_DIR$/BaseView/baseView.py" />
+        <option value="$PROJECT_DIR$/Common/common_fun.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_guidepage.py" />
+        <option value="$PROJECT_DIR$/Config/iflybuds.yaml" />
+        <option value="$PROJECT_DIR$/TestCase/test_login.py" />
+        <option value="$PROJECT_DIR$/BusinessView/loginView.py" />
+        <option value="$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/HTMLTestRunnerCN.py" />
+        <option value="$PROJECT_DIR$/BusinessView/guidepageView.py" />
+        <option value="$PROJECT_DIR$/TestRun/run.py" />
+        <option value="$PROJECT_DIR$/BusinessView/settingView.py" />
+        <option value="$PROJECT_DIR$/Common/elements.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_05finder.py" />
+        <option value="$PROJECT_DIR$/BusinessView/finderView.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_06setting.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_04recordingpage.py" />
+        <option value="$PROJECT_DIR$/TestCase/test_03mainpage.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectId" id="1xkMafAY7H1NcQkwdaveQ4FRb1L" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iflybuds- android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Python 3.6.3 (C:\Users\Stars J\AppData\Local\Programs\Python\Python36\python.exe) &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iflybuds- android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iflybuds- android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestRun" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iflybuds- android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iflybuds- android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestCase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iflybuds- android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iflybuds- android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iflybuds- android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iflybuds- android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Report" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iflybuds- android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iflybuds- android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iflybuds- android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iflybuds- android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iflybuds- android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iflybuds- android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BaseView" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iflybuds- android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iflybuds- android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="App" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://G:/iflybuds/Config/iflybuds.yaml" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="项目" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\iflybuds\App" />
+      <recent name="G:\iflybuds\TestRun" />
+      <recent name="G:\iflybuds\BusinessView" />
+      <recent name="G:\iflybuds\BaseView" />
+      <recent name="G:\iflybuds" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.2021-09-22 18_37_24 test_report.html">
+    <configuration default="false" name="run (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestRun" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="iflybuds" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TestRun/run.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="2021-09-22 15_39_58 test_report.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/iflybuds- android/Report/2021-09-22 15_39_58 test_report.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests in test_04recordingpage.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCase" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="iflybuds" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/TestCase/test_04recordingpage.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="false" name="2021-09-22 16_42_28 test_report.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/iflybuds- android/Report/2021-09-22 16_42_28 test_report.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="2021-09-22 18_37_24 test_report.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/iflybuds- android/Report/2021-09-22 18_37_24 test_report.html">
+      <method />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="iflybuds" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="iflybuds" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="iflybuds" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="iflybuds" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="iflybuds" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="iflybuds" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="iflybuds" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.run (1)" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.2021-09-22 15_39_58 test_report.html" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_04recordingpage.py" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.2021-09-22 16_42_28 test_report.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.2021-09-22 18_37_24 test_report.html" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.2021-09-22 18_37_24 test_report.html" />
+        <item index="1" class="java.lang.String" itemvalue="Python.run (1)" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.2021-09-22 16_42_28 test_report.html" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test_04recordingpage.py" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.2021-09-22 15_39_58 test_report.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="314a92a2-50ce-4b82-8cd5-692244fc9d17" name="Default" comment="" />
+      <created>1618984668683</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1618984668683</updated>
+    </task>
+    <task id="LOCAL-00001" summary="新增一键登录">
+      <created>1620897183792</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1620897183792</updated>
+    </task>
+    <task id="LOCAL-00002" summary="配置中增加newCommandTimeout解决默认超时时间60s，超时后应用将会自动关闭session问题">
+      <created>1620902408524</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1620902408524</updated>
+    </task>
+    <task id="LOCAL-00003" summary="配置中增加newCommandTimeout解决默认超时时间60s，超时后应用将会自动关闭session问题">
+      <created>1620902649322</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1620902649322</updated>
+    </task>
+    <task id="LOCAL-00004" summary="新增主页">
+      <created>1620903069654</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1620903069654</updated>
+    </task>
+    <task id="LOCAL-00005" summary="修改包名配置和定义名">
+      <created>1620957859312</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1620957859312</updated>
+    </task>
+    <task id="LOCAL-00006" summary="优化执行一条用例需重启一次APP&#10;优化YAMLLoadWarning报错">
+      <created>1621305933361</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1621305933361</updated>
+    </task>
+    <task id="LOCAL-00007" summary="日志">
+      <created>1621310308577</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1621310308577</updated>
+    </task>
+    <task id="LOCAL-00008" summary="新增主页面以及主页面的部分业务">
+      <created>1621567597580</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1621567597580</updated>
+    </task>
+    <task id="LOCAL-00009" summary="新增主页面以及主页面的部分业务">
+      <created>1621567717093</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1621567717093</updated>
+    </task>
+    <task id="LOCAL-00010" summary="修复刚进入页面时无法正常切换按钮问题">
+      <created>1621576137064</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1621576137064</updated>
+    </task>
+    <task id="LOCAL-00011" summary="新增主页面以及主页面的部分业务">
+      <created>1621576190148</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1621576190148</updated>
+    </task>
+    <task id="LOCAL-00012" summary="新增引导页">
+      <created>1624613903827</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1624613903827</updated>
+    </task>
+    <task id="LOCAL-00013" summary="k">
+      <created>1624614256892</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1624614256892</updated>
+    </task>
+    <task id="LOCAL-00014" summary="k">
+      <created>1624614455785</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1624614455785</updated>
+    </task>
+    <task id="LOCAL-00015" summary="增加新安装APP引导页&#10;完善首次登录情况判断">
+      <created>1625560096794</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1625560096794</updated>
+    </task>
+    <task id="LOCAL-00016" summary="增加新安装APP引导页&#10;完善首次登录情况判断">
+      <created>1625560248878</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1625560248878</updated>
+    </task>
+    <task id="LOCAL-00017" summary="【优化】修改是否登录判断逻辑，优化初次登陆时出来的引导页判断逻辑&#10;【2.3.0】修改录音记录查询操作逻辑&#10;【2.3.0】新增云空间自动上传弹窗处理&#10;【优化】优化切换喜马拉雅有时无法正常播放新闻问题">
+      <created>1631092421528</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1631092421528</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_in_test_04recordingpage_py - 2021.09.22 at 16h 39m 57s.xml">
+      <configuration name="Unittests in test_04recordingpage.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_05finder_py - 2021.09.22 at 15h 31m 24s.xml">
+      <configuration name="Unittests in test_05finder.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_05finder_py - 2021.09.22 at 15h 33m 07s.xml">
+      <configuration name="Unittests in test_05finder.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_05finder_py - 2021.09.22 at 15h 34m 42s.xml">
+      <configuration name="Unittests in test_05finder.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_05finder_py - 2021.09.22 at 15h 37m 04s.xml">
+      <configuration name="Unittests in test_05finder.py" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22228146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973544" sideWeight="0.5125" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2494577" sideWeight="0.4875" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32910052" sideWeight="0.49791667" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16041666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="新增一键登录" />
+    <MESSAGE value="配置中增加newCommandTimeout解决默认超时时间60s，超时后应用将会自动关闭session问题" />
+    <MESSAGE value="新增主页" />
+    <MESSAGE value="修改包名配置和定义名" />
+    <MESSAGE value="优化执行一条用例需重启一次APP&#10;优化YAMLLoadWarning报错" />
+    <MESSAGE value="日志" />
+    <MESSAGE value="修复刚进入页面时无法正常切换按钮问题" />
+    <MESSAGE value="新增主页面以及主页面的部分业务" />
+    <MESSAGE value="新增引导页" />
+    <MESSAGE value="k" />
+    <MESSAGE value="增加新安装APP引导页&#10;完善首次登录情况判断" />
+    <MESSAGE value="【优化】修改是否登录判断逻辑，优化初次登陆时出来的引导页判断逻辑&#10;【2.3.0】修改录音记录查询操作逻辑&#10;【2.3.0】新增云空间自动上传弹窗处理&#10;【优化】优化切换喜马拉雅有时无法正常播放新闻问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="【优化】修改是否登录判断逻辑，优化初次登陆时出来的引导页判断逻辑&#10;【2.3.0】修改录音记录查询操作逻辑&#10;【2.3.0】新增云空间自动上传弹窗处理&#10;【优化】优化切换喜马拉雅有时无法正常播放新闻问题" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Report/2021-05-21 13_32_23 test_report.html" />
+    <entry file="file://$PROJECT_DIR$/Report/2021-05-21 09_47_35 test_report.html" />
+    <entry file="file://$PROJECT_DIR$/Screenshots/get verificationcode Fail_2021-05-21 09_48_00.png" />
+    <entry file="file://$PROJECT_DIR$/Screenshots/get verificationcode Fail_2021-05-21 13_32_56.png" />
+    <entry file="file://$PROJECT_DIR$/Screenshots/choose  Fail!_2021-05-21 13_34_57.png" />
+    <entry file="file://$PROJECT_DIR$/Report/2021-05-18 10_35_37 test_report.html" />
+    <entry file="file://$PROJECT_DIR$/Config/log.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="23" column="10" lean-forward="false" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Screenshots/get verificationcode Fail_2021-05-18 11_48_12.png" />
+    <entry file="file://$PROJECT_DIR$/Screenshots/choose  Fail!_2021-05-21 15_13_24.png" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/selenium/webdriver/common/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/selenium/webdriver/common/by.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="22" column="6" lean-forward="false" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/account.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/myunit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Report/2021-05-13 18_20_58 test_report.html" />
+    <entry file="file://$PROJECT_DIR$/BaseView/baseView.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="46" lean-forward="false" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Log/runlog.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="703">
+          <caret line="435" column="0" lean-forward="false" selection-start-line="435" selection-start-column="0" selection-end-line="436" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="246" column="72" lean-forward="true" selection-start-line="232" selection-start-column="0" selection-end-line="246" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/test_mainpage.py" />
+    <entry file="file://$PROJECT_DIR$/Screenshots/per_agree failure_2021-07-06 14_04_32.png" />
+    <entry file="file://$PROJECT_DIR$/Screenshots/get verificationcode Fail_2021-05-25 12_01_58.png" />
+    <entry file="file://$PROJECT_DIR$/Report/2021-05-21 14_09_38 test_report.html" />
+    <entry file="file://$PROJECT_DIR$/Common/desired_caps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="30" column="37" lean-forward="false" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Report/2021-07-06 15_02_31 test_report.html" />
+    <entry file="file://$PROJECT_DIR$/TestCase/test_guidepage.py" />
+    <entry file="file://$PROJECT_DIR$/TestCase/test_login.py" />
+    <entry file="file://$PROJECT_DIR$/BusinessView/loginView.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2997">
+          <caret line="115" column="19" lean-forward="false" selection-start-line="115" selection-start-column="19" selection-end-line="115" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/unittest/suite.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4293">
+          <caret line="162" column="0" lean-forward="false" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Report/2021-07-06 16_17_51 test_report.html" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/io.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1053">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/HTMLTestRunnerCN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="509" column="0" lean-forward="true" selection-start-line="509" selection-start-column="0" selection-end-line="509" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Config/iflybuds.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="42" lean-forward="true" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BusinessView/guidepageView.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="21" column="43" lean-forward="false" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/common_fun.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="56" column="13" lean-forward="false" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/02login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestRun/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="20" column="71" lean-forward="false" selection-start-line="20" selection-start-column="71" selection-end-line="20" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Screenshots/Failed to enter H5 page_2021-09-22 10_28_48.png" />
+    <entry file="file://$PROJECT_DIR$/BusinessView/settingView.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6318">
+          <caret line="239" column="42" lean-forward="true" selection-start-line="239" selection-start-column="42" selection-end-line="239" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Report/2021-09-22 14_55_00 test_report.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="85" lean-forward="true" selection-start-line="9" selection-start-column="85" selection-end-line="9" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/elements.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14445">
+          <caret line="535" column="380" lean-forward="false" selection-start-line="535" selection-start-column="380" selection-end-line="535" selection-end-column="380" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Screenshots/Failed to return to page_2021-09-22 15_34_25.png" />
+    <entry file="file://$PROJECT_DIR$/Screenshots/Failed to enter H5 page_2021-09-22 15_22_10.png" />
+    <entry file="file://$PROJECT_DIR$/TestCase/test_05finder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1944">
+          <caret line="76" column="33" lean-forward="false" selection-start-line="76" selection-start-column="33" selection-end-line="76" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Screenshots/cancel fail_2021-09-22 16_03_27.png" />
+    <entry file="file://$PROJECT_DIR$/Screenshots/No content(Image)_2021-09-22 16_08_11.png" />
+    <entry file="file://$PROJECT_DIR$/Screenshots/Failed to return to page_2021-09-22 16_06_28.png" />
+    <entry file="file://$PROJECT_DIR$/BusinessView/finderView.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5022">
+          <caret line="192" column="0" lean-forward="false" selection-start-line="192" selection-start-column="0" selection-end-line="192" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Report/2021-09-22 15_39_58 test_report.html" />
+    <entry file="file://$PROJECT_DIR$/TestCase/test_06setting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="19" column="49" lean-forward="true" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BusinessView/recordingView.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9828">
+          <caret line="370" column="8" lean-forward="false" selection-start-line="370" selection-start-column="8" selection-end-line="370" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/test_04recordingpage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BusinessView/mainpageView.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7533">
+          <caret line="286" column="31" lean-forward="false" selection-start-line="286" selection-start-column="8" selection-end-line="286" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCase/test_03mainpage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="172" column="22" lean-forward="true" selection-start-line="172" selection-start-column="22" selection-end-line="172" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

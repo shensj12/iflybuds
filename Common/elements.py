@@ -30,7 +30,7 @@ close_ad = (By.ID, 'tws.iflytek.headset:id/close')
 phonenum_type = (By.ID, 'tws.iflytek.headset:id/input')
 btn_getver = (By.ID, 'tws.iflytek.headset:id/button_tv')
 wechat_btn = (By.ID, 'tws.iflytek.headset:id/login_type_wx')
-wechat_btn2=(By.ID,'tws.iflytek.headset:id/login_wechat')
+wechat_btn2 = (By.ID, 'tws.iflytek.headset:id/login_wechat')
 btn_set = (By.XPATH,
            '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android'
            '.widget.RelativeLayout/android.widget.LinearLayout['
@@ -55,7 +55,7 @@ wechat_double_first = (By.XPATH, '/hierarchy/android.widget.FrameLayout/android.
                                  '1]/android.widget.LinearLayout/android.widget.ImageView')
 # mainpageView
 # 未开启自动云备份后录音结束（1.3.5.7。。。次）弹出开启提示框
-Btn_auto_cloud_backup=(By.ID,"tws.iflytek.headset:id/auto_upload")
+Btn_auto_cloud_backup = (By.ID, "tws.iflytek.headset:id/auto_upload")
 
 close_first_record_prompt = (By.XPATH, '/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android'
                                        '.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout'
@@ -90,7 +90,6 @@ Btn_hx = (By.ID, 'tws.iflytek.headset:id/voice_layout')
 Sel_hxvoicedial = (By.ID, 'tws.iflytek.headset:id/app_layout')
 Sel_VoiceAssistant = (By.ID, 'tws.iflytek.headset:id/sys_lay')
 Sel_hx_close = (By.ID, 'tws.iflytek.headset:id/close_lay')
-
 
 Btn_start_record = (By.ID, 'tws.iflytek.headset:id/start_btn')
 Btn_stop_record = (By.XPATH, '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget'
@@ -131,10 +130,10 @@ Btn_sichuanhua = (By.XPATH, '/hierarchy/android.widget.FrameLayout/android.widge
                             '2]/android.widget.LinearLayout/android.widget.GridView/android.widget.LinearLayout[2]')
 
 check_sichuanhua = (By.XPATH, '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android'
-                                     '.widget.FrameLayout/android.widget.LinearLayout/android.widget.ScrollView'
-                                     '/android.widget.LinearLayout/android.widget.LinearLayout['
-                                     '4]/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout['
-                                     '4]/android.widget.LinearLayout/android.widget.ImageView')
+                              '.widget.FrameLayout/android.widget.LinearLayout/android.widget.ScrollView'
+                              '/android.widget.LinearLayout/android.widget.LinearLayout['
+                              '4]/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout['
+                              '4]/android.widget.LinearLayout/android.widget.ImageView')
 Btn_simultaneous = (By.ID, 'tws.iflytek.headset:id/msc_check')
 Btn_pop_close = (By.ID, 'tws.iflytek.headset:id/pop_close')
 # 结束录音
@@ -154,12 +153,12 @@ no_search_result = (By.XPATH, '/hierarchy/android.widget.FrameLayout/android.wid
                               '.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget'
                               '.LinearLayout/android.widget.TextView')
 delete_search = (By.ID, 'tws.iflytek.headset:id/delete_search')
-Btn_search_icon = (By.ID,'tws.iflytek.headset:id/left_img')
+Btn_search_icon = (By.ID, 'tws.iflytek.headset:id/left_img')
 Btn_search_confirm = (By.ID, 'tws.iflytek.headset:id/cancel')
 Btn_search_result = (By.ID, 'tws.iflytek.headset:id/container')
 Btn_search = (By.ID, 'tws.iflytek.headset:id/search_edit')
 Btn_confirm = (By.ID, 'tws.iflytek.headset:id/pop_confirm')
-Btn_cloud_backup=(By.ID,"tws.iflytek.headset:id/auto_upload")
+Btn_cloud_backup = (By.ID, "tws.iflytek.headset:id/auto_upload")
 not_wifi_hint = (By.XPATH, '/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget'
                            '.LinearLayout/android.widget.LinearLayout')
 Btn_cloud = (By.XPATH, '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout'
@@ -176,12 +175,12 @@ Btn_recording_menu = (By.XPATH, '/hierarchy/android.widget.FrameLayout/android.w
                                 '.widget.FrameLayout/android.widget.ImageView')
 Img_records = (By.ID, 'tws.iflytek.headset:id/title_txt')
 first_record = (By.XPATH, '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget'
-                             '.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout['
-                             '2]/android.widget.FrameLayout/androidx.viewpager.widget.ViewPager/android.widget'
-                             '.LinearLayout/android.view.ViewGroup/android.widget.RelativeLayout/android.widget'
-                             '.LinearLayout/android.widget.RelativeLayout/androidx.recyclerview.widget.RecyclerView'
-                             '/android.widget.RelativeLayout['
-                             '1]/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout')
+                          '.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout['
+                          '2]/android.widget.FrameLayout/androidx.viewpager.widget.ViewPager/android.widget'
+                          '.LinearLayout/android.view.ViewGroup/android.widget.RelativeLayout/android.widget'
+                          '.LinearLayout/android.widget.RelativeLayout/androidx.recyclerview.widget.RecyclerView'
+                          '/android.widget.RelativeLayout['
+                          '1]/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout')
 record_pause = (By.XPATH, '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget'
                           '.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget'
                           '.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout['
@@ -205,7 +204,7 @@ Check_share_email = (By.XPATH, '/hierarchy/android.widget.FrameLayout/android.wi
                                '.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget'
                                '.Button')
 More_dict_row = {Btn_share_url: Check_share_url, Btn_share_text: Check_share_text, Btn_share_out: Check_share_out,
-             Btn_share_email: Check_share_email}
+                 Btn_share_email: Check_share_email}
 # 区分
 more_col_01 = (By.XPATH, '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget'
                          '.LinearLayout[1]/android.widget.ListView/android.widget.LinearLayout['
@@ -261,6 +260,32 @@ refresh_icon = (By.XPATH, '/hierarchy/android.widget.FrameLayout/android.widget.
                           '.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout['
                           '1]/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.RelativeLayout'
                           '/android.widget.ImageView')
+
+# 分组
+Title_tip = (By.ID, 'tws.iflytek.headset:id/title_tip')
+Icon_select = (By.ID, 'tws.iflytek.headset:id/icon_call_list_category')
+Btn_management_group = (By.ID, 'tws.iflytek.headset:id/category_control')
+Title_grouping = (By.ID, 'tws.iflytek.headset:id/base_title_name')
+Btn_group_create1 = (By.ID, 'tws.iflytek.headset:id/base_title_right_tv')
+Text_group_name = (By.ID, 'tws.iflytek.headset:id/caller_name')
+Btn_group_comfirm = (By.ID, 'tws.iflytek.headset:id/comfirm')
+Btn_group_cancel = (By.ID, 'tws.iflytek.headset:id/cancel')
+First_group = (By.XPATH, '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget'
+                         '.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget'
+                         '.LinearLayout/android.widget.ListView/android.widget.LinearLayout['
+                         '1]/android.widget.LinearLayout/android.widget.TextView[1]')
+Btn_rename = (By.ID, 'tws.iflytek.headset:id/item_rename')
+Btn_group_delete = (By.ID, 'tws.iflytek.headset:id/item_delete')
+Text_rename = (By.ID, 'tws.iflytek.headset:id/caller_name')
+Second_group = (By.XPATH,
+                '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.ListView/android.widget.LinearLayout[2]/android.widget.LinearLayout/android.widget.LinearLayout')
+# 详情页修改标题中进入的分组管理
+Btn_group_create2 = (By.ID, 'tws.iflytek.headset:id/create')
+First_group2 = (By.XPATH, '/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout'
+                          '/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.ListView/android'
+                          '.widget.LinearLayout['
+                          '1]/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.TextView')
+
 # settingView
 float_view_check = (By.ID, 'tws.iflytek.headset:id/float_view_check')
 float_view_check_question = (By.ID, 'tws.iflytek.headset:id/qa')
@@ -289,11 +314,11 @@ Btn_english_check = (By.XPATH, '/hierarchy/android.widget.FrameLayout/android.wi
                                '.LinearLayout/android.widget.LinearLayout['
                                '4]/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout['
                                '2]/android.widget.LinearLayout/android.widget.ImageView')
-Label_putonghua=(By.XPATH,"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget"
-                          ".FrameLayout/android.widget.LinearLayout/android.widget.ScrollView/android.widget"
-                          ".LinearLayout/android.widget.LinearLayout["
-                          "4]/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout["
-                          "1]/android.widget.LinearLayout")
+Label_putonghua = (By.XPATH, "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget"
+                             ".FrameLayout/android.widget.LinearLayout/android.widget.ScrollView/android.widget"
+                             ".LinearLayout/android.widget.LinearLayout["
+                             "4]/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout["
+                             "1]/android.widget.LinearLayout")
 Btn_telephone = (By.ID, 'tws.iflytek.headset:id/setting_account')
 Btn_nickname = (By.XPATH, '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget'
                           '.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout['
@@ -474,13 +499,12 @@ Sub_video_15 = (By.XPATH, '/hierarchy/android.widget.FrameLayout/android.widget.
                           '2]/android.widget.FrameLayout/android.webkit.WebView/android.webkit.WebView/android.view'
                           '.View/android.view.View[13]')
 
-
 video_list_white = [Sub_video_01, Sub_video_02, Sub_video_03, Sub_video_04, Sub_video_05, Sub_video_06, Sub_video_07,
-              Sub_video_08, Sub_video_09, Sub_video_10, Sub_video_11, Sub_video_12, Sub_video_13, Sub_video_14,
-              Sub_video_15]
+                    Sub_video_08, Sub_video_09, Sub_video_10, Sub_video_11, Sub_video_12, Sub_video_13, Sub_video_14,
+                    Sub_video_15]
 
 video_list_black = [Sub_video_01, Sub_video_02, Sub_video_04, Sub_video_05, Sub_video_11, Sub_video_06, Sub_video_07,
-              Sub_video_08]
+                    Sub_video_08]
 
 check_sub_video = (By.XPATH, '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget'
                              '.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout['
@@ -499,10 +523,9 @@ check_weibo = (By.XPATH, '/hierarchy/android.widget.FrameLayout/android.widget.L
                          '2]/android.widget.FrameLayout/android.webkit.WebView/android.webkit.WebView/android.view'
                          '.View/android.view.View[1]/android.view.View[4]/android.view.View[1]')
 check_official = (By.XPATH, '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget'
-                         '.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout['
-                         '2]/android.widget.FrameLayout/android.webkit.WebView/android.webkit.WebView/android.view'
-                         '.View/android.view.View[1]')
-
+                            '.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout['
+                            '2]/android.widget.FrameLayout/android.webkit.WebView/android.webkit.WebView/android.view'
+                            '.View/android.view.View[1]')
 
 # finderView
 Btn_contact_access = (By.ID, 'tws.iflytek.headset:id/layout_contacts')
@@ -510,6 +533,15 @@ Btn_finder_menu = (By.XPATH, '/hierarchy/android.widget.FrameLayout/android.widg
                              '.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout['
                              '2]/android.widget.HorizontalScrollView/android.widget.LinearLayout/b.b.k.a.c['
                              '3]/android.widget.FrameLayout/android.widget.ImageView')
+Btn_useguide = (By.XPATH, '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout[2]/android.widget.FrameLayout/androidx.viewpager.widget.ViewPager/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout[1]/android.widget.FrameLayout/android.widget.ImageView')
+Title_h5 = (By.ID, 'tws.iflytek.headset:id/base_title_name')
+Btn_help = (By.XPATH, '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout'
+                      '/android.widget.RelativeLayout/android.widget.LinearLayout['
+                      '2]/android.widget.FrameLayout/androidx.viewpager.widget.ViewPager/android.widget.FrameLayout'
+                      '/android.widget.LinearLayout/android.widget.FrameLayout['
+                      '2]/android.widget.FrameLayout/android.widget.ImageView')
+
+
 Btn_relax = (By.ID, 'tws.iflytek.headset:id/discover_music_type_img')
 Btn_like = (By.ID, 'tws.iflytek.headset:id/faved')
 Btn_clock = (By.XPATH, '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout'
@@ -559,12 +591,13 @@ Btn_restore_cancel = (By.XPATH, '/hierarchy/android.widget.FrameLayout/android.w
                                 '.TextView[1]')
 Title_tengxun = (By.ID, 'tws.iflytek.headset:id/tc_layout')
 Title_confirm = (By.ID, 'tws.iflytek.headset:id/comfirm')
-Having_meeting_end = (By.XPATH, '/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout'
-                       '/android.view.ViewGroup/android.widget.LinearLayout/android.widget.TextView[2]')
+Having_meeting_end = (
+    By.XPATH, '/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout'
+              '/android.view.ViewGroup/android.widget.LinearLayout/android.widget.TextView[2]')
 # 喜马拉雅FM
 Desktop_ximalaya = (By.XPATH, '//android.widget.TextView[@content-desc="喜马拉雅"]')
 Btn_ximaplay = (By.ID, 'com.ximalaya.ting.android:id/main_fragment_playbar')
-Btn_ximaplay2=(By.ID,'com.ximalaya.ting.android:id/main_play_btn_bg')
+Btn_ximaplay2 = (By.ID, 'com.ximalaya.ting.android:id/main_play_btn_bg')
 all_play = (By.ID, 'com.ximalaya.ting.android:id/main_tv_play_control')
 play_bar = (By.ID, 'com.ximalaya.ting.android:id/main_fragment_playbar')
 Btn_pause = (By.ID, 'com.ximalaya.ting.android:id/main_iv_play_btn_center_icon')
@@ -574,7 +607,3 @@ Btn_YiHouZaiShou = (By.ID, 'com.ximalaya.ting.android:id/main_negative_button')
 close_upgrade = (By.XPATH, '/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget'
                            '.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget'
                            '.LinearLayout[2]/android.widget.ImageView')
-
-
-
-

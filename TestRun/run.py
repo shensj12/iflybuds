@@ -4,7 +4,7 @@ import time
 import unittest
 from HTMLTestRunnerCN import HTMLTestRunner
 
-path = '～/Desktop/iflybuds'
+path = 'H:/飞书缓存/iflybuds-android'
 sys.path.append(path)
 
 test_dir = '../TestCase'
@@ -18,7 +18,7 @@ report_name = report_dir + '/' + now + ' test_report.html'
 
 with open(report_name, 'wb') as f:
     runner = HTMLTestRunner(stream=f, title='iflybuds测试报告',
-                                           description='针对iflybuds2.0.7 Android app 测试报告')
+                                           description='针对iflybuds2.4.1 Android app 测试报告')
     logging.info('start run test case...')
 
     runner.run(discover)
